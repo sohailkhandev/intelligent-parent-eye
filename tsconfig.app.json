@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": ".",
+    "paths": {
+      "@assets/*": ["src/assets/*"],
+      "@assets/images/*": ["src/assets/images/*"],
+      "@constants": ["src/constants/constants.ts"],
+      "@components": ["src/components/components.ts"],
+      "@layouts": ["src/layouts/layouts.ts"],
+      "@styles": ["src/styles/styles.ts"],
+      "@types": ["src/types/types.ts"],
+      "@utils": ["src/utils/utils.ts"],
+      "@services": ["src/services/services.ts"],
+      "@apis": ["src/apis/apis.ts"],
+      "@modules": ["src/modules/modules.ts"],
+      "@validations": ["src/validations/validations.ts"],
+      "@providers": ["src/providers/providers.ts"]
+    },
+    "types": ["vite/client"]
+  },
+  "include": ["src"], 
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,29 @@
+body {
+    font-family: "Inter", "Poppins", "Roboto", "Helvetica", "Arial", sans-serif;
+    overflow: hidden;
+  }
+  
+  #root {
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #021222;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #04243d;
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0d9dfd;
+  }
+  
