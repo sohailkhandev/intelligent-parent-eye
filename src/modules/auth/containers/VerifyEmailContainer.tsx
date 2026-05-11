@@ -3,6 +3,7 @@ import { useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { AuthApis } from "@apis";
 import { ROUTES } from "@constants";
 import { useAuthContext } from "@providers";
+import { AuthService } from "@services";
 import { VerifyEmailScreen } from "../screens";
 
 const SUCCESS_REDIRECT_DELAY_MS = 2200;
@@ -26,11 +27,16 @@ export const VerifyEmailContainer = () => {
   const navigate = useNavigate();
   const { token } = useParams<{ token: string }>();
   const [searchParams] = useSearchParams();
-  const { refreshAuthUser, setAuthUser, setIsLoggedIn } = useAuthContext();
+  const { setAuthUser, setIsLoggedIn } = useAuthContext();
   const hasRequestedRef = useRef(false);
+  const hasFinalizedAuthRef = useRef(false);
   const [redirectSeconds, setRedirectSeconds] = useState(
     Math.ceil(SUCCESS_REDIRECT_DELAY_MS / 1000),
   );
+  const [isCompletingSignIn, setIsCompletingSignIn] = useState(false);
+  const [postVerificationError, setPostVerificationError] = useState<
+    string | null
+  >(null);
   const queryToken = searchParams.get("token");
   const verificationToken = token ?? queryToken ?? undefined;
   const errorCode = searchParams.get("error");
@@ -53,7 +59,11 @@ export const VerifyEmailContainer = () => {
   }, [errorCode, mutate, successFromQuery, verificationToken]);
 
   useEffect(() => {
-    if (errorCode || (!isSuccess && !successFromQuery)) {
+    if (
+      errorCode ||
+      (!isSuccess && !successFromQuery) ||
+      hasFinalizedAuthRef.current
+    ) {
       return;
     }
 
@@ -62,15 +72,48 @@ export const VerifyEmailContainer = () => {
     let countdownInterval: number | undefined;
 
     const syncAuthAndRedirect = async () => {
+      hasFinalizedAuthRef.current = true;
+      setPostVerificationError(null);
+      setIsCompletingSignIn(true);
       setRedirectSeconds(Math.ceil(SUCCESS_REDIRECT_DELAY_MS / 1000));
 
-      if (isSuccess && data?.parent) {
-        if (!isCancelled) {
-          setAuthUser(data.parent);
-          setIsLoggedIn(true);
+      try {
+        const resolvedToken =
+          (isSuccess ? data?.token : undefined) ?? verificationToken;
+
+        if (!resolvedToken) {
+          throw new Error("Verification succeeded, but no token was returned.");
         }
-      } else if (localStorage.getItem("token")) {
-        await refreshAuthUser();
+
+        localStorage.setItem("token", resolvedToken);
+
+        const { parent } = await AuthService.getMe();
+
+        if (isCancelled) {
+          return;
+        }
+
+        setAuthUser(parent);
+        setIsLoggedIn(true);
+      } catch (err) {
+        AuthService.clearAuthStorage();
+
+        if (isCancelled) {
+          return;
+        }
+
+        setAuthUser(null);
+        setIsLoggedIn(false);
+        setPostVerificationError(
+          err instanceof Error
+            ? err.message
+            : "We verified your email, but could not load your account."
+        );
+        return;
+      } finally {
+        if (!isCancelled) {
+          setIsCompletingSignIn(false);
+        }
       }
 
       if (isCancelled) {
@@ -104,10 +147,10 @@ export const VerifyEmailContainer = () => {
     errorCode,
     isSuccess,
     navigate,
-    refreshAuthUser,
     setAuthUser,
     setIsLoggedIn,
     successFromQuery,
+    verificationToken,
   ]);
 
   const screenState = useMemo(() => {
@@ -125,6 +168,18 @@ export const VerifyEmailContainer = () => {
       };
     }
 
+    if (postVerificationError) {
+      return {
+        status: "error" as const,
+        title: "Email verified, but sign-in failed",
+        message: postVerificationError,
+        helperText:
+          "Please log in manually to continue to your dashboard.",
+        actionLabel: "Back to login",
+        onAction: () => navigate(ROUTES.login),
+      };
+    }
+
     if (!verificationToken && !successFromQuery) {
       return {
         status: "error" as const,
@@ -137,6 +192,19 @@ export const VerifyEmailContainer = () => {
       };
     }
 
+    if ((isSuccess || successFromQuery) && isCompletingSignIn) {
+      return {
+        status: "pending" as const,
+        title: "Email verified successfully",
+        message:
+          "Your email is verified. We are signing you in and loading your dashboard now.",
+        helperText:
+          "Please wait while we fetch your profile and complete login.",
+        actionLabel: undefined,
+        onAction: undefined,
+      };
+    }
+
     if (isSuccess || successFromQuery) {
       return {
         status: "success" as const,
@@ -146,8 +214,8 @@ export const VerifyEmailContainer = () => {
           data?.message ??
           "Your account is now verified and ready to use.",
         helperText: `Redirecting to your dashboard in ${redirectSeconds}s...`,
-        actionLabel: "Open dashboard now",
-        onAction: () => navigate(ROUTES.home),
+        actionLabel: undefined,
+        onAction: undefined,
       };
     }
 
@@ -180,10 +248,12 @@ export const VerifyEmailContainer = () => {
     data,
     error?.message,
     errorCode,
+    isCompletingSignIn,
     isError,
     isPending,
     isSuccess,
     navigate,
+    postVerificationError,
     queryMessage,
     redirectSeconds,
     successFromQuery,
