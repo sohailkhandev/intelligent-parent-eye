@@ -1,0 +1,41 @@
+{
+  "title": "Notifications",
+  "tabs": {
+    "unread": "Non lues",
+    "read": "Lues",
+    "new": "Nouveau"
+  },
+  "time": {
+    "today": "Aujourd'hui",
+    "yesterday": "Hier",
+    "lastWeek": "La semaine derniere",
+    "allTime": "Tout le temps",
+    "dayAgo": "il y a 1 jour",
+    "daysAgo": "il y a {days} jours"
+  },
+  "empty": {
+    "noUnread": "Aucune notification non lue",
+    "noRead": "Aucune notification lue pour le moment",
+    "noUnreadDescription": "Vous etes a jour. Revenez plus tard pour de nouvelles notifications.",
+    "noReadDescription": "Les notifications lues apparaitront ici apres ouverture."
+  },
+  "types": {
+    "profileCompleted": {
+      "title": "Profil complete",
+      "description": "Bravo pour avoir complete votre profil. Vous avez recu {points} points gratuits en recompense. Vous etes pret a gagner sur {photoMone}."
+    },
+    "welcome": {
+      "title": "Bienvenue sur {photoMone}!",
+      "description": "Merci d'avoir rejoint {photoMone}. Commencez a gagner des aujourd'hui en presentant et en vendant vos superbes photos."
+    },
+    "purchaseSuccessful": {
+      "title": "Achat reussi",
+      "description": "Votre {packageName} a ete achete avec succes. {points} points{bonus} ont ete ajoutes a votre compte — commencez a gagner.",
+      "bonusText": " et {bonus} points bonus"
+    },
+    "giftCardProcessed": {
+      "title": "Carte cadeau traitee",
+      "description": "Merci pour votre demande. Votre carte cadeau \"{giftName}\" a ete traitee avec succes et sera envoyee a votre email enregistre sous 48 heures."
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "hero": {
+    "badge": "Mercado de imágenes generadas por AI",
+    "titleBefore": "Gana con tu foto",
+    "titleHighlight": "Fusiones",
+    "subtitle": "Transforma tus fotos con fusión impulsada por AI y empieza a ganar con tus creaciones. Crea, fusiona y monetiza tus imágenes en una sola plataforma.",
+    "createTitle": "CREAR",
+    "createBody": "Sube tu foto y la AI generará una imagen virtual única.",
+    "tradeTitle": "COMERCIAR",
+    "tradeBody": "Compra y vende imágenes en tiempo real y gana exposición al instante.",
+    "enhanceTitle": "MEJORAR",
+    "enhanceBody": "Fusiona dos fotos para refinar rasgos y crear imágenes listas para el mercado.",
+    "cta": "Únete ahora y recibe 100 puntos de bonificación."
+  },
+  "sectionCreate": {
+    "heading": "CREAR IMÁGENES",
+    "bullets": [
+      "Prepara tu foto facial y súbela a un espacio vacío de la galería.",
+      "La AI verifica que la foto muestre un rostro humano real.",
+      "Según la estructura facial, genera una imagen virtual completamente nueva.",
+      "La imagen se añade automáticamente a tu galería, lista para comerciar o mejorar."
+    ]
+  },
+  "sectionTrade": {
+    "heading": "COMERCIA CON CONFIANZA",
+    "bullets": [
+      "Haz clic en Comprar para adquirir imágenes del mercado.",
+      "Comprar te da al instante oportunidades de exposición para tus propias fotos.",
+      "Haz clic en Vender, elige una imagen de la galería, define la exposición y vende en tiempo real.",
+      "Tras una venta exitosa aparece una pantalla de felicitación y el resumen final.",
+      "Todo el comercio sigue reglas justas del sistema, con transparencia y confianza."
+    ]
+  },
+  "sectionFusion": {
+    "heading": "MEJORA CON FUSIÓN",
+    "bullets": [
+      "Fusiona dos fotos para crear imágenes mejoradas usando atributos faciales.",
+      "La fusión requiere una puntuación mínima obtenida en operaciones anteriores.",
+      "Cada foto se puede fusionar hasta seis veces para mejorar atractivo de forma gradual.",
+      "El valor de la imagen fusionada lo confirman otros usuarios a través de ventas de licencias.",
+      "Las nuevas fusiones pueden comerciarse de nuevo, abriendo más oportunidades de ingresos."
+    ]
+  },
+  "landingFeatures": {
+    "badge": "Funciones",
+    "title": "Todas las funciones en uno",
+    "left": [
+      "Sube tu foto facial y la AI generará una imagen virtual totalmente nueva y única.",
+      "Compra y vende imágenes en tiempo real, con seguimiento de exposición y ventas.",
+      "Gana puntos y recompensas vendiendo imágenes y usando activos virtuales mejorados por AI."
+    ],
+    "right": [
+      "Fusiona dos fotos para afinar rasgos y obtener imágenes más nítidas y comerciables.",
+      "Aumenta la puntuación con comercio y fusión para impulsar su valor en el mercado.",
+      "Aplica productos o fondos de patrocinio para nuevas oportunidades de ingresos."
+    ]
+  },
+  "landingHowItWorks": {
+    "badge": "Nuestro proceso",
+    "title": "Cómo funciona",
+    "steps": [
+      {
+        "title": "Empieza con tu foto",
+        "description": "Elige una foto de tu rostro y súbela a un espacio vacío. La AI verifica que sea un rostro humano real."
+      },
+      {
+        "title": "Genera una imagen virtual",
+        "description": "Según tu estructura facial, la AI crea un rostro virtual nuevo que no existe en ningún sitio."
+      },
+      {
+        "title": "Mejora con fusión",
+        "description": "Selecciona dos fotos y fúsionalas para mejorar rasgos; puedes repetir el proceso varias veces."
+      },
+      {
+        "title": "Publica y comercia",
+        "description": "Pon tus imágenes en venta u obtén las de otros. Cada operación aporta puntos y exposición."
+      },
+      {
+        "title": "Aumenta el valor",
+        "description": "Sumas puntuación con comercio, fusión y actividades; más puntaje, más valor y ganancia."
+      },
+      {
+        "title": "Canjea recompensas",
+        "description": "Acumula puntos e intercámbialos por tarjetas regalo u otras recompensas reales."
+      }
+    ]
+  },
+  "images": {
+    "blueEllipse": "elipse azul decorativa",
+    "leftPhone": "app PhotoMone en móvil",
+    "rightPhone": "rango facial PhotoMone y certificado",
+    "fusion": "ejemplos de fusión de fotos",
+    "photoMoneShape": "PhotoMone",
+    "heroCard": "imagen de tarjeta hero"
+  }
+}

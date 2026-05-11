@@ -2,7 +2,6 @@ import { RegisterScreen } from "../screens";
 import { useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { toast } from "react-toastify";
 import { AuthValidations } from "@validations";
 import { useEffect } from "react";
 import { AuthApis } from "@apis";
@@ -28,9 +27,6 @@ export const RegisterContainer = () => {
 
   useEffect(() => {
     if (!registerMutation.isSuccess) return;
-    const message =
-      (registerMutation.data as { message?: string } | undefined)?.message;
-    toast.success(message ?? "Sign up successful. Please log in.");
     navigate(ROUTES.login);
   }, [registerMutation.isSuccess, registerMutation.data, navigate]);
 

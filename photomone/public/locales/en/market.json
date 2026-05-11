@@ -1,0 +1,48 @@
+{
+  "title": "Market",
+  "screen": {
+    "selectPhoto": "Select a Photo",
+    "pickAPhoto": "Pick a photo you like.",
+    "purchasing": "Purchasing...",
+    "waiting": "Waiting",
+    "waitingEllipsis": "Waiting...",
+    "purchasePhoto": "Purchase Photo",
+    "purchase": "Purchase",
+    "instructionText": "Please select a photo and press the confirm button. By doing so, the portrait rights of the selected photo will be purchased."
+  },
+  "container": {
+    "notInMarket": "You are not in any market",
+    "joinMarketFirst": "Please join a market first to participate in photo trading.",
+    "goToPhotomone": "Go to Photomone"
+  },
+  "purchaseDialog": {
+    "title": "Purchase Photo License",
+    "licenseDuration": "License Duration:",
+    "licenseDescription": "Resale allowed during the active period only.",
+    "licenseCost": "License Cost:",
+    "point": "point",
+    "points": "points",
+    "insufficientPoints": "Insufficient points! You need {licenseCost} points.",
+    "processing": "Processing...",
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  },
+  "successDialog": {
+    "title": "Purchase Successful",
+    "message": "Your photo portrait is now being exposed to 4 other users and is currently on sale. You can check the result shortly on the Result page.",
+    "ok": "OK"
+  },
+  "messages": {
+    "purchaseSuccess": "Photo license purchased successfully!",
+    "purchaseFailed": "Failed to purchase photo license",
+    "slotIdMissing": "Slot ID is missing. Please select a photo."
+  },
+  "purchaseCongrats": {
+    "title": "Congratulations!",
+    "ok": "OK",
+    "messageTemplate": "You have received {{highlight}} in {{market}}",
+    "highlightOne": "1 exposure",
+    "highlightMany": "{count} exposures"
+  }
+}
+

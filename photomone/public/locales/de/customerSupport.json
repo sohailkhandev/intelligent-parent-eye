@@ -1,0 +1,39 @@
+{
+  "back": "Zurück",
+  "chatbotGreeting": "Hallo!",
+  "chatbotPlaceholder": "Geben Sie Ihre Frage ein...",
+  "title": "Kundensupport",
+  "description": "Bei Fragen können Sie sich jederzeit an uns wenden.",
+  "responseTime": "Wir antworten in der Regel innerhalb von 24–48 Stunden.",
+  "form": {
+    "name": "Name*",
+    "namePlaceholder": "Vollständigen Namen eingeben",
+    "email": "E-Mail*",
+    "emailPlaceholder": "E-Mail-Adresse eingeben",
+    "subject": "Betreff*",
+    "subjectPlaceholder": "Betreff eingeben",
+    "message": "Nachricht*",
+    "messagePlaceholder": "Ihre Nachricht eingeben...",
+    "attachments": "Anhänge",
+    "selectFiles": "Dateien auswählen",
+    "addAttachment": "Anhang hinzufügen",
+    "removeFileAriaLabel": "Datei entfernen",
+    "sendMessage": "Nachricht senden",
+    "sending": "Wird gesendet...",
+    "messageSent": "Nachricht erfolgreich gesendet! Wir melden uns bald bei Ihnen.",
+    "messageFailed": "Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut."
+  },
+  "validation": {
+    "nameRequired": "Name ist erforderlich",
+    "nameMin": "Der Name muss mindestens 2 Zeichen haben",
+    "nameMax": "Der Name darf höchstens 100 Zeichen haben",
+    "emailRequired": "E-Mail ist erforderlich",
+    "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+    "subjectRequired": "Betreff ist erforderlich",
+    "subjectMin": "Der Betreff muss mindestens 3 Zeichen haben",
+    "subjectMax": "Der Betreff darf höchstens 200 Zeichen haben",
+    "messageRequired": "Nachricht ist erforderlich",
+    "messageMin": "Die Nachricht muss mindestens 10 Zeichen haben",
+    "messageMax": "Die Nachricht darf höchstens 5000 Zeichen haben"
+  }
+}

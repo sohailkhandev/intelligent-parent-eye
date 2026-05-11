@@ -1,0 +1,32 @@
+{
+  "blog": "Blog",
+  "hi": "Hi,",
+  "points": "Points:",
+  "earnings": "Earnings:",
+  "username": "Username",
+  "user": "User",
+  "language": "Language",
+  "languageTooltip": "The translations provided on this platform are generated using (AI). While we strive for accuracy, AI translations may contain errors or inaccuracies. For official or critical information, please refer to the English version.",
+  "avatarDropdown": {
+    "dashboard": "Dashboard",
+    "notice": "Notice",
+    "logout": "Logout",
+    "logoutFailed": "Logout failed. Please try again."
+  },
+  "header": {
+    "photoMone": "PhotoMone",
+    "howItWorks": "How it Works",
+    "faq": "FAQ",
+    "aboutUs": "About Us",
+    "privacyPolicy": "Privacy Policy",
+    "termsAndConditions": "Terms & Conditions",
+    "customerSupport": "Customer Support",
+    "login": "Login",
+    "logIn": "Log in",
+    "signUp": "Sign up"
+  },
+  "footer": {
+    "copyright": "© 2026 {photoMone}. All rights reserved."
+  }
+}
+

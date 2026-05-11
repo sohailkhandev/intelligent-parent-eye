@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "badge": "About Us",
+    "titleFirst": "ABOUT",
+    "titleLast": "US",
+    "lead": "PhotoMone is a portrait usage trading platform designed to create measurable economic value for users.",
+    "mission": "Our mission is clear and deliberate: to enable individuals to generate financial value through the structured use, evaluation, and transformation of portrait usage rights.",
+    "marketplace": "At its core, PhotoMone provides a controlled marketplace where users can trade portrait usage rights—both their own and those acquired from others—within a transparent and rule-based system. Through participation in this system, users are able to convert engagement into tangible economic outcomes."
+  },
+  "corePrinciples": {
+    "heading": "Core Principles",
+    "intro": "PhotoMone is built on three fundamental principles:",
+    "items": [
+      {
+        "title": "1. Portrait usage rights as economic assets",
+        "body": "Portraits are treated as tradable digital assets whose value is determined through platform activity rather than subjective opinion."
+      },
+      {
+        "title": "2. Objective face evaluation through market data",
+        "body": "Faces are evaluated based on real transaction data, exposure frequency, and market conditions, allowing users to understand the relative value of their portraits through objective metrics."
+      },
+      {
+        "title": "3. Value creation through transformation",
+        "body": "Beyond trading, PhotoMone enables users to increase the value of portraits through photo fusion, allowing eligible images to be combined and transformed into higher-value assets."
+      }
+    ]
+  },
+  "valueCreation": {
+    "heading": "How Value Is Created on PhotoMone",
+    "intro": "Users participate in a structured process that generates economic value:",
+    "bullets": [
+      "By purchasing portrait usage rights from other users, participants gain the opportunity to offer their own portrait usage rights under equivalent conditions.",
+      "Transactions generate points, which represent accumulated economic value within the platform.",
+      "Portraits are continuously evaluated based on transaction activity, providing users with clear face rankings and evaluation data.",
+      "Through photo fusion, users can enhance the value of existing portraits, creating new assets with higher market potential."
+    ],
+    "closing": "The creation and delivery of photo-based value to users is PhotoMone's highest priority as a company."
+  },
+  "positioning": {
+    "heading": "What PhotoMone Is — and Is Not",
+    "notLabel": "PhotoMone is not:",
+    "notItems": [
+      "a social media platform,",
+      "a popularity contest,",
+      "a service driven by followers, fame, or influence."
+    ],
+    "isLabel": "PhotoMone is:",
+    "isItems": [
+      "a system focused on economic participation,",
+      "a marketplace governed by transparent rules,",
+      "a platform where value is created through action, not perception."
+    ],
+    "closing": "Participation does not depend on appearance, popularity, or background. It depends solely on how users engage with the system."
+  },
+  "capabilities": {
+    "heading": "What Users Can Do on PhotoMone",
+    "intro": "With PhotoMone, users can:",
+    "bullets": [
+      "Trade portrait usage rights within a controlled marketplace",
+      "Receive objective face evaluations based on real transaction data",
+      "Increase photo value through photo fusion mechanisms",
+      "Resell purchased portrait usage rights to generate returns",
+      "Earn points through trading and platform activities",
+      "Redeem earned points for gift cards and other economic benefits"
+    ]
+  },
+  "commitment": {
+    "heading": "Our Commitment",
+    "intro": "PhotoMone is committed to:",
+    "highlights": [
+      {
+        "before": "Delivering ",
+        "emphasis": "real economic benefits",
+        "after": " to users"
+      },
+      {
+        "before": "Operating a ",
+        "emphasis": "transparent and structured trading system",
+        "after": ""
+      }
+    ],
+    "items": [
+      "Continuously expanding features that support user-driven value creation",
+      "Providing accessible tools that allow participation regardless of appearance or background"
+    ],
+    "closing": "As the platform grows, additional systems and services will be introduced to further enhance users' ability to generate value from their participation."
+  },
+  "purpose": {
+    "heading": "Our Purpose",
+    "intro": "PhotoMone exists to help users turn participation into opportunity—and opportunity into reward.",
+    "outroBefore": "If your goal is to benefit economically through portrait usage trading, face evaluation, and photo value creation, ",
+    "outroEmphasis": "PhotoMone is where you begin."
+  }
+}

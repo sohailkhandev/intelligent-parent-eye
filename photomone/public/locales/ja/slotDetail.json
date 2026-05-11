@@ -1,0 +1,60 @@
+{
+  "title": "写真の詳細",
+  "errors": {
+    "revealPointsFailed": "ポイントを表示できませんでした",
+    "claimPointsFailed": "ポイントを受け取れませんでした",
+    "exposuresMinForReveal": "ポイントを表示するにはスロット露出が20以上必要です",
+    "insufficientLockyForReveal": "ポイントを表示するには Locky が少なくとも 1 必要です"
+  },
+  "previewPhoto": {
+    "title": "写真プレビュー",
+    "photoAlt": "写真",
+    "downloadAndShare": "ダウンロードと共有",
+    "downloadPhotoSuccess": "写真をダウンロードしました",
+    "downloadFailed": "ダウンロードに失敗しました。写真を保存できません。",
+    "ariaDownload": "写真をダウンロード",
+    "ariaFacebook": "Facebookで共有",
+    "ariaTikTok": "TikTokで共有",
+    "ariaInstagram": "Instagramで共有"
+  },
+  "score": "スコア:",
+  "unreliable": "信頼性 低",
+  "trustworthy": "信頼性 高",
+  "earnings": "収益",
+  "tier": "ティア",
+  "progressWithinTier": "ティア内の進行",
+  "exposures": "露出",
+  "collecting": "集計中...",
+  "unknown": "不明",
+  "sellMoreToRank": "未ランク！もっと販売するとランキングに表示されます",
+  "revealPointsTitle": "ポイント表示",
+  "revealPointsMessage": "よろしいですか？",
+  "revealPointsLockySubtext": "Locky 1個を使用",
+  "revealButton": "表示",
+  "cancelButton": "キャンセル",
+  "claim": "受け取る",
+  "claimed": "受け取り済み",
+  "claimWarningTitle": "ポイント受け取り",
+  "claimWarningMessage": "受け取るとこのスロットは永久に無効になります。続行しますか？",
+  "claimWarningPointsLabel": "受け取るポイント",
+  "rankLabels": {
+    "Below Standard": "標準以下",
+    "Standard": "標準",
+    "Above Standard": "標準以上",
+    "Distinguished": "優秀",
+    "Prestige": "プレステージ",
+    "Elite Class": "エリート級",
+    "Icon Class": "アイコン級",
+    "Divine Class": "ディバイン級"
+  },
+  "tiers": {
+    "belowAverage": "平均以下",
+    "average": "平均",
+    "aboveAverage": "平均以上",
+    "maybeAttractive": "やや魅力的",
+    "attractive": "魅力的",
+    "celebrityLevel": "セレブ級",
+    "topClass": "トップクラス",
+    "godTier": "神級"
+  }
+}

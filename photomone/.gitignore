@@ -1,0 +1,30 @@
+node_modules
+dist
+dist-ssr
+
+# Env & secrets (set in Vercel / host dashboard, not in git)
+.env
+.env.*
+!.env.example
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Caches & incremental build
+.vite
+.cache
+.eslintcache
+*.tsbuildinfo
+
+# Test coverage
+coverage
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea

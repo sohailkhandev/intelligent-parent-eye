@@ -1,0 +1,41 @@
+{
+  "title": "Notificaciones",
+  "tabs": {
+    "unread": "No leidas",
+    "read": "Leidas",
+    "new": "Nuevo"
+  },
+  "time": {
+    "today": "Hoy",
+    "yesterday": "Ayer",
+    "lastWeek": "La semana pasada",
+    "allTime": "Todo el tiempo",
+    "dayAgo": "hace 1 dia",
+    "daysAgo": "hace {days} dias"
+  },
+  "empty": {
+    "noUnread": "No hay notificaciones sin leer",
+    "noRead": "Aun no hay notificaciones leidas",
+    "noUnreadDescription": "Ya estas al dia. Vuelve mas tarde para ver nuevas notificaciones.",
+    "noReadDescription": "Las notificaciones leidas apareceran aqui despues de abrirlas."
+  },
+  "types": {
+    "profileCompleted": {
+      "title": "Perfil completado",
+      "description": "Buen trabajo completando tu perfil. Has recibido {points} puntos gratis como recompensa. Ya puedes empezar a ganar en {photoMone}."
+    },
+    "welcome": {
+      "title": "Bienvenido a {photoMone}!",
+      "description": "Gracias por unirte a {photoMone}. Empieza a ganar hoy mostrando y vendiendo tus increibles fotos al mundo."
+    },
+    "purchaseSuccessful": {
+      "title": "Compra exitosa",
+      "description": "Tu {packageName} se compro correctamente. {points} puntos{bonus} se agregaron a tu cuenta. Empieza a ganar.",
+      "bonusText": " y {bonus} puntos de bonificacion"
+    },
+    "giftCardProcessed": {
+      "title": "Tarjeta de regalo procesada",
+      "description": "Gracias por tu solicitud. Tu tarjeta de regalo \"{giftName}\" se proceso correctamente y se enviara a tu correo registrado en un plazo de 48 horas."
+    }
+  }
+}

@@ -7,7 +7,8 @@ import React, {
   useMemo,
 } from "react";
 import { IParent } from "@types";
-import { AuthService } from "@services";
+import { AuthService, SocketService } from "@services";
+import { SOCKET_BASE_URL } from "@constants";
 
 interface AuthContextType {
   authUser: IParent | null;
@@ -50,6 +51,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   const refreshAuthUser = useCallback(async () => {
     const token = localStorage.getItem("token");
     if (!token) {
+      SocketService.disconnectSocket();
       setAuthUserState(null);
       setIsLoggedInState(false);
       return;
@@ -61,6 +63,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
       setAuthError("");
     } catch {
       AuthService.clearAuthStorage();
+      SocketService.disconnectSocket();
       setAuthUserState(null);
       setIsLoggedInState(false);
     }
@@ -76,16 +79,39 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
       .then(({ parent }) => {
         setAuthUserState(parent);
         setIsLoggedInState(true);
+        const token = localStorage.getItem("token");
+        if (token) {
+          SocketService.connectSocket({
+            apiBaseUrl: SOCKET_BASE_URL,
+            token,
+          });
+        }
       })
       .catch(() => {
         AuthService.clearAuthStorage();
+        SocketService.disconnectSocket();
         setAuthUserState(null);
         setIsLoggedInState(false);
       })
       .finally(() => setIsLoading(false));
   }, []);
 
+  useEffect(() => {
+    const token = localStorage.getItem("token");
+
+    if (!isLoggedIn || !token) {
+      SocketService.disconnectSocket();
+      return;
+    }
+
+    SocketService.connectSocket({
+      apiBaseUrl: SOCKET_BASE_URL,
+      token,
+    });
+  }, [isLoggedIn]);
+
   const logout = useCallback(() => {
+    SocketService.disconnectSocket();
     setAuthUserState(null);
     setIsLoggedInState(false);
     setAuthError("");

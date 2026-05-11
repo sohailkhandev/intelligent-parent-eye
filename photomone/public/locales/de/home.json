@@ -1,0 +1,133 @@
+{
+  "title": "STARTSEITE",
+  "points": "Punkte",
+  "earnings": "Einnahmen",
+  "locky": "Schlussel",
+  "tabs": {
+    "gallery": "Galerie",
+    "notice": "Hinweise",
+    "missions": "Missionen"
+  },
+  "slot": {
+    "label": "Slot",
+    "uploadPhoto": "Foto hochladen",
+    "addSlot": "Slot hinzufügen",
+    "showMore": "Mehr anzeigen",
+    "showLess": "Weniger anzeigen",
+    "new": "NEU",
+    "expired": "Abgelaufen"
+  },
+  "profile": {
+    "completeYourProfile": "Vervollständige dein Profil",
+    "completeYourProfileColon": "Vervollständige dein Profil:",
+    "completeProfileMessage": "Bitte vervollständige dein Profil, bevor du Fotos hochlädst.",
+    "completeProfileButton": "Profil vervollständigen"
+  },
+  "uploadDialog": {
+    "generateForSlot": "Für Slot generieren",
+    "loading": "Lädt...",
+    "generate": "Generieren",
+    "stepper": {
+      "step1Label": "SCHRITT 1",
+      "step1Title": "Auswählen",
+      "step2Label": "SCHRITT 2",
+      "step2Title": "Zuschneiden",
+      "step3Label": "SCHRITT 3",
+      "step3Title": "Prüfen",
+      "step4Label": "SCHRITT 4",
+      "step4Title": "Abschließen"
+    },
+    "clickToChoose": "Ein Foto auswählen",
+    "fileFormats": "PNG, JPG, JPEG, WebP, HEIC, bis zu",
+    "choose": "Auswählen",
+    "validatingAndGenerating": "Wird geprüft und generiert",
+    "cancel": "Abbrechen",
+    "selectPhotoToUpload": "Wähle ein Foto zum Hochladen",
+    "upload": "Hochladen",
+    "chooseAnother": "Anderes Foto auswählen",
+    "photoUploadedSuccess": "Foto erfolgreich hochgeladen",
+    "failedToUpload": "Foto konnte nicht hochgeladen werden",
+    "failedToCrop": "Foto konnte nicht zugeschnitten werden. Bitte versuche es erneut.",
+    "failedToUploadImage": "Foto konnte nicht hochgeladen werden. Bitte versuche es erneut.",
+    "uploadingButton": "Wird hochgeladen...",
+    "unsupportedFileFormat": "Dieser Dateityp wird nicht unterstützt. Bitte verwende PNG, JPG, JPEG, WebP oder HEIC.",
+    "validationFailed": "Die Foto-Prüfung ist fehlgeschlagen. Das Foto muss ein klares, gut sichtbares Gesicht zur Kamera enthalten.",
+    "fileSizeError": "Die Dateigröße ({fileSizeMB}MB) überschreitet die maximale Größe von {maxSizeMB}MB. Bitte wähle ein kleineres Foto.",
+    "aiAnalysis": {
+      "male": "Männlich",
+      "female": "Weiblich",
+      "human": "Mensch"
+    },
+    "genderMismatch": {
+      "message": "Geschlecht stimmt nicht überein. Die Person auf dem Foto muss {gender} sein.",
+      "generic": "Geschlecht stimmt nicht überein. Die Person auf dem Foto entspricht nicht dem erforderlichen Geschlecht."
+    }
+  },
+  "purchaseDialog": {
+    "title": "Kaufen",
+    "numberOfSlots": "Anzahl Slots",
+    "slot": "Slot",
+    "slots": "Slots",
+    "totalCost": "Gesamtkosten:",
+    "points": "Punkte",
+    "pointsAbbrev": "Pkt.",
+    "purchaseSlotButton": "Slot kaufen",
+    "purchaseSlotsButton": "Slots kaufen",
+    "yourPoints": "Deine Punkte:",
+    "insufficientPoints": "Nicht genug Punkte! Du benötigst {totalCost} Punkte.",
+    "processing": "Wird verarbeitet...",
+    "purchase": "Kaufen",
+    "cancel": "Abbrechen",
+    "purchaseSuccess": "Erfolgreich {slotsToAdd} Slot gekauft!",
+    "purchaseSuccessPlural": "Erfolgreich {slotsToAdd} Slots gekauft!",
+    "purchaseFailed": "Slot-Kauf fehlgeschlagen"
+  },
+  "noticeTab": {
+    "noNotices": "Noch keine Hinweise",
+    "noNoticesDescription": "Hinweise werden hier angezeigt, sobald sie verfugbar sind."
+  },
+  "missionsTab": {
+    "labels": {
+      "points": "Punkte",
+      "collect": "Einsammeln",
+      "collecting": "Wird eingesammelt",
+      "collected": "Eingesammelt",
+      "incomplete": "Unvollstandig",
+      "failedToLoad": "Missionen konnten nicht geladen werden.",
+      "collectSuccess": "Missionsbelohnung erfolgreich eingesammelt."
+    },
+    "nameMap": {
+      "Register a photo in one gallery slot": "Registriere ein Foto in einem Galerie-Slot",
+      "Purchase a photo once": "Kaufe einmal ein Foto",
+      "Gain at least 5 exposure opportunities from purchasing a photo": "Erhalte mindestens 5 Sichtbarkeitschancen durch den Kauf eines Fotos",
+      "Sell one photo": "Verkaufe ein Foto",
+      "Sell three photos": "Verkaufe drei Fotos",
+      "Reach a score of 5 with a single photo": "Erreiche mit einem einzelnen Foto einen Score von 5",
+      "Complete your first photo fusion": "Schließe deine erste Foto-Fusion ab",
+      "Perform 3 photo fusions": "Fuhre 3 Foto-Fusionen durch",
+      "Add one additional gallery slot": "Fuge einen zusatzlichen Galerie-Slot hinzu",
+      "Add one additional purchased slot": "Fuge einen zusatzlich gekauften Slot hinzu"
+    },
+    "descriptionMap": {
+      "Receive 10 points (one-time only)": "Erhalte 10 Punkte (einmalig)",
+      "Receive 20 points (one-time only)": "Erhalte 20 Punkte (einmalig)",
+      "Receive 30 points": "Erhalte 30 Punkte",
+      "Receive 30 points (one-time only)": "Erhalte 30 Punkte (einmalig)",
+      "Receive 50 points (one-time only)": "Erhalte 50 Punkte (einmalig)",
+      "Receive 50 points + 5 Value Market entries (one-time only)": "Erhalte 50 Punkte + 5 Value-Market-Eintrage (einmalig)",
+      "Receive 50 points + 5 Momentum Market entries (one-time only)": "Erhalte 50 Punkte + 5 Momentum-Market-Eintrage (einmalig)",
+      "Receive 50 points + 5 Premium Market entries (one-time only)": "Erhalte 50 Punkte + 5 Premium-Market-Eintrage (einmalig)",
+      "Receive 200 points + 5 Capital Market entries (one-time only)": "Erhalte 200 Punkte + 5 Capital-Market-Eintrage (einmalig)",
+      "Receive 500 points + 5 Authority Market entries (one-time only)": "Erhalte 500 Punkte + 5 Authority-Market-Eintrage (einmalig)"
+    },
+    "completedDialog": {
+      "title": "Mission abgeschlossen",
+      "congratulations": "Glückwunsch!",
+      "bodyTemplate": "Du hast [[MISSION]] abgeschlossen und [[POINTS]] erhalten.",
+      "pointsLabel": "Punkte",
+      "collectButton": "Belohnung abholen",
+      "collectInfoToast": "Offne den Tab Missionen, um deine Belohnung abzuholen.",
+      "closeAriaLabel": "Schließen"
+    }
+  }
+}

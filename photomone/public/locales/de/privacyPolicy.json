@@ -1,0 +1,178 @@
+{
+  "hero": {
+    "badge": "Datenschutzerklärung",
+    "titleFirst": "DATEN",
+    "titleLast": "SCHUTZ",
+    "lastUpdated": "Zuletzt aktualisiert: 25. März 2026",
+    "introBefore": "Diese Datenschutzerklärung erläutert, wie ",
+    "introCompany": "Photomone Pty Ltd (ACN 692 281 833)",
+    "introAfter": ", mit Sitz in 134 Pinelands Rd, Sunnybank Hills, QLD, Australien („Unternehmen“, „wir“, „uns“ oder „unser“), personenbezogene Daten erhebt, verwendet, verarbeitet und schützt, wenn Sie die PhotoMone-Plattform („Dienst“) nutzen.",
+    "agree": "Mit dem Zugriff auf den Dienst oder seiner Nutzung stimmen Sie der Erhebung und Verwendung von Informationen gemäß dieser Datenschutzerklärung zu."
+  },
+  "overview": {
+    "heading": "1. Überblick zur Datennutzung",
+    "leadBefore": "Der Dienst basiert auf ",
+    "leadEmphasis": "AI-generiertem virtuellen Inhalt.",
+    "leadAfter": "",
+    "bullets": [
+      "Der Dienst handelt nicht mit echten Nutzeridentitäten oder Porträtrechten und verteilt diese nicht",
+      "Hochgeladene Bilder dienen als Eingabedaten zur Erzeugung völlig neuer, synthetischer Bilder",
+      "Generierte Inhalte stellen keine realen Personen dar"
+    ]
+  },
+  "informationCollect": {
+    "heading": "2. Welche Informationen wir erheben",
+    "personalTitle": "2.1 Personenbezogene Daten",
+    "weMayCollect": "Wir können erheben:",
+    "personalItems": [
+      "Name oder Anzeigename",
+      "E-Mail-Adresse",
+      "Zugangsdaten zum Konto",
+      "Land und grundlegende Profildaten"
+    ],
+    "userContentTitle": "2.2 Von Nutzern bereitgestellte Inhalte",
+    "userContentItems": [
+      "Von Nutzern hochgeladene Fotos („Eingabeinhalt“)",
+      "Profilbilder",
+      "Alle im Dienst übermittelten Daten"
+    ],
+    "autoTitle": "2.3 Automatisch erfasste Daten",
+    "autoItems": [
+      "Geräteinformationen",
+      "IP-Adresse",
+      "Browsertyp",
+      "Nutzungsdaten (Interaktionen, Aktivitätsprotokolle)"
+    ]
+  },
+  "howWeUse": {
+    "heading": "3. Wie wir Informationen verwenden",
+    "weUseTo": "Wir verwenden erhobene Informationen, um:",
+    "bullets": [
+      "Den Dienst bereitzustellen und zu betreiben",
+      "Aus Eingabeinhalt AI-basierte Bilder zu erzeugen",
+      "Systemleistung und Nutzererfahrung zu verbessern",
+      "AI-Modelle zu entwickeln und zu trainieren",
+      "Betrug, Missbrauch oder unsachgemäße Nutzung zu verhindern",
+      "Rechtlichen Verpflichtungen nachzukommen"
+    ]
+  },
+  "aiProcessing": {
+    "heading": "4. AI-Verarbeitung und generierte Inhalte",
+    "explicitAgree": "Mit der Nutzung des Dienstes stimmen Sie ausdrücklich zu, dass:",
+    "bulletProcessAi": "Ihre hochgeladenen Bilder durch AI-Systeme verarbeitet werden dürfen",
+    "bulletTransformSynthetic": "Ihre Daten in neue, synthetische generierte Inhalte umgewandelt werden dürfen",
+    "generatedContentTitle": "Generierte Inhalte:",
+    "generatedContentPoints": [
+      "Identifiziert Sie nicht",
+      "Stellt Sie nicht dar",
+      "Kann nicht zur Bestimmung Ihrer Identität verwendet werden"
+    ],
+    "companyMayUse": "Das Unternehmen kann verwenden:",
+    "contentLabels": ["Eingabeinhalt", "Generierte Inhalte"],
+    "forLabel": "für:",
+    "purposeItems": [
+      "Internes AI-Training",
+      "Systemverbesserung",
+      "AI-Partnerschaften mit Dritten"
+    ]
+  },
+  "anonymization": {
+    "heading": "5. Datenanonymisierung und -transformation",
+    "appliesIncluding": "Der Dienst wendet Transformationsverfahren an, einschließlich:",
+    "processItems": ["Bildfusion", "Merkmalsabstraktion", "AI-Synthese"],
+    "ensureLabel": "Diese Verfahren stellen sicher:",
+    "ensureItems": [
+      "Generierte Inhalte sind keine direkte Kopie",
+      "Generierte Inhalte sind mit keiner bestimmten Person verknüpft"
+    ]
+  },
+  "sharing": {
+    "heading": "6. Weitergabe und Offenlegung von Daten",
+    "weMayShare": "Wir können Daten weitergeben:",
+    "bullets": [
+      "An Dienstleister (Hosting, Analyse, AI-Verarbeitung)",
+      "An Partner der AI-Entwicklung",
+      "Wenn Gesetz oder Rechtsverfahren es erfordern"
+    ],
+    "noSell": "Wir verkaufen keine personenbezogenen Daten als identifizierbare Nutzerinformation."
+  },
+  "storage": {
+    "heading": "7. Datenspeicherung und Sicherheit",
+    "safeguards": "Wir setzen angemessene Schutzmaßnahmen ein, u. a.:",
+    "safeguardItems": ["Sichere Server", "Zugriffskontrollen", "Verschlüsselung wo sinnvoll"],
+    "however": "Dennoch:",
+    "howeverItems": [
+      "Kein System ist völlig sicher",
+      "Nutzer erkennen die inhärenten Risiken von Online-Diensten an"
+    ]
+  },
+  "retention": {
+    "heading": "8. Aufbewahrung von Daten",
+    "weRetain": "Wir bewahren Daten auf:",
+    "retainBullets": [
+      "So lange wie zur Bereitstellung des Dienstes erforderlich",
+      "Zu gesetzlichen, aufsichtsrechtlichen und betrieblichen Zwecken"
+    ],
+    "weMayRetain": "Wir können aufbewahren:",
+    "retainTypes": ["Eingabeinhalt", "Generierte Inhalte", "Nutzungsdaten"],
+    "inactiveNote": "auch nach Kontoinaktivität, soweit nötig."
+  },
+  "userRights": {
+    "heading": "9. Rechte der Nutzer (Australien)",
+    "underLaws": "Nach geltendem Recht können Nutzer das Recht haben:",
+    "rightsItems": [
+      "Auskunft über ihre personenbezogenen Daten zu erhalten",
+      "Berichtigung unrichtiger Daten zu verlangen"
+    ],
+    "howeverAck": "Nutzer erkennen jedoch an:",
+    "ackItems": [
+      "AI-generierte Inhalte lassen sich nicht in ursprüngliche Identitätsdaten zurückführen",
+      "Bestimmte Daten können zu rechtlichen Zwecken oder zur Systemintegrität aufbewahrt werden"
+    ]
+  },
+  "cookies": {
+    "heading": "10. Kleine Textdateien im Browser und Nachverfolgung",
+    "weMayUse": "Wir können verwenden:",
+    "toolsItems": ["Im Browser gespeicherte kleine Textdateien (Sitzungskennungen)", "Analysewerkzeuge"],
+    "toLabel": "um:",
+    "toItems": ["Leistung zu verbessern", "Nutzung zu analysieren"],
+    "browserNote": "Nutzer können diese Textdateien in den Browsereinstellungen verwalten oder löschen."
+  },
+  "thirdParty": {
+    "heading": "11. Drittanbieter-Dienste",
+    "mayRely": "Der Dienst kann auf Folgendes setzen:",
+    "bullets": [
+      "Cloud-Anbieter",
+      "AI-Verarbeitungspartner",
+      "Analyseanbieter"
+    ],
+    "processNote": "Diese Dritten können Daten in unserem Auftrag verarbeiten."
+  },
+  "children": {
+    "heading": "12. Datenschutz Minderjähriger",
+    "notUnder18": "Der Dienst richtet sich nicht an Nutzer unter 18 Jahren.",
+    "noMinors": "Wir erheben wissentlich keine Daten von Minderjährigen."
+  },
+  "changes": {
+    "heading": "13. Änderungen dieser Erklärung",
+    "mayUpdate": "Wir können diese Datenschutzerklärung jederzeit aktualisieren.",
+    "effectivePosting": "Änderungen werden mit Veröffentlichung wirksam.",
+    "reviewResponsibility": "Nutzer sind für die Prüfung von Aktualisierungen verantwortlich."
+  },
+  "contact": {
+    "heading": "14. Kontakt",
+    "company": "Photomone Pty Ltd",
+    "address": "134 Pinelands Rd, Sunnybank Hills, QLD, Australia",
+    "emailLabel": "E-Mail: "
+  },
+  "finalAck": {
+    "heading": "15. Schlussbestätigung",
+    "byUsing": "Mit der Nutzung des Dienstes erkennen Sie an und stimmen zu, dass:",
+    "bullets": [
+      "Ihre hochgeladenen Bilder für die AI-Verarbeitung verwendet werden dürfen",
+      "Generierte Inhalte synthetisch sind und keine personenbezogenen Daten darstellen",
+      "Das Unternehmen Daten für AI-Training und -Entwicklung nutzen kann",
+      "Eine vollständige Datenlöschung aufgrund der Systemgestaltung nicht immer möglich ist"
+    ]
+  }
+}

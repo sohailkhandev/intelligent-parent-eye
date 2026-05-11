@@ -1,0 +1,303 @@
+{
+  "hero": {
+    "badge": "Términos y condiciones",
+    "titleFirst": "Términos y",
+    "titleLast": "condiciones",
+    "lastUpdated": "Última actualización: 25 de marzo de 2026",
+    "introBefore": "Estos Términos y Condiciones (\"Términos\") constituyen un acuerdo jurídicamente vinculante entre ",
+    "introCompany": "Photomone Pty Ltd (ACN 692 281 833)",
+    "introAfter": ", con domicilio en 134 Pinelands Rd, Sunnybank Hills, QLD, Australia (\"Empresa\", \"nosotros\", \"nos\" o \"nuestro\"), y cualquier persona física que acceda o utilice la plataforma PhotoMone (\"Servicio\").",
+    "agree": "Al acceder, registrarse, cargar contenido, generar imágenes, operar con licencias, usar puntos o utilizar el Servicio de cualquier otro modo, usted confirma que ha leído y comprendido estos Términos y acepta quedar legalmente vinculado por ellos.",
+    "disagree": "Si no está de acuerdo, debe dejar de utilizar el Servicio de inmediato."
+  },
+  "definitions": {
+    "heading": "1. Definiciones",
+    "items": [
+      {
+        "term": "Servicio",
+        "text": "La plataforma PhotoMone y todas las funciones relacionadas, incluida la creación de rostros virtuales generados por IA, fusión de imágenes, generación de contenido, sistemas de clasificación, sistemas de exposición, puntos y recompensas."
+      },
+      {
+        "term": "Usuario / Miembro",
+        "text": "Cualquier persona física que acceda o utilice el Servicio."
+      },
+      {
+        "term": "Contenido de entrada",
+        "text": "Cualquier imagen, fotografía o dato que cargue un Usuario."
+      },
+      {
+        "term": "Contenido generado",
+        "text": "Cualquier imagen generada por IA creada por el Servicio, incluidos rostros transformados, fusionados o generados de nuevo que no representan a personas reales."
+      },
+      {
+        "term": "Licencia de plataforma",
+        "text": "Un derecho limitado, temporal, no exclusivo e intransferible a usar el Contenido generado estrictamente dentro del Servicio."
+      },
+      {
+        "term": "Puntos",
+        "text": "Créditos internos, no monetarios y sin valor en efectivo. Los Puntos son intransferibles, no reembolsables y no pueden canjearse por dinero."
+      },
+      {
+        "term": "Oportunidad de exposición",
+        "text": "Visibilidad o asignación de visualización generada por el sistema y determinada por el Servicio."
+      },
+      {
+        "term": "Tarjetas regalo",
+        "text": "Recompensas promocionales no monetarias emitidas a cambio de Puntos, sujetas a disponibilidad y condiciones."
+      }
+    ]
+  },
+  "natureOfService": {
+    "heading": "2. Naturaleza del Servicio",
+    "lead": "El Servicio no comercia ni distribuye fotografías reales de usuarios.",
+    "insteadLabel": "En su lugar:",
+    "insteadItems": [
+      "El Servicio utiliza el Contenido de entrada para generar rostros virtuales totalmente nuevos basados en IA",
+      "El Contenido generado es sintético y no representa a personas reales",
+      "Pueden crearse múltiples variaciones mediante fusión, transformación y síntesis por IA"
+    ],
+    "acknowledgeLabel": "Los Usuarios reconocen que:",
+    "acknowledgeItems": [
+      "El Servicio es una plataforma de contenido generado por IA",
+      "No es un mercado para identidad real, derecho a la imagen o derechos sobre la imagen personal"
+    ]
+  },
+  "ownershipGenerated": {
+    "heading": "3. Propiedad y licencia del Contenido generado",
+    "lead": "Todo el Contenido generado es propiedad exclusiva de la Empresa.",
+    "grantedLabel": "A los Usuarios se les concede:",
+    "grantedItems": [
+      "Una licencia limitada, revocable y no exclusiva para usar el Contenido generado"
+    ],
+    "mayLabel": "Los Usuarios pueden:",
+    "mayItems": ["Descargar y usar el Contenido generado cuando esté permitido"],
+    "howeverLabel": "Sin embargo:",
+    "howeverItems": [
+      "La propiedad nunca se transfiere",
+      "La Empresa conserva todos los derechos para usar, distribuir, modificar y comercializar el Contenido generado"
+    ],
+    "jointLabel": "Todo el Contenido generado es de uso conjunto, pero:",
+    "jointItems": ["La titularidad definitiva sigue siendo de la Empresa"]
+  },
+  "platformLicense": {
+    "heading": "4. Licencia restringida a la plataforma",
+    "allLicensesLabel": "Todas las licencias dentro del Servicio:",
+    "allLicensesItems": [
+      "Son válidas únicamente dentro del Servicio",
+      "No pueden transferirse ni usarse fuera de la plataforma",
+      "No pueden explotarse comercialmente de forma externa"
+    ],
+    "mustNotLabel": "Los Usuarios no deben:",
+    "mustNotItems": [
+      "Vender o distribuir el Contenido generado fuera del Servicio",
+      "Crear mercados o transacciones externos"
+    ],
+    "violation": "Cualquier incumplimiento constituye una violación sustancial de estos Términos."
+  },
+  "aiDisclaimer": {
+    "heading": "5. Exención de responsabilidad sobre generación por IA",
+    "allGenLabel": "Todo el Contenido generado:",
+    "allGenItems": [
+      "Es creado por inteligencia artificial",
+      "No representa a personas reales",
+      "Se genera a partir de datos agregados"
+    ],
+    "resemblanceLabel": "Cualquier parecido con personas reales:",
+    "resemblanceItems": ["Es puramente coincidente"],
+    "companyLabel": "La Empresa:",
+    "companyItems": [
+      "No replica ni dirige sus acciones contra personas concretas",
+      "Rechaza toda responsabilidad relacionada con reclamaciones por semejanza o identidad"
+    ]
+  },
+  "userInputResponsibility": {
+    "heading": "6. Responsabilidad por el contenido de entrada del Usuario",
+    "mustLabel": "Los Usuarios deben:",
+    "mustItems": [
+      "Cargar solo contenido lícito",
+      "Asegurarse de tener derechos sobre las imágenes cargadas"
+    ],
+    "responsibleLabel": "Los Usuarios son los únicos responsables de:",
+    "responsibleItems": [
+      "Cualquier consecuencia jurídica derivada del Contenido de entrada"
+    ]
+  },
+  "aiProcessingData": {
+    "heading": "7. Tratamiento por IA y uso de datos",
+    "grantLabel": "Los Usuarios otorgan a la Empresa derecho a:",
+    "grantItems": [
+      "Tratar el Contenido de entrada",
+      "Generar nuevo contenido",
+      "Usar datos para entrenamiento de IA (incluidos terceros)"
+    ]
+  },
+  "pointsGiftCards": {
+    "heading": "8. Puntos, tarjetas regalo y política de canje",
+    "pointsTitle": "8.1 Puntos",
+    "pointsItems": [
+      "Los Puntos no tienen valor en efectivo",
+      "Los Puntos no pueden transferirse ni retirarse",
+      "Los Puntos no son reembolsables una vez utilizados"
+    ],
+    "giftCardsTitle": "8.2 Tarjetas regalo",
+    "giftCardsItems": [
+      "Las Tarjetas regalo son recompensas promocionales",
+      "La emisión es a discreción de la Empresa",
+      "La disponibilidad no está garantizada"
+    ],
+    "companyMayLabel": "La Empresa puede:",
+    "companyMayItems": [
+      "Limitar, retrasar, sustituir o discontinuar las Tarjetas regalo"
+    ],
+    "processingTitle": "8.3 Plazo de tramitación",
+    "processingItems": [
+      "La Empresa realizará esfuerzos razonables para tramitar las solicitudes con prontitud",
+      "La entrega depende de proveedores externos"
+    ],
+    "usersAckLabel": "Los Usuarios reconocen que:",
+    "usersAckItems": [
+      "El plazo de tramitación no está garantizado",
+      "Los retrasos no constituyen incumplimiento",
+      "La Empresa no es responsable de retrasos de terceros"
+    ],
+    "noRefundsTitle": "8.4 Sin reembolsos",
+    "noRefundsLead": "Una vez utilizados o convertidos los Puntos:",
+    "noRefundsItems": [
+      "Las operaciones son definitivas",
+      "No se permiten reembolsos ni reversiones"
+    ],
+    "noFinancialTitle": "8.5 Sin derechos financieros",
+    "noFinancialLead": "Los Puntos y las Tarjetas regalo:",
+    "noFinancialItems": [
+      "No son moneda",
+      "No son instrumentos financieros",
+      "No crean créditos dinerarios"
+    ],
+    "liabilityCapTitle": "8.6 Limitación de responsabilidad",
+    "liabilityCapLead": "La Empresa no es responsable de:",
+    "liabilityCapItems": [
+      "Pérdida o uso indebido de Tarjetas regalo",
+      "Incidencias de terceros",
+      "Caducidad o restricciones de canje"
+    ]
+  },
+  "exposureSystem": {
+    "heading": "9. Sistema de exposición y uso de licencias",
+    "whenLabel": "Cuando los Usuarios adquieren licencias:",
+    "whenItems": [
+      "Las Oportunidades de exposición las determina únicamente el sistema",
+      "No se ofrecen garantías"
+    ],
+    "agreeLabel": "Los Usuarios aceptan que:",
+    "agreeItems": [
+      "La exposición se basa en algoritmos",
+      "No pueden plantearse disputas ni reclamaciones respecto a los resultados"
+    ]
+  },
+  "externalTransactions": {
+    "heading": "10. Prohibición de transacciones externas",
+    "mustNotLabel": "Los Usuarios no deben:",
+    "mustNotItems": ["Comerciar con Puntos", "Comerciar con puntuaciones", "Comerciar con licencias"],
+    "outside": "fuera del Servicio."
+  },
+  "sponsoredContent": {
+    "heading": "11. Exención de responsabilidad sobre contenido patrocinado",
+    "sponsorLead": "Todo el contenido patrocinado es responsabilidad del patrocinador.",
+    "notLiableLabel": "La Empresa no es responsable de:",
+    "notLiableItems": ["Exactitud", "Legalidad", "Reclamaciones"]
+  },
+  "serviceModifications": {
+    "heading": "12. Modificaciones del Servicio y equilibrio del sistema",
+    "companyMayLabel": "La Empresa puede:",
+    "companyMayItems": [
+      "Modificar algoritmos",
+      "Ajustar clasificaciones, exposición y sistemas",
+      "Cambiar valores o estructuras"
+    ],
+    "anyTime": "en cualquier momento y sin previo aviso.",
+    "usersAgreeLabel": "Los Usuarios aceptan que:",
+    "usersAgreeItems": [
+      "No pueden formular reclamaciones por dichos cambios",
+      "No se proporciona compensación alguna"
+    ]
+  },
+  "futureFeatures": {
+    "heading": "13. Funciones futuras e incidencias",
+    "intro": "El Servicio puede introducir nuevas funciones.",
+    "companyLabel": "La Empresa:",
+    "companyItems": [
+      "Realizará esfuerzos razonables para resolver incidencias",
+      "No garantiza un funcionamiento libre de errores"
+    ],
+    "usersAgreeLabel": "Los Usuarios aceptan que:",
+    "usersAgreeItems": [
+      "La Empresa no es responsable de incidencias imprevistas"
+    ]
+  },
+  "prohibitedConduct": {
+    "heading": "14. Conducta prohibida",
+    "mustNotLabel": "Los Usuarios no deben:",
+    "mustNotItems": [
+      "Hacer un uso indebido del Servicio",
+      "Usar automatización o manipulación",
+      "Reclamar la propiedad del Contenido generado",
+      "Tergiversar el contenido"
+    ]
+  },
+  "serviceAvailability": {
+    "heading": "15. Disponibilidad del Servicio",
+    "companyMayLabel": "La Empresa puede:",
+    "companyMayItems": [
+      "Modificar o dar por terminado el Servicio en cualquier momento"
+    ],
+    "noGuaranteeLabel": "No se ofrecen garantías respecto a:",
+    "noGuaranteeItems": ["Disponibilidad", "Rendimiento"]
+  },
+  "disclaimerLiability": {
+    "heading": "16. Exención de responsabilidad y limitación de la responsabilidad",
+    "asIs": "El Servicio se presta \"tal cual\".",
+    "extentLabel": "En la medida máxima permitida por la ley:",
+    "extentItems": [
+      "La Empresa no es responsable de daños indirectos",
+      "La responsabilidad se limita a los pagos realizados en los 12 meses anteriores"
+    ]
+  },
+  "indemnification": {
+    "heading": "17. Indemnización",
+    "agreeLabel": "Los Usuarios se comprometen a indemnizar a la Empresa frente a:",
+    "agreeItems": [
+      "Reclamaciones derivadas de un uso indebido",
+      "Incumplimientos de estos Términos"
+    ]
+  },
+  "lawEnforcement": {
+    "heading": "18. Cooperación con las fuerzas del orden",
+    "companyMayLabel": "La Empresa puede:",
+    "companyMayItems": [
+      "Cooperar con las autoridades",
+      "Revelar datos de usuarios cuando sea obligatorio"
+    ]
+  },
+  "governingLaw": {
+    "heading": "19. Ley aplicable",
+    "body": "Estos Términos se rigen por las leyes del estado de Queensland, Australia."
+  },
+  "contactInfo": {
+    "heading": "20. Datos de contacto",
+    "companyName": "Photomone Pty Ltd",
+    "address": "134 Pinelands Rd, Sunnybank Hills, QLD, Australia",
+    "emailLabel": "Correo electrónico:"
+  },
+  "finalAcknowledgment": {
+    "heading": "Reconocimiento final",
+    "intro": "Al usar el Servicio, usted reconoce y acepta que:",
+    "items": [
+      "Todo el contenido es generado por IA",
+      "La Empresa es titular de todo el Contenido generado",
+      "Las licencias existen solo dentro del Servicio",
+      "Los resultados de exposición no están garantizados",
+      "Pueden producirse cambios en el sistema en cualquier momento",
+      "Usted renuncia a reclamaciones relacionadas con el comportamiento del sistema y los resultados"
+    ]
+  }
+}

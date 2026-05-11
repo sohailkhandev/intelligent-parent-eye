@@ -7,48 +7,53 @@ import {
   HomeModule,
   ChildOverviewModule,
   AlertsModule,
-  ControlsRestrictionsModule,
   SettingsModule,
 } from "@modules";
-import { ProtectedRoute } from "@components";
+import { ProtectedRoute, SocketAlertHandler } from "@components";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/auth" element={<AuthLayout />}>
-        <Route path="login" element={<AuthModule.LoginContainer />} />
-        <Route path="register" element={<AuthModule.RegisterContainer />} />
-        <Route path="verify-email" element={<AuthModule.VerifyEmailContainer />} />
+    <>
+      <SocketAlertHandler />
+      <Routes>
+        <Route path="/auth" element={<AuthLayout />}>
+          <Route path="login" element={<AuthModule.LoginContainer />} />
+          <Route path="register" element={<AuthModule.RegisterContainer />} />
+          <Route path="verify-email" element={<AuthModule.VerifyEmailContainer />} />
+          <Route
+            path="verify-email/:token"
+            element={<AuthModule.VerifyEmailContainer />}
+          />
+        </Route>
+        <Route path="/parents" element={<AuthLayout />}>
+          <Route
+            path="verify-email"
+            element={<AuthModule.VerifyEmailContainer />}
+          />
+          <Route
+            path="verify-email/:token"
+            element={<AuthModule.VerifyEmailContainer />}
+          />
+        </Route>
         <Route
-          path="verify-email/:token"
-          element={<AuthModule.VerifyEmailContainer />}
-        />
-      </Route>
-      <Route path="/parents" element={<AuthLayout />}>
-        <Route
-          path="verify-email"
-          element={<AuthModule.VerifyEmailContainer />}
-        />
-        <Route
-          path="verify-email/:token"
-          element={<AuthModule.VerifyEmailContainer />}
-        />
-      </Route>
-      <Route
-        path={ROUTES.home}
-        element={
-          <ProtectedRoute>
-            <DashboardLayout />
-          </ProtectedRoute>
-        }
-      >
-        <Route index element={<HomeModule.HomeContainer />} />
-        <Route path="child-overview" element={<ChildOverviewModule.ChildOverviewContainer />} />
-        <Route path="alerts" element={<AlertsModule.AlertsContainer />} />
-        <Route path="controls-restrictions" element={<ControlsRestrictionsModule.ControlsRestrictionsContainer />} />
-        <Route path="settings" element={<SettingsModule.SettingsContainer />} />
-      </Route>
-    </Routes>
+          path={ROUTES.home}
+          element={
+            <ProtectedRoute>
+              <DashboardLayout />
+            </ProtectedRoute>
+          }
+        >
+          <Route index element={<HomeModule.HomeContainer />} />
+          <Route path="child-overview" element={<ChildOverviewModule.ChildOverviewContainer />} />
+          <Route
+            path="child-overview/:childId"
+            element={<ChildOverviewModule.ChildDetailsContainer />}
+          />
+          <Route path="alerts" element={<AlertsModule.AlertsContainer />} />
+          <Route path="settings" element={<SettingsModule.SettingsContainer />} />
+        </Route>
+      </Routes>
+    </>
   );
 }
 

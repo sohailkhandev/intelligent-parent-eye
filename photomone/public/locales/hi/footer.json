@@ -1,0 +1,30 @@
+{
+  "brandAlt": "PhotoMone",
+  "tagline": "अपनी आभासी छवियों को असली इनामों में बदलें।",
+  "description": "अपनी तस्वीरों से आभासी छवियाँ बनाएँ, फ्यूज़न से उन्हें बेहतर बनाएँ, मार्केटप्लेस में व्यापार करें, अंक जुटाएँ और उन्हें गिफ्ट कार्ड या वास्तविक दुनिया के इनामों में बदलें।",
+  "siteMapTitle": "साइट मैप",
+  "legalTitle": "कानूनी जानकारी",
+  "languageSectionTitle": "भाषा",
+  "nav": {
+    "home": "होम",
+    "howItWorks": "यह कैसे काम करता है",
+    "faq": "सामान्य प्रश्न",
+    "aboutUs": "हमारे बारे में",
+    "blog": "ब्लॉग",
+    "support": "ग्राहक सहायता"
+  },
+  "legal": {
+    "privacyPolicy": "गोपनीयता नीति",
+    "termsAndConditions": "नियम और शर्तें"
+  },
+  "copyright": "© 2026 PhotoMone. सर्वाधिकार सुरक्षित।",
+  "social": {
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "youtube": "YouTube"
+  },
+  "images": {
+    "highlight": "PhotoMone"
+  }
+}

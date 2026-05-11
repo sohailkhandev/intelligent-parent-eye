@@ -1,0 +1,96 @@
+{
+  "hero": {
+    "badge": "AI-generierter Bildermarktplatz",
+    "titleBefore": "Profitieren Sie von Ihrem Foto",
+    "titleHighlight": "Fusions",
+    "subtitle": "Verwandeln Sie Ihre Fotos mit AI-gestützter Fusion und verdienen Sie mit Ihren Kreationen. Erstellen, fusionieren und monetarisieren Sie Ihre Bilder – alles auf einer Plattform.",
+    "createTitle": "ERSTELLEN",
+    "createBody": "Laden Sie Ihr Foto hoch und die AI erzeugt ein einzigartiges virtuelles Bild.",
+    "tradeTitle": "HANDELN",
+    "tradeBody": "Kaufen und verkaufen Sie Bilder in Echtzeit und sichern Sie sich sofort Reichweite.",
+    "enhanceTitle": "VERBESSERN",
+    "enhanceBody": "Fusionieren Sie zwei Fotos, um Details zu verfeinern und handelsfertige Bilder zu erstellen.",
+    "cta": "Jetzt beitreten und 100 Bonuspunkte sichern."
+  },
+  "sectionCreate": {
+    "heading": "BILDER ERSTELLEN",
+    "bullets": [
+      "Bereiten Sie Ihr Gesichtsfoto vor und laden Sie es in einen freien Galerie-Slot hoch.",
+      "Die AI prüft, ob ein echtes menschliches Gesicht sichtbar ist.",
+      "Basierend auf Ihrer Gesichtsstruktur entsteht ein völlig neues virtuelles Bild.",
+      "Das Bild landet automatisch in Ihrer Galerie und ist bereit für Handel oder Weiterbearbeitung."
+    ]
+  },
+  "sectionTrade": {
+    "heading": "MIT VERTRAUEN HANDELN",
+    "bullets": [
+      "Klicken Sie auf Kaufen, um Bilder aus dem Marktplatz zu erhalten.",
+      "Ein Kauf bringt Ihnen sofort Reichweiten-Chancen für eigene Fotos.",
+      "Klicken Sie auf Verkaufen, wählen Sie ein Galeriebild, setzen Sie den Expositionswert und starten Sie den Live-Verkauf.",
+      "Nach einem erfolgreichen Verkauf erscheinen eine Gratulation und die Verkaufsübersicht.",
+      "Alle Trades folgen fairen Systemregeln, transparent und nachvollziehbar."
+    ]
+  },
+  "sectionFusion": {
+    "heading": "MIT FUSION VERBESSERN",
+    "bullets": [
+      "Fusionieren Sie zwei Fotos zu verbesserten Bildern mithilfe von Gesichtsattributen.",
+      "Fusion erfordert einen Mindestscore aus früheren Trades.",
+      "Jedes Foto kann bis zu sechsmal fusioniert werden, um die Wirkung schrittweise zu steigern.",
+      "Der Wert fusionierter Bilder wird letztlich von Nutzern bestätigt und durch Lizenzerlöse abgesichert.",
+      "Neu fusionierte Bilder können weiter gehandelt werden und schaffen zusätzliche Einnahmen."
+    ]
+  },
+  "landingFeatures": {
+    "badge": "Funktionen",
+    "title": "Alles in einer Lösung",
+    "left": [
+      "Laden Sie Ihr Gesichtsfoto hoch – die AI erstellt ein völlig neues, einzigartiges virtuelles Bild.",
+      "Kaufen und verkaufen Sie Bilder live, mit Reichweite und Verkaufs-Tracking in Echtzeit.",
+      "Punkte und Prämien durch Verkäufe und AI-gestützte virtuelle Assets verdienen."
+    ],
+    "right": [
+      "Fusionieren Sie zwei Fotos, um Gesichtszüge zu schärfen und handelstaugliche Bilder zu erhalten.",
+      "Steigern Sie Scores durch Handel und Fusion und heben Sie den Marktplatzwert.",
+      "Sponsorprodukte oder Hintergründe einbinden und neue Einnahmequellen erschließen."
+    ]
+  },
+  "landingHowItWorks": {
+    "badge": "Unser Ablauf",
+    "title": "So funktioniert es",
+    "steps": [
+      {
+        "title": "Start mit Ihrem Foto",
+        "description": "Wählen Sie ein Porträt und laden Sie es in einen freien Slot. Die AI prüft ein echtes Gesicht."
+      },
+      {
+        "title": "Virtuelles Bild erzeugen",
+        "description": "Basierend auf Ihrer Struktur entsteht ein neues virtuelles Gesicht, das es so noch nicht gibt."
+      },
+      {
+        "title": "Durch Fusion verbessern",
+        "description": "Wählen Sie zwei Fotos und fusionieren Sie sie, um Züge zu verbessern – beliebig oft wiederholbar."
+      },
+      {
+        "title": "Listen und handeln",
+        "description": "Bieten Sie Bilder an oder kaufen Sie welche. Jeder Trade bringt Punkte und Reichweite."
+      },
+      {
+        "title": "Bildwert steigern",
+        "description": "Bewerten Sie Bilder durch Handel, Fusion und Aktivitäten – höhere Scores, höherer Wert."
+      },
+      {
+        "title": "Prämien einlösen",
+        "description": "Sammeln Sie Punkte und tauschen Sie sie gegen Gutscheine oder andere Belohnungen."
+      }
+    ]
+  },
+  "images": {
+    "blueEllipse": "blaues Ellipsen-Element",
+    "leftPhone": "PhotoMone App auf dem Smartphone",
+    "rightPhone": "PhotoMone Gesichtsrang und Zertifikat",
+    "fusion": "Beispiele für Fotofusion",
+    "photoMoneShape": "PhotoMone",
+    "heroCard": "Hero-Kartenbild"
+  }
+}

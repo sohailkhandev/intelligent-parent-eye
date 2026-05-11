@@ -1,0 +1,142 @@
+{
+  "title": "प्रोफ़ाइल",
+  "heading": "खाता",
+  "editProfile": "प्रोफ़ाइल संपादित करें",
+  "deleteProfile": "प्रोफ़ाइल हटाएं",
+  "editProfileDialogTitle": "प्रोफ़ाइल संपादित करें",
+  "a11y": {
+    "profileAvatarAlt": "प्रोफ़ाइल फोटो",
+    "changeProfilePhoto": "प्रोफ़ाइल फोटो बदलें"
+  },
+  "tabs": {
+    "profile": "प्रोफ़ाइल",
+    "profileInformation": "प्रोफ़ाइल जानकारी",
+    "password": "पासवर्ड",
+    "changePassword": "पासवर्ड बदलें"
+  },
+  "screenTabs": {
+    "profile": "प्रोफ़ाइल",
+    "rewards": "इनाम",
+    "wallet": "वॉलेट"
+  },
+  "ageGroupOptions": {
+    "18-25": "18–25 वर्ष",
+    "26-35": "26–35 वर्ष",
+    "36-45": "36–45 वर्ष",
+    "46-55": "46–55 वर्ष",
+    "56-65": "56–65 वर्ष",
+    "65+": "65+"
+  },
+  "comingSoon": {
+    "title": "जल्द आ रहा है",
+    "description": "भविष्य में कॉइन प्रबंधन जोड़ा जाएगा।"
+  },
+  "screen": {
+    "user": "उपयोगकर्ता",
+    "years": "वर्ष"
+  },
+  "fields": {
+    "displayName": "प्रदर्शन नाम",
+    "email": "ईमेल",
+    "gender": "लिंग",
+    "ageGroup": "आयु समूह",
+    "country": "देश",
+    "introduction": "परिचय",
+    "currentPassword": "वर्तमान पासवर्ड",
+    "newPassword": "नया पासवर्ड",
+    "confirmNewPassword": "नया पासवर्ड पुष्टि करें"
+  },
+  "placeholders": {
+    "enterDisplayName": "अपना प्रदर्शन नाम दर्ज करें",
+    "selectGender": "लिंग चुनें",
+    "selectAgeGroup": "आयु समूह चुनें",
+    "selectCountry": "अपना देश चुनें",
+    "tellAboutYourself": "अपने बारे में बताएं...",
+    "enterCurrentPassword": "वर्तमान पासवर्ड दर्ज करें",
+    "enterNewPassword": "नया पासवर्ड (कम से कम 6 अक्षर)",
+    "confirmNewPassword": "नया पासवर्ड पुष्टि करें"
+  },
+  "genderOptions": {
+    "male": "पुरुष",
+    "female": "महिला",
+    "other": "अन्य",
+    "preferNotToSay": "बताना नहीं चाहते"
+  },
+  "buttons": {
+    "saveChanges": "परिवर्तन सहेजें",
+    "cancel": "रद्द करें",
+    "update": "अपडेट करें",
+    "updatePassword": "पासवर्ड अपडेट करें",
+    "saving": "सहेजा जा रहा है...",
+    "updating": "अपडेट हो रहा है..."
+  },
+  "messages": {
+    "profileUpdatedSuccess": "प्रोफ़ाइल सफलतापूर्वक अपडेट हुई",
+    "profileUpdateFailed": "प्रोफ़ाइल अपडेट नहीं हो सकी",
+    "passwordUpdatedSuccess": "पासवर्ड सफलतापूर्वक बदला गया",
+    "passwordUpdateFailed": "पासवर्ड बदलने में विफल",
+    "profilePictureUpdatedSuccess": "प्रोफ़ाइल फोटो सफलतापूर्वक अपडेट हुई",
+    "profilePictureUpdateFailed": "प्रोफ़ाइल फोटो अपडेट नहीं हो सकी",
+    "pleaseSelectImageFile": "कृपया एक छवि फ़ाइल चुनें",
+    "imageSizeShouldBeLessThan1MB": "छवि का आकार 1MB से कम होना चाहिए"
+  },
+  "validation": {
+    "displayNameRequired": "प्रदर्शन नाम आवश्यक है",
+    "displayNameMin": "प्रदर्शन नाम कम से कम 2 अक्षर का हो",
+    "displayNameMax": "प्रदर्शन नाम 100 अक्षर से कम हो",
+    "genderRequired": "लिंग आवश्यक है",
+    "ageGroupRequired": "आयु समूह आवश्यक है",
+    "countryRequired": "देश आवश्यक है",
+    "introductionRequired": "परिचय आवश्यक है",
+    "introductionMin": "परिचय कम से कम 10 अक्षर का हो",
+    "introductionMax": "परिचय 500 अक्षर से कम हो",
+    "currentPasswordRequired": "वर्तमान पासवर्ड आवश्यक है",
+    "currentPasswordMin": "पासवर्ड कम से कम 6 अक्षर का हो",
+    "newPasswordRequired": "नया पासवर्ड आवश्यक है",
+    "newPasswordMin": "पासवर्ड कम से कम 6 अक्षर का हो",
+    "newPasswordMax": "पासवर्ड 128 अक्षर से कम हो",
+    "confirmPasswordRequired": "कृपया पासवर्ड पुष्टि करें",
+    "passwordsDoNotMatch": "पासवर्ड मेल नहीं खाते"
+  },
+  "completeProfile": {
+    "title": "अपनी प्रोफ़ाइल पूरी करें",
+    "subtitle": "पूरा करने पर 100 मुफ्त अंक",
+    "steps": {
+      "basicInformation": "मूल जानकारी",
+      "profilePhoto": "प्रोफ़ाइल फोटो"
+    },
+    "buttons": {
+      "skip": "छोड़ें",
+      "back": "पीछे",
+      "next": "आगे",
+      "completeProfile": "प्रोफ़ाइल पूरी करें",
+      "uploadingAndSaving": "सहेजा जा रहा है..."
+    },
+    "messages": {
+      "profilePhotoRequired": "प्रोफ़ाइल फोटो आवश्यक है",
+      "completeProfileFailed": "प्रोफ़ाइल पूरी नहीं हो सकी"
+    }
+  },
+  "deleteAccount": {
+    "title": "खाता हटाएं",
+    "remainingAssetsTitle": "शेष संपत्ति सारांश",
+    "remainingAssetsPointsLabel": "वर्तमान अंक शेष",
+    "remainingAssetsImagesLabel": "संग्रहीत/जेनेरेट की गई छवियों (थंबनेल) की संख्या",
+    "irreversibleLossTitle": "अपरिवर्तनीय हानि चेतावनी",
+    "irreversibleLoss1": "खाता हटाने पर अंक, वस्तुएं और संग्रहीत सामग्री सहित सभी डिजिटल संपत्ति स्थायी रूप से हटा दी जाएगी।",
+    "irreversibleLoss2": "यह क्रिया पूर्ववत नहीं की जा सकती।",
+    "irreversibleLoss3": "हटाया गया डेटा पुनर्प्राप्त नहीं किया जा सकता।",
+    "userContentNoticeTitle": "उपयोगकर्ता-निर्मित सामग्री सूचना",
+    "userContentNotice1": "आगे बढ़ने से पहले जो छवियां या सामग्री रखनी हो उन्हें डाउनलोड करें।",
+    "userContentNotice2": "आपके खाते से जुड़ी सभी छवियां और सामग्री हटाने के बाद स्थायी रूप से हटा दी जाएंगी।",
+    "finalConfirmationHeading": "अंतिम पुष्टि संदेश",
+    "finalConfirmationBullet": "आगे बढ़कर आप स्वीकार करते हैं कि शेष सभी संपत्ति स्थायी रूप से खो जाएगी।",
+    "finalConfirmationMessage": "आगे बढ़कर आप स्वीकार करते हैं कि शेष सभी संपत्ति स्थायी रूप से खो जाएगी।",
+    "cancelButton": "रद्द करें",
+    "deleteButton": "खाता हटाएं",
+    "deleting": "हटाया जा रहा है...",
+    "successMessage": "आपका खाता सफलतापूर्वक हटा दिया गया",
+    "errorMessage": "खाता हटाने में विफल",
+    "userNotFound": "उपयोगकर्ता ID नहीं मिला"
+  }
+}

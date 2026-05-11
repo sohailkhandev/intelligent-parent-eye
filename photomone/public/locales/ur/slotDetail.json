@@ -1,0 +1,60 @@
+{
+  "title": "تصویر کی تفصیلات",
+  "errors": {
+    "revealPointsFailed": "پوائنٹس ظاہر نہیں ہو سکے",
+    "claimPointsFailed": "پوائنٹس حاصل نہیں ہو سکے",
+    "exposuresMinForReveal": "پوائنٹس ظاہر کرنے کے لیے سلاٹ ایکسپوژر کم از کم 20 ہونا چاہیے",
+    "insufficientLockyForReveal": "پوائنٹس ظاہر کرنے کے لیے کم از کم 1 Locky درکار ہے"
+  },
+  "previewPhoto": {
+    "title": "تصویر کا پیش نظارہ",
+    "photoAlt": "تصویر",
+    "downloadAndShare": "ڈاؤن لوڈ اور شیئر",
+    "downloadPhotoSuccess": "تصویر ڈاؤن لوڈ ہوگئی",
+    "downloadFailed": "ڈاؤن لوڈ ناکام۔ تصویر محفوظ نہیں ہو سکی۔",
+    "ariaDownload": "تصویر ڈاؤن لوڈ کریں",
+    "ariaFacebook": "Facebook پر شیئر کریں",
+    "ariaTikTok": "TikTok پر شیئر کریں",
+    "ariaInstagram": "Instagram پر شیئر کریں"
+  },
+  "score": "اسکور:",
+  "unreliable": "کم قابل اعتماد",
+  "trustworthy": "قابل اعتماد",
+  "earnings": "آمدنی",
+  "tier": "ٹیر",
+  "progressWithinTier": "ستر کے اندر پیشرفت",
+  "exposures": "ایکسپوژر",
+  "collecting": "جمع ہو رہا ہے...",
+  "unknown": "نامعلوم",
+  "sellMoreToRank": "بغیر درجہ! درجہ بندی میں آنے کے لیے مزید بیچیں",
+  "revealPointsTitle": "پوائنٹس ظاہر کریں",
+  "revealPointsMessage": "کیا آپ یقین رکھتے ہیں؟",
+  "revealPointsLockySubtext": "1 لاکی استعمال کریں",
+  "revealButton": "ظاہر کریں",
+  "cancelButton": "منسوخ",
+  "claim": "حاصل کریں",
+  "claimed": "حاصل شدہ",
+  "claimWarningTitle": "پوائنٹس حاصل کریں",
+  "claimWarningMessage": "حاصل کرنے پر یہ سلاٹ مستقل طور پر غیر فعال ہو جائے گا۔ جاری رکھیں?",
+  "claimWarningPointsLabel": "حاصل کرنے والے پوائنٹس",
+  "rankLabels": {
+    "Below Standard": "معیار سے نیچے",
+    "Standard": "معیار",
+    "Above Standard": "معیار سے اوپر",
+    "Distinguished": "نمایاں",
+    "Prestige": "وقعت",
+    "Elite Class": "عالی کلاس",
+    "Icon Class": "آئیکن کلاس",
+    "Divine Class": "الہامی کلاس"
+  },
+  "tiers": {
+    "belowAverage": "اوسط سے نیچے",
+    "average": "اوسط",
+    "aboveAverage": "اوسط سے اوپر",
+    "maybeAttractive": "شاید پرکشش",
+    "attractive": "پرکشش",
+    "celebrityLevel": "مشہور شخصیت کی سطح",
+    "topClass": "اعلیٰ کلاس",
+    "godTier": "خدائی سطح"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "title": "Results",
+  "tabs": {
+    "purchased": "Purchased",
+    "trading": "Trading",
+    "fusion": "Fusion",
+    "history": "History"
+  },
+  "stats": {
+    "exposures": "Exposures",
+    "totalSales": "Total Sales",
+    "sellingRate": "Selling Rate",
+    "earnings": "Earnings"
+  },
+  "historyTable": {
+    "noSalesYet": "No Sales Yet",
+    "serialNumber": "S. No",
+    "photo": "Photo",
+    "sales": "Sales",
+    "sold": "Sold",
+    "unsold": "Unsold",
+    "market": "Market",
+    "time": "Time",
+    "earned": "Earned"
+  },
+  "fusionTable": {
+    "noFusionsYet": "No fusions yet",
+    "score": "Score",
+    "fusedAt": "Fused at",
+    "luckyEarned": "Locky earned",
+    "points": "Points"
+  },
+  "fusionDetail": {
+    "title": "Fusion details",
+    "fusedBadge": "Fused"
+  },
+  "marketDetails": {
+    "title": "Transaction Details",
+    "mySales": "My Sales",
+    "earned": "Earned",
+    "salePanelResult": "Sale Panel Result",
+    "you": "YOU",
+    "sold": "SOLD",
+    "saleSuccessful": "Sale Successful",
+    "saleFailed": "Sale Failed",
+    "photoOwner": "Photo Owner",
+    "id": "ID",
+    "backAriaLabel": "Back"
+  },
+  "sellingReport": {
+    "market": "Market",
+    "pointsEarned": "Points earned",
+    "exposures": "Exposures",
+    "numberOfSales": "No. of sales",
+    "score": "Score"
+  },
+  "socket": {
+    "photoUnsold": "Sale unsuccessful! Your photo did not make a sale in {market}.",
+    "photoSoldCongratulations": "Congratulations",
+    "photoSoldInMarket": "Your photo has been sold in {market}.",
+    "photoSoldBadge": "Photo sold",
+    "earnedPoints": "Earned points: {points}",
+    "checkResult": "Check result",
+    "cancel": "Cancel",
+    "soldPhotoAlt": "Sold photo"
+  },
+  "viewExposures": "View Exposures",
+  "exposuresTable": {
+    "title": "Active Exposures",
+    "serialNumber": "S. No",
+    "photo": "Photo",
+    "market": "Market",
+    "marketWithNumber": "Market {number}",
+    "remainingExposures": "Remaining",
+    "noData": "No data available"
+  },
+  "slot": {
+    "addSlot": "Add slot",
+    "slotLabel": "Slot {number}",
+    "slotEmpty": "Slot Empty",
+    "expired": "Expired",
+    "expires": "Expires: {timeRemaining}",
+    "showMore": "Show more",
+    "showLess": "Show less",
+    "timeHoursMinutes": "{hours}h {minutes}m",
+    "timeMinutes": "{minutes}m",
+    "timeSeconds": "{seconds}s"
+  },
+  "purchaseDialog": {
+    "title": "Purchase",
+    "numberOfSlots": "Number of slots",
+    "slot": "slot",
+    "slots": "slots",
+    "totalCost": "Total Cost:",
+    "yourPoints": "Your Points:",
+    "points": "points",
+    "insufficientPoints": "Insufficient points! You need {totalCost} points.",
+    "processing": "Processing...",
+    "purchaseSlot": "Purchase {count} slot",
+    "purchaseSlots": "Purchase {count} slots",
+    "cancel": "Cancel"
+  },
+  "messages": {
+    "purchaseSuccess": "Successfully purchased {count} {slotsLabel}!",
+    "purchaseFailed": "Failed to purchase slots. Please try again."
+  },
+  "a11y": {
+    "viewExposuresList": "View exposures list",
+    "photoThumbnail": "Photo",
+    "fusionThumbnail": "Fusion",
+    "photoGridItem": "Photo {index}",
+    "detailPhoto": "Photo",
+    "purchasedSlotImage": "Purchased photo in slot {number}",
+    "openPhotoDetails": "Open photo details"
+  },
+  "time": {
+    "justNow": "Just now",
+    "minutesAgo": "{minutes} minutes ago",
+    "minuteAgo": "{minutes} minute ago",
+    "hoursAgo": "{hours} hours ago",
+    "hourAgo": "{hours} hour ago",
+    "daysAgo": "{days} days ago",
+    "dayAgo": "{days} day ago",
+    "weeksAgo": "{weeks} weeks ago",
+    "weekAgo": "{weeks} week ago",
+    "monthsAgo": "{months} months ago",
+    "monthAgo": "{months} month ago",
+    "yearsAgo": "{years} years ago",
+    "yearAgo": "{years} year ago",
+    "na": "N/A",
+    "abbrev": {
+      "seconds": "{n}s",
+      "minutes": "{n}m",
+      "hours": "{n}h",
+      "days": "{n}d",
+      "weeks": "{n}w",
+      "years": "{n}y"
+    }
+  }
+}

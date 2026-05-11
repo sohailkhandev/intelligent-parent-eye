@@ -1,0 +1,39 @@
+{
+  "back": "Atrás",
+  "chatbotGreeting": "¡Hola!",
+  "chatbotPlaceholder": "Escribe tu pregunta...",
+  "title": "Atención al cliente",
+  "description": "Para cualquier consulta, no dudes en contactarnos.",
+  "responseTime": "Normalmente respondemos en 24-48 horas.",
+  "form": {
+    "name": "Nombre*",
+    "namePlaceholder": "Introduce tu nombre completo",
+    "email": "Correo electrónico*",
+    "emailPlaceholder": "Introduce tu correo electrónico",
+    "subject": "Asunto*",
+    "subjectPlaceholder": "Introduce el asunto",
+    "message": "Mensaje*",
+    "messagePlaceholder": "Introduce tu mensaje...",
+    "attachments": "Adjuntos",
+    "selectFiles": "Seleccionar archivos",
+    "addAttachment": "Añadir un archivo adjunto",
+    "removeFileAriaLabel": "Eliminar archivo",
+    "sendMessage": "Enviar mensaje",
+    "sending": "Enviando...",
+    "messageSent": "¡Mensaje enviado correctamente! Nos pondremos en contacto pronto.",
+    "messageFailed": "No se pudo enviar el mensaje. Inténtalo de nuevo."
+  },
+  "validation": {
+    "nameRequired": "El nombre es obligatorio",
+    "nameMin": "El nombre debe tener al menos 2 caracteres",
+    "nameMax": "El nombre debe tener menos de 100 caracteres",
+    "emailRequired": "El correo electrónico es obligatorio",
+    "emailInvalid": "Introduce una dirección de correo válida",
+    "subjectRequired": "El asunto es obligatorio",
+    "subjectMin": "El asunto debe tener al menos 3 caracteres",
+    "subjectMax": "El asunto debe tener menos de 200 caracteres",
+    "messageRequired": "El mensaje es obligatorio",
+    "messageMin": "El mensaje debe tener al menos 10 caracteres",
+    "messageMax": "El mensaje debe tener menos de 5000 caracteres"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "brandAlt": "PhotoMone",
+  "tagline": "Transformez vos images virtuelles en vraies récompenses.",
+  "description": "Créez des images virtuelles à partir de vos photos, améliorez-les par fusion, échangez-les sur la marketplace, gagnez des points et échangez-les contre des cartes-cadeaux ou d'autres récompenses.",
+  "siteMapTitle": "Plan du site",
+  "legalTitle": "Mentions légales",
+  "languageSectionTitle": "Langue",
+  "nav": {
+    "home": "Accueil",
+    "howItWorks": "Comment ça marche",
+    "faq": "FAQ",
+    "aboutUs": "À propos de nous",
+    "blog": "Blog",
+    "support": "Service client"
+  },
+  "legal": {
+    "privacyPolicy": "Politique de confidentialité",
+    "termsAndConditions": "Conditions générales"
+  },
+  "copyright": "© 2026 PhotoMone. Tous droits réservés.",
+  "social": {
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "youtube": "YouTube"
+  },
+  "images": {
+    "highlight": "PhotoMone"
+  }
+}

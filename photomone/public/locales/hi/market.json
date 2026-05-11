@@ -1,0 +1,47 @@
+{
+  "title": "मार्केट",
+  "screen": {
+    "selectPhoto": "फोटो चुनें",
+    "pickAPhoto": "अपनी पसंद की फोटो चुनें।",
+    "purchasing": "खरीदा जा रहा है...",
+    "waiting": "प्रतीक्षा",
+    "waitingEllipsis": "प्रतीक्षा...",
+    "purchasePhoto": "फोटो खरीदें",
+    "purchase": "खरीदें",
+    "instructionText": "कृपया एक फोटो चुनें और पुष्टि बटन दबाएं। ऐसा करने पर चुनी गई फोटो के पोर्ट्रेट अधिकार खरीदे जाएंगे।"
+  },
+  "container": {
+    "notInMarket": "आप किसी भी मार्केट में नहीं हैं",
+    "joinMarketFirst": "फोटो ट्रेडिंग में भाग लेने के लिए पहले किसी मार्केट में शामिल हों।",
+    "goToPhotomone": "PhotoMone पर जाएं"
+  },
+  "purchaseDialog": {
+    "title": "फोटो लाइसेंस खरीदें",
+    "licenseDuration": "लाइसेंस अवधि:",
+    "licenseDescription": "रीसेल केवल सक्रिय अवधि के दौरान ही अनुमत है।",
+    "licenseCost": "लाइसेंस लागत:",
+    "point": "पॉइंट",
+    "points": "पॉइंट्स",
+    "insufficientPoints": "पर्याप्त पॉइंट्स नहीं हैं! आपको {licenseCost} पॉइंट्स चाहिए।",
+    "processing": "प्रोसेस हो रहा है...",
+    "confirm": "पुष्टि करें",
+    "cancel": "रद्द करें"
+  },
+  "successDialog": {
+    "title": "खरीद सफल",
+    "message": "आपकी फोटो का पोर्ट्रेट अब 4 अन्य यूजर्स को दिखाया जा रहा है और वर्तमान में बिक्री पर है। आप जल्द ही रिजल्ट पेज पर परिणाम देख सकते हैं।",
+    "ok": "OK"
+  },
+  "messages": {
+    "purchaseSuccess": "फोटो लाइसेंस सफलतापूर्वक खरीदा गया!",
+    "purchaseFailed": "फोटो लाइसेंस खरीदने में विफल",
+    "slotIdMissing": "स्लॉट ID नहीं मिली। कृपया एक फोटो चुनें।"
+  },
+  "purchaseCongrats": {
+    "title": "बधाई हो!",
+    "ok": "ठीक",
+    "messageTemplate": "आपने {{market}} में {{highlight}} प्राप्त किए हैं",
+    "highlightOne": "1 एक्सपोज़र",
+    "highlightMany": "{count} एक्सपोज़र"
+  }
+}

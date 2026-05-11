@@ -1,0 +1,47 @@
+{
+  "title": "マーケット",
+  "screen": {
+    "selectPhoto": "写真を選択",
+    "pickAPhoto": "好きな写真を選んでください。",
+    "purchasing": "購入中...",
+    "waiting": "待機中",
+    "waitingEllipsis": "待機中...",
+    "purchasePhoto": "写真を購入",
+    "purchase": "購入",
+    "instructionText": "写真を選択して確認ボタンを押してください。選択した写真の肖像権が購入されます。"
+  },
+  "container": {
+    "notInMarket": "どのマーケットにも参加していません",
+    "joinMarketFirst": "写真取引に参加するには、先にマーケットへ参加してください。",
+    "goToPhotomone": "PhotoMoneへ移動"
+  },
+  "purchaseDialog": {
+    "title": "写真ライセンスを購入",
+    "licenseDuration": "ライセンス期間:",
+    "licenseDescription": "再販売は有効期間中のみ可能です。",
+    "licenseCost": "ライセンス費用:",
+    "point": "ポイント",
+    "points": "ポイント",
+    "insufficientPoints": "ポイントが不足しています！ {licenseCost} ポイント必要です。",
+    "processing": "処理中...",
+    "confirm": "確認",
+    "cancel": "キャンセル"
+  },
+  "successDialog": {
+    "title": "購入完了",
+    "message": "あなたの写真の肖像は現在4人のユーザーに公開され、販売中です。結果はまもなく結果ページで確認できます。",
+    "ok": "OK"
+  },
+  "messages": {
+    "purchaseSuccess": "写真ライセンスを購入しました！",
+    "purchaseFailed": "写真ライセンスの購入に失敗しました",
+    "slotIdMissing": "スロットIDがありません。写真を選択してください。"
+  },
+  "purchaseCongrats": {
+    "title": "おめでとうございます！",
+    "ok": "OK",
+    "messageTemplate": "{{market}}で{{highlight}}を獲得しました",
+    "highlightOne": "露出1回",
+    "highlightMany": "露出{count}回"
+  }
+}

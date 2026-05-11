@@ -1,6 +1,4 @@
 import { Outlet } from "react-router-dom";
-import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 import logo from "@assets/images/logo.png";
 import { COLORS } from "@constants";
 
@@ -20,17 +18,6 @@ export const AuthLayout = () => {
       <main className="pt-30 pb-12">
         <Outlet />
       </main>
-      <ToastContainer
-        position="top-right"
-        autoClose={3000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-      />
     </div>
   );
 };

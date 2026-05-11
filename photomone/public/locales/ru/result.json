@@ -1,0 +1,140 @@
+{
+  "title": "Результаты",
+  "tabs": {
+    "purchased": "Куплено",
+    "trading": "Торговля",
+    "fusion": "Слияние",
+    "history": "История"
+  },
+  "stats": {
+    "exposures": "Показы",
+    "totalSales": "Всего продаж",
+    "sellingRate": "Доля продаж",
+    "earnings": "Доход"
+  },
+  "historyTable": {
+    "noSalesYet": "Пока нет продаж",
+    "serialNumber": "№",
+    "photo": "Фото",
+    "sales": "Продажи",
+    "sold": "Продано",
+    "unsold": "Не продано",
+    "market": "Рынок",
+    "time": "Время",
+    "earned": "Заработано"
+  },
+  "fusionTable": {
+    "noFusionsYet": "Пока нет слияний",
+    "score": "Счёт",
+    "fusedAt": "Дата слияния",
+    "luckyEarned": "Locky получено",
+    "points": "Очки"
+  },
+  "fusionDetail": {
+    "title": "Детали слияния",
+    "fusedBadge": "Слито"
+  },
+  "marketDetails": {
+    "title": "Детали сделки",
+    "mySales": "Мои продажи",
+    "earned": "Заработано",
+    "salePanelResult": "Результат панели продаж",
+    "you": "ВЫ",
+    "sold": "ПРОДАНО",
+    "saleSuccessful": "Продажа успешна",
+    "saleFailed": "Продажа не удалась",
+    "photoOwner": "Владелец фото",
+    "id": "ID",
+    "backAriaLabel": "Назад"
+  },
+  "sellingReport": {
+    "market": "Рынок",
+    "pointsEarned": "Заработано очков",
+    "exposures": "Показы",
+    "numberOfSales": "Кол-во продаж",
+    "score": "Оценка"
+  },
+  "socket": {
+    "photoUnsold": "Продажа не состоялась! Ваше фото не было продано на рынке {market}.",
+    "photoSoldCongratulations": "Поздравляем",
+    "photoSoldInMarket": "Ваше фото продано на рынке {market}.",
+    "photoSoldBadge": "Фото продано",
+    "earnedPoints": "Заработано очков: {points}",
+    "checkResult": "Смотреть результат",
+    "cancel": "Отмена",
+    "soldPhotoAlt": "Проданное фото"
+  },
+  "viewExposures": "Показы",
+  "exposuresTable": {
+    "title": "Активные показы",
+    "serialNumber": "№",
+    "photo": "Фото",
+    "market": "Рынок",
+    "marketWithNumber": "Рынок {number}",
+    "remainingExposures": "Осталось",
+    "noData": "Нет данных"
+  },
+  "slot": {
+    "addSlot": "Добавить слот",
+    "slotLabel": "Слот {number}",
+    "slotEmpty": "Пустой слот",
+    "expired": "Истекло",
+    "expires": "Истекает: {timeRemaining}",
+    "showMore": "Показать ещё",
+    "showLess": "Свернуть",
+    "timeHoursMinutes": "{hours}ч {minutes}м",
+    "timeMinutes": "{minutes}м",
+    "timeSeconds": "{seconds}с"
+  },
+  "purchaseDialog": {
+    "title": "Покупка",
+    "numberOfSlots": "Количество слотов",
+    "slot": "слот",
+    "slots": "слотов",
+    "totalCost": "Итого:",
+    "yourPoints": "Ваши очки:",
+    "points": "очков",
+    "insufficientPoints": "Недостаточно очков! Нужно {totalCost} очков.",
+    "processing": "Обработка...",
+    "purchaseSlot": "Купить {count} слот",
+    "purchaseSlots": "Купить {count} слотов",
+    "cancel": "Отмена"
+  },
+  "messages": {
+    "purchaseSuccess": "Успешно куплено {count} {slotsLabel}!",
+    "purchaseFailed": "Не удалось купить слоты. Попробуйте снова."
+  },
+  "a11y": {
+    "viewExposuresList": "Список показов",
+    "photoThumbnail": "Фото",
+    "fusionThumbnail": "Слияние",
+    "photoGridItem": "Фото {index}",
+    "detailPhoto": "Фото",
+    "purchasedSlotImage": "Купленное фото в слоте {number}",
+    "openPhotoDetails": "Открыть детали фото"
+  },
+  "time": {
+    "justNow": "Только что",
+    "minutesAgo": "{minutes} мин. назад",
+    "minuteAgo": "{minutes} мин. назад",
+    "hoursAgo": "{hours} ч. назад",
+    "hourAgo": "{hours} ч. назад",
+    "daysAgo": "{days} дн. назад",
+    "dayAgo": "{days} дн. назад",
+    "weeksAgo": "{weeks} нед. назад",
+    "weekAgo": "{weeks} нед. назад",
+    "monthsAgo": "{months} мес. назад",
+    "monthAgo": "{months} мес. назад",
+    "yearsAgo": "{years} г. назад",
+    "yearAgo": "{years} г. назад",
+    "na": "Н/Д",
+    "abbrev": {
+      "seconds": "{n}с",
+      "minutes": "{n}м",
+      "hours": "{n}ч",
+      "days": "{n}д",
+      "weeks": "{n}н",
+      "years": "{n}л"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "title": "ショップ",
+  "tooltip": "獲得したポイントでギフトカードやポイントを購入できます。",
+  "tabs": {
+    "giftsShop": "ギフト",
+    "pointsShop": "ポイントショップ",
+    "history": "履歴"
+  },
+  "historySection": {
+    "pointsPackagesTitle": "ポイントパッケージ購入履歴",
+    "pointsPackagesDescription": "ポイントパックの購入履歴と詳細を確認できます。",
+    "giftCardsTitle": "ギフトカード購入履歴",
+    "giftCardsDescription": "ギフトカード申請とステータスを確認できます。"
+  },
+  "historyTable": {
+    "serialNumber": "No.",
+    "packageName": "パッケージ",
+    "price": "価格",
+    "points": "ポイント",
+    "bonus": "ボーナス",
+    "total": "合計",
+    "purchasedAt": "購入日時",
+    "noPurchasesYet": "購入履歴はまだありません"
+  },
+  "giftCardHistoryTable": {
+    "serialNumber": "No.",
+    "giftName": "ギフト",
+    "price": "価格",
+    "totalPoints": "合計ポイント",
+    "status": "ステータス",
+    "purchasedAt": "購入日時",
+    "noPurchasesYet": "ギフトカード購入履歴はまだありません"
+  },
+  "noGiftCards": "利用可能なギフトカードはありません",
+  "purchaseSuccess": "購入が完了しました！",
+  "purchaseFailed": "購入に失敗しました。もう一度お試しください。",
+  "giftCard": {
+    "giftCard": "ギフトカード",
+    "points": "ポイント",
+    "purchase": "購入",
+    "notEnoughPoints": "ポイント不足",
+    "processing": "処理中...",
+    "confirmPurchase": "確認",
+    "cancel": "キャンセル",
+    "receiveMessage": "管理者承認後、{name}ギフトカードがメールで届きます。",
+    "important": "重要:",
+    "companyChargeMessage": "ギフトカード代金に加えて15%の手数料が差し引かれます。",
+    "giftCardCost": "ギフトカード代金:",
+    "companyCharge": "手数料 (15%):",
+    "total": "合計:",
+    "insufficientPoints": "ポイントが不足しています。{totalDeduction}ポイント必要です（手数料込み）。",
+    "purchaseSuccessMessage": "{name}ギフトカードを購入しました！",
+    "purchaseFailedMessage": "ギフトカードの購入に失敗しました。もう一度お試しください。"
+  },
+  "pointsPackage": {
+    "points": "ポイント",
+    "purchaseNow": "今すぐ購入",
+    "processing": "処理中...",
+    "purchaseFailed": "購入に失敗しました。もう一度お試しください。",
+    "purchaseSuccessTemplate": "{pack}の購入に成功しました！",
+    "mostPopular": "一番人気"
+  },
+  "packNames": {
+    "Welcome Pack": "ウェルカムパック",
+    "Starter Pack": "スターターパック",
+    "Popular Pack": "人気パック",
+    "Premium Pack": "プレミアムパック",
+    "Unlimited Pack": "無制限パック",
+    "Ultimate Pack": "アルティメットパック",
+    "Mega Pack": "メガパック"
+  },
+  "time": {
+    "na": "なし",
+    "justNow": "たった今",
+    "minuteAgo": "{minutes}分前",
+    "minutesAgo": "{minutes}分前",
+    "hourAgo": "{hours}時間前",
+    "hoursAgo": "{hours}時間前",
+    "dayAgo": "{days}日前",
+    "daysAgo": "{days}日前"
+  },
+  "ticketDescription": "{amount}相当のチケットを獲得"
+}

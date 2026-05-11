@@ -1,0 +1,96 @@
+{
+  "hero": {
+    "badge": "AI-Generated Image Marketplace",
+    "titleBefore": "Profit From Your Photo",
+    "titleHighlight": "Fusions",
+    "subtitle": "Transform your photos through AI-powered fusion and start earning from your creations. Create, fuse, and monetize your images—all in one platform.",
+    "createTitle": "CREATE",
+    "createBody": "Upload your photo and let AI generate a unique virtual image.",
+    "tradeTitle": "TRADE",
+    "tradeBody": "Buy and sell images in real-time and earn exposure instantly.",
+    "enhanceTitle": "ENHANCE",
+    "enhanceBody": "Fuse two photos to enhance features and create trade-ready images.",
+    "cta": "Join now and get 100 bonus points."
+  },
+  "sectionCreate": {
+    "heading": "CREATE IMAGES",
+    "bullets": [
+      "Prepare your face photo and upload it to an empty gallery slot.",
+      "AI verifies the photo contains a real human face.",
+      "Based on your facial structure, it generates a completely new virtual image.",
+      "The created image is automatically added to your gallery, ready for trading or enhancement."
+    ]
+  },
+  "sectionTrade": {
+    "heading": "TRADE WITH CONFIDENCE",
+    "bullets": [
+      "Click Purchase to buy images you like from the marketplace.",
+      "Purchasing an image immediately gives you exposure opportunities for your own photos.",
+      "Click Sell, select a gallery image, set exposure value, and start selling in real-time.",
+      "After a successful sale, a congratulatory screen and final sales summary appear.",
+      "All trading follows fair system rules for transparency and reliability."
+    ]
+  },
+  "sectionFusion": {
+    "heading": "ENHANCE WITH FUSION",
+    "bullets": [
+      "Fuse two photos to create upgraded images using facial attribute values.",
+      "Fusion requires a minimum score earned from previous trades.",
+      "Each photo can be fused up to six times to gradually enhance appeal.",
+      "A fused image's value is ultimately determined by other users and confirmed via license sales.",
+      "Newly fused images can then be traded, creating additional earning opportunities."
+    ]
+  },
+  "landingFeatures": {
+    "badge": "Features",
+    "title": "All Features in One",
+    "left": [
+      "Upload your face photo and let AI generate a completely new, one-of-a-kind virtual image.",
+      "Buy and sell images in real-time, earning exposure and tracking your sales instantly.",
+      "Earn points and rewards by selling images and leveraging AI-enhanced virtual assets."
+    ],
+    "right": [
+      "Fuse two photos to refine facial features and create sharper, trade-ready images.",
+      "Increase your image's score through trading and fusion to boost their marketplace value.",
+      "Apply sponsor products or backgrounds to images for fresh earning opportunities."
+    ]
+  },
+  "landingHowItWorks": {
+    "badge": "Our Process",
+    "title": "How It Works",
+    "steps": [
+      {
+        "title": "Start with Your Photo",
+        "description": "Choose a photo of your face and upload it to an empty gallery slot. The AI will verify it's a real human face."
+      },
+      {
+        "title": "Generate a Virtual Image",
+        "description": "Based on your facial structure, the AI creates a completely new virtual face that doesn't exist anywhere else."
+      },
+      {
+        "title": "Enhance Through Fusion",
+        "description": "Select two photos and fuse them to improve facial features. Fusion can be repeated multiple times to gradually enhance your images."
+      },
+      {
+        "title": "List and Trade",
+        "description": "Put your images up for sale or purchase others. Each trade gives points and exposure opportunities to help grow your image's value."
+      },
+      {
+        "title": "Increase Image Value",
+        "description": "Score your images through trading, fusion, and other activities. Higher scores mean higher value and better earning potential."
+      },
+      {
+        "title": "Redeem Rewards",
+        "description": "Collect points from your activities and exchange them for gift cards or other real-world rewards."
+      }
+    ]
+  },
+  "images": {
+    "blueEllipse": "blue ellipse",
+    "leftPhone": "PhotoMone app on mobile",
+    "rightPhone": "PhotoMone Face Rank and Certificate",
+    "fusion": "Photo fusion examples",
+    "photoMoneShape": "PhotoMone",
+    "heroCard": "hero section card"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "back": "واپس",
+  "chatbotGreeting": "السلام علیکم!",
+  "chatbotPlaceholder": "اپنا سوال لکھیں...",
+  "title": "کسٹمر سپورٹ",
+  "description": "کسی بھی استفسار کے لیے بلا جھجھک ہم سے رابطہ کریں۔",
+  "responseTime": "ہم عام طور پر 24 سے 48 گھنٹوں میں جواب دیتے ہیں۔",
+  "form": {
+    "name": "نام*",
+    "namePlaceholder": "پورا نام درج کریں",
+    "email": "ای میل*",
+    "emailPlaceholder": "اپنا ای میل درج کریں",
+    "subject": "موضوع*",
+    "subjectPlaceholder": "موضوع درج کریں",
+    "message": "پیغام*",
+    "messagePlaceholder": "اپنا پیغام لکھیں...",
+    "attachments": "منسلکات",
+    "selectFiles": "فائلیں منتخب کریں",
+    "addAttachment": "منسلکہ شامل کریں",
+    "removeFileAriaLabel": "فائل ہٹائیں",
+    "sendMessage": "پیغام بھیجیں",
+    "sending": "بھیجا جا رہا ہے...",
+    "messageSent": "پیغام کامیابی سے بھیج دیا گیا! ہم جلد آپ سے رابطہ کریں گے۔",
+    "messageFailed": "پیغام نہیں بھیجا جا سکا۔ براہ کرم دوبارہ کوشش کریں۔"
+  },
+  "validation": {
+    "nameRequired": "نام درکار ہے",
+    "nameMin": "نام کم از کم 2 حروف کا ہونا چاہیے",
+    "nameMax": "نام 100 حروف سے کم ہونا چاہیے",
+    "emailRequired": "ای میل درکار ہے",
+    "emailInvalid": "درست ای میل پتہ درج کریں",
+    "subjectRequired": "موضوع درکار ہے",
+    "subjectMin": "موضوع کم از کم 3 حروف کا ہونا چاہیے",
+    "subjectMax": "موضوع 200 حروف سے کم ہونا چاہیے",
+    "messageRequired": "پیغام درکار ہے",
+    "messageMin": "پیغام کم از کم 10 حروف کا ہونا چاہیے",
+    "messageMax": "پیغام 5000 حروف سے کم ہونا چاہیے"
+  }
+}

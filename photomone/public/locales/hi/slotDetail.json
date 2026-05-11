@@ -1,0 +1,60 @@
+{
+  "title": "फोटो विवरण",
+  "errors": {
+    "revealPointsFailed": "पॉइंट्स दिखाए नहीं जा सके",
+    "claimPointsFailed": "पॉइंट्स क्लेम नहीं हो सके",
+    "exposuresMinForReveal": "पॉइंट्स दिखाने के लिए स्लॉट एक्सपोज़र कम से कम 20 होना चाहिए",
+    "insufficientLockyForReveal": "पॉइंट्स दिखाने के लिए कम से कम 1 Locky चाहिए"
+  },
+  "previewPhoto": {
+    "title": "फोटो पूर्वावलोकन",
+    "photoAlt": "फोटो",
+    "downloadAndShare": "डाउनलोड और शेयर",
+    "downloadPhotoSuccess": "फोटो डाउनलोड हो गई",
+    "downloadFailed": "डाउनलोड विफल। फोटो सहेजा नहीं जा सका।",
+    "ariaDownload": "फोटो डाउनलोड करें",
+    "ariaFacebook": "Facebook पर शेयर करें",
+    "ariaTikTok": "TikTok पर शेयर करें",
+    "ariaInstagram": "Instagram पर शेयर करें"
+  },
+  "score": "स्कोर:",
+  "unreliable": "कम भरोसेमंद",
+  "trustworthy": "भरोसेमंद",
+  "earnings": "कमाई",
+  "tier": "स्तर",
+  "progressWithinTier": "स्तर में प्रगति",
+  "exposures": "एक्सपोज़र",
+  "collecting": "एकत्र कर रहे हैं...",
+  "unknown": "अज्ञात",
+  "sellMoreToRank": "अनरैंक्ड! रैंकिंग में आने के लिए और बेचें",
+  "revealPointsTitle": "पॉइंट्स दिखाएं",
+  "revealPointsMessage": "क्या आप निश्चित हैं?",
+  "revealPointsLockySubtext": "1 लॉकी उपयोग करें",
+  "revealButton": "दिखाएं",
+  "cancelButton": "रद्द करें",
+  "claim": "क्लेम करें",
+  "claimed": "क्लेम किया गया",
+  "claimWarningTitle": "पॉइंट्स क्लेम करें",
+  "claimWarningMessage": "क्लेम करने पर यह स्लॉट स्थायी रूप से निष्क्रिय हो जाएगा। जारी रखें?",
+  "claimWarningPointsLabel": "क्लेम किए जाने वाले पॉइंट्स",
+  "rankLabels": {
+    "Below Standard": "मानक से नीचे",
+    "Standard": "मानक",
+    "Above Standard": "मानक से ऊपर",
+    "Distinguished": "विशिष्ट",
+    "Prestige": "प्रतिष्ठा",
+    "Elite Class": "एलीट क्लास",
+    "Icon Class": "आइकन क्लास",
+    "Divine Class": "दिव्य क्लास"
+  },
+  "tiers": {
+    "belowAverage": "औसत से नीचे",
+    "average": "औसत",
+    "aboveAverage": "औसत से ऊपर",
+    "maybeAttractive": "शायद आकर्षक",
+    "attractive": "आकर्षक",
+    "celebrityLevel": "सेलिब्रिटी स्तर",
+    "topClass": "टॉप क्लास",
+    "godTier": "गॉड टियर"
+  }
+}

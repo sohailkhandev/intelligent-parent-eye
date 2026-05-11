@@ -1,0 +1,83 @@
+{
+  "title": "شاپ",
+  "tooltip": "اپنے کمائے ہوئے پوائنٹس سے گفٹ کارڈ یا پوائنٹس خریدیں۔",
+  "tabs": {
+    "giftsShop": "تحائف",
+    "pointsShop": "پوائنٹس شاپ",
+    "history": "ہسٹری"
+  },
+  "historySection": {
+    "pointsPackagesTitle": "پوائنٹس پیکیج خریداری",
+    "pointsPackagesDescription": "اپنی پوائنٹس پیک خریداری کی ہسٹری اور تفصیل دیکھیں۔",
+    "giftCardsTitle": "گفٹ کارڈ خریداری",
+    "giftCardsDescription": "اپنی گفٹ کارڈ درخواستیں اور ان کی حالت دیکھیں۔"
+  },
+  "historyTable": {
+    "serialNumber": "نمبر",
+    "packageName": "پیکیج",
+    "price": "قیمت",
+    "points": "پوائنٹس",
+    "bonus": "بونس",
+    "total": "کل",
+    "purchasedAt": "خریداری وقت",
+    "noPurchasesYet": "ابھی تک کوئی خریداری نہیں"
+  },
+  "giftCardHistoryTable": {
+    "serialNumber": "نمبر",
+    "giftName": "گفٹ",
+    "price": "قیمت",
+    "totalPoints": "کل پوائنٹس",
+    "status": "اسٹیٹس",
+    "purchasedAt": "خریداری وقت",
+    "noPurchasesYet": "ابھی تک کوئی گفٹ کارڈ خریداری نہیں"
+  },
+  "noGiftCards": "کوئی گفٹ کارڈ دستیاب نہیں",
+  "purchaseSuccess": "خریداری کامیابی سے مکمل ہوگئی!",
+  "purchaseFailed": "خریداری ناکام ہوگئی۔ براہ کرم دوبارہ کوشش کریں۔",
+  "giftCard": {
+    "giftCard": "گفٹ کارڈ",
+    "points": "پوائنٹس",
+    "purchase": "خریدیں",
+    "notEnoughPoints": "پوائنٹس ناکافی ہیں",
+    "processing": "پروسیسنگ...",
+    "confirmPurchase": "تصدیق",
+    "cancel": "منسوخ",
+    "receiveMessage": "ایڈمن منظوری کے بعد آپ کو {name} گفٹ کارڈ ای میل سے ملے گا۔",
+    "important": "اہم:",
+    "companyChargeMessage": "گفٹ کارڈ لاگت کے علاوہ 15% کمپنی چارج کاٹا جائے گا۔",
+    "giftCardCost": "گفٹ کارڈ لاگت:",
+    "companyCharge": "کمپنی چارج (15%):",
+    "total": "کل:",
+    "insufficientPoints": "پوائنٹس ناکافی ہیں! آپ کو {totalDeduction} پوائنٹس درکار ہیں (کمپنی چارج سمیت).",
+    "purchaseSuccessMessage": "{name} گفٹ کارڈ کامیابی سے خریدا گیا!",
+    "purchaseFailedMessage": "گفٹ کارڈ خریداری ناکام ہوگئی۔ براہ کرم دوبارہ کوشش کریں۔"
+  },
+  "pointsPackage": {
+    "points": "پوائنٹس",
+    "purchaseNow": "ابھی خریدیں",
+    "processing": "پروسیسنگ...",
+    "purchaseFailed": "خریداری ناکام ہوگئی۔ براہ کرم دوبارہ کوشش کریں۔",
+    "purchaseSuccessTemplate": "آپ نے {pack} کامیابی سے خریدا ہے!",
+    "mostPopular": "سب سے مقبول"
+  },
+  "packNames": {
+    "Welcome Pack": "ویلکم پیک",
+    "Starter Pack": "اسٹارٹر پیک",
+    "Popular Pack": "پاپولر پیک",
+    "Premium Pack": "پریمیم پیک",
+    "Unlimited Pack": "ان لمیٹڈ پیک",
+    "Ultimate Pack": "الٹیمیٹ پیک",
+    "Mega Pack": "میگا پیک"
+  },
+  "time": {
+    "na": "دستیاب نہیں",
+    "justNow": "ابھی",
+    "minuteAgo": "{minutes} منٹ پہلے",
+    "minutesAgo": "{minutes} منٹ پہلے",
+    "hourAgo": "{hours} گھنٹہ پہلے",
+    "hoursAgo": "{hours} گھنٹے پہلے",
+    "dayAgo": "{days} دن پہلے",
+    "daysAgo": "{days} دن پہلے"
+  },
+  "ticketDescription": "{amount} مالیت کا ٹکٹ حاصل کریں"
+}

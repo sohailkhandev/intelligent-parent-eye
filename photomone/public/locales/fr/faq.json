@@ -1,0 +1,191 @@
+{
+  "back": "Retour",
+  "title": "FAQ utilisateur PhotoMone",
+  "hero": {
+    "badge": "FAQ",
+    "titleBefore": "Utilisateur PhotoMone",
+    "titleLast": "FAQ"
+  },
+  "support": {
+    "sectionBadge": "Support",
+    "question": "Comment puis-je obtenir l'assistance client ?",
+    "text": "Veuillez contacter notre équipe support :",
+    "email": "support@photomone.com",
+    "button": "Contacter le support"
+  },
+  "categories": [
+    {
+      "title": "Général",
+      "faqs": [
+        {
+          "question": "Qu'est-ce que cette plateforme ?",
+          "answer": "Cette plateforme permet de créer des photos générées par AI, d'échanger des licences photo et de gagner des récompenses grâce à l'exposition et à l'engagement."
+        },
+        {
+          "question": "L'inscription est-elle gratuite ?",
+          "answer": "Oui, l'inscription est entièrement gratuite."
+        },
+        {
+          "question": "Ai-je une récompense à l'inscription ?",
+          "answer": "Oui, vous recevrez **100 points gratuits** après avoir complété votre profil."
+        }
+      ]
+    },
+    {
+      "title": "Compte et profil",
+      "faqs": [
+        {
+          "question": "Puis-je m'inscrire avec Google ?",
+          "answer": "Oui, vous pouvez vous inscrire via la connexion Google ou l'e-mail."
+        },
+        {
+          "question": "Puis-je modifier mes informations de profil plus tard ?",
+          "answer": "Oui, vous pouvez mettre à jour votre profil à tout moment dans le menu **Compte**."
+        },
+        {
+          "question": "Que se passe-t-il si je supprime mon compte ?",
+          "answer": "Toutes vos données (photos, points, scores, etc.) seront définitivement supprimées et **ne pourront pas être récupérées.**"
+        }
+      ]
+    },
+    {
+      "title": "Téléversement et galerie",
+      "faqs": [
+        {
+          "question": "Quels types de photos puis-je téléverser ?",
+          "answer": "Seules les **photos réelles de visage humain** sont autorisées."
+        },
+        {
+          "question": "Puis-je téléverser des animaux, dessins ou arrière-plans ?",
+          "answer": "Non. Les images non humaines (animaux, dessins, arrière-plans, etc.) ne seront pas enregistrées dans la galerie."
+        },
+        {
+          "question": "Combien de temps prend la génération photo ?",
+          "answer": "Après avoir cliqué sur « Valider et générer », cela prend environ **30 secondes**."
+        },
+        {
+          "question": "Pourquoi n'ai-je que deux images générées ?",
+          "answer": "Le système fournit deux résultats optimisés pour que vous choisissiez le meilleur."
+        },
+        {
+          "question": "Puis-je téléverser plusieurs photos ?",
+          "answer": "Oui, vous pouvez téléverser plusieurs photos dans votre galerie."
+        }
+      ]
+    },
+    {
+      "title": "Achat et exposition",
+      "faqs": [
+        {
+          "question": "Pourquoi dois-je acheter des photos d'autres utilisateurs ?",
+          "answer": "L'achat de licences photo vous donne des **opportunités d'exposition**, qui vous aident à vendre vos propres photos."
+        },
+        {
+          "question": "Que sont les opportunités d'exposition ?",
+          "answer": "Elles indiquent combien de fois votre photo peut être montrée aux autres."
+        },
+        {
+          "question": "Combien d'opportunités d'exposition puis-je obtenir ?",
+          "answer": "Par achat, vous pouvez recevoir entre **1 et 99 expositions**."
+        },
+        {
+          "question": "Puis-je choisir le nombre d'expositions ?",
+          "answer": "Non, le montant est attribué aléatoirement dans la plage indiquée."
+        }
+      ]
+    },
+    {
+      "title": "Vendre des photos",
+      "faqs": [
+        {
+          "question": "Comment vendre mes photos ?",
+          "answer": "Sélectionnez un marché, une photo, définissez l'exposition et cliquez sur **Vendre**."
+        },
+        {
+          "question": "Que se passe-t-il si ma photo ne se vend pas ?",
+          "answer": "Vous recevrez une **notification d'échec** et la tentative de vente s'arrête."
+        },
+        {
+          "question": "Comment savoir si ma photo se vend ?",
+          "answer": "Vous recevrez des **notifications en temps réel** sur l'avancement des ventes."
+        },
+        {
+          "question": "Que se passe-t-il quand toutes les expositions sont utilisées ?",
+          "answer": "Une **fenêtre contextuelle de synthèse finale** affichera vos résultats."
+        }
+      ]
+    },
+    {
+      "title": "Fusion de photos",
+      "faqs": [
+        {
+          "question": "Qu'est-ce que la fusion de photos ?",
+          "answer": "C'est une fonctionnalité qui combine deux photos pour en créer une nouvelle."
+        },
+        {
+          "question": "Quelles sont les exigences pour la fusion ?",
+          "answer": "Votre photo doit avoir un **score de 5 ou plus**."
+        },
+        {
+          "question": "Combien de temps prend la fusion ?",
+          "answer": "Après avoir cliqué sur **Fusionner**, le traitement est court."
+        }
+      ]
+    },
+    {
+      "title": "Points et récompenses",
+      "faqs": [
+        {
+          "question": "À quoi servent les points ?",
+          "answer": "Les points peuvent être utilisés sur la plateforme et échangés contre des récompenses comme des cartes cadeaux."
+        },
+        {
+          "question": "Comment voir les scores masqués ?",
+          "answer": "Vous pouvez utiliser **1 verrou** pour déverrouiller et afficher les scores de points masqués."
+        },
+        {
+          "question": "Comment utiliser une carte cadeau ?",
+          "answer": "Une fois le niveau de points requis atteint, vous pouvez demander une carte cadeau ; les détails seront envoyés par e-mail."
+        }
+      ]
+    },
+    {
+      "title": "Forfaits et paiements",
+      "faqs": [
+        {
+          "question": "Que sont les forfaits ?",
+          "answer": "Les forfaits incluent des **tickets d'entrée au marché** permettant de participer à différents marchés."
+        },
+        {
+          "question": "Comment fonctionnent les tickets ?",
+          "answer": "Chaque ticket permet d'entrer sur **un marché** ; l'utilisation dépend du prix de base du marché."
+        },
+        {
+          "question": "Puis-je annuler un forfait acheté ?",
+          "answer": "Non. **Tous les achats de forfaits sont non remboursables.**"
+        },
+        {
+          "question": "Quels moyens de paiement sont pris en charge ?",
+          "answer": "Les paiements se font par **carte bancaire.**"
+        }
+      ]
+    },
+    {
+      "title": "Politiques et restrictions",
+      "faqs": [
+        {
+          "question": "Puis-je être remboursé après utilisation d'un forfait ?",
+          "answer": "Non, une fois acheté et utilisé, il **ne peut pas être remboursé.**"
+        },
+        {
+          "question": "Que se passe-t-il si je téléverse une photo invalide ?",
+          "answer": "Si la photo n'est pas un visage humain valide, elle **ne sera pas ajoutée à la galerie.**"
+        },
+        {
+          "question": "Y a-t-il une limite pour supprimer et recréer des comptes ?",
+          "answer": "La suppression du compte est définitive ; les données supprimées ne peuvent pas être restaurées."
+        }
+      ]
+    }
+  ]
+}

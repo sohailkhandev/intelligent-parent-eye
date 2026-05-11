@@ -1,63 +1,157 @@
 import { Box } from "@mui/material";
-import { useAuthContext } from "@providers";
 import { COLORS } from "@constants";
+import { ValidatedInput } from "@components";
 
-export const SettingsScreen = () => {
-  const { authUser } = useAuthContext();
+interface SettingsScreenProps {
+  connectionCode: string;
+  email: string;
+  fullName: string;
+  fullNameError: string | null;
+  isSaveDisabled: boolean;
+  isSubmitting: boolean;
+  onFullNameChange: (value: string) => void;
+  onSubmit: () => void;
+}
 
+export const SettingsScreen = ({
+  connectionCode,
+  email,
+  fullName,
+  fullNameError,
+  isSaveDisabled,
+  isSubmitting,
+  onFullNameChange,
+  onSubmit,
+}: SettingsScreenProps) => {
   return (
-    <Box className="space-y-6">
+    <Box className="space-y-8 max-w-4xl">
       <div>
-        <h1 className="text-2xl font-bold" style={{ color: COLORS.generalText }}>
+        <h1
+          className="text-2xl font-bold"
+          style={{ color: COLORS.generalText }}
+        >
           Settings
         </h1>
         <p
           className="text-sm mt-1"
           style={{ color: COLORS.generalText, opacity: 0.7 }}
         >
-          Account and app preferences
+          Update your parent account details and keep your profile information current.
         </p>
       </div>
 
       <Box
-        className="rounded-xl p-5 max-w-xl"
+        className="rounded-2xl p-6 lg:p-8"
         sx={{
           backgroundColor: COLORS.white,
           border: `1px solid ${COLORS.border}`,
+          boxShadow: `0 8px 24px ${COLORS.border}`,
+          background: `linear-gradient(135deg, ${COLORS.white} 0%, ${COLORS.primary}08 100%)`,
         }}
       >
-        <h2 className="text-base font-semibold mb-4" style={{ color: COLORS.generalText }}>
-          Profile
-        </h2>
-        <div className="space-y-3">
-          <div className="flex justify-between py-2" style={{ borderBottom: `1px solid ${COLORS.border}` }}>
-            <span className="text-sm" style={{ color: COLORS.generalText, opacity: 0.8 }}>Full name</span>
-            <span className="text-sm font-medium" style={{ color: COLORS.generalText }}>{authUser?.fullName ?? "—"}</span>
+        <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
+          <div className="max-w-xl">
+            <p
+              className="text-sm font-medium uppercase tracking-[0.2em] mb-2"
+              style={{ color: COLORS.primary }}
+            >
+              Parent Profile
+            </p>
+            <h2
+              className="text-2xl font-bold"
+              style={{ color: COLORS.generalText }}
+            >
+              Manage your account details
+            </h2>
+            <p
+              className="text-sm mt-2"
+              style={{ color: COLORS.generalText, opacity: 0.75 }}
+            >
+              Only your name can be edited here. Email and connection code stay read-only for account security.
+            </p>
           </div>
-          <div className="flex justify-between py-2" style={{ borderBottom: `1px solid ${COLORS.border}` }}>
-            <span className="text-sm" style={{ color: COLORS.generalText, opacity: 0.8 }}>Email</span>
-            <span className="text-sm font-medium" style={{ color: COLORS.generalText }}>{authUser?.email ?? "—"}</span>
-          </div>
-          <div className="flex justify-between py-2" style={{ borderBottom: `1px solid ${COLORS.border}` }}>
-            <span className="text-sm" style={{ color: COLORS.generalText, opacity: 0.8 }}>Connection code</span>
-            <span className="text-sm font-medium" style={{ color: COLORS.primary }}>{authUser?.code ?? "—"}</span>
-          </div>
+
+          <Box
+            className="rounded-2xl px-4 py-3 w-full lg:max-w-[240px]"
+            sx={{
+              backgroundColor: COLORS.white,
+              border: `1px solid ${COLORS.border}`,
+              boxShadow: `0 4px 14px ${COLORS.border}`,
+            }}
+          >
+            <p
+              className="text-xs uppercase tracking-[0.18em]"
+              style={{ color: COLORS.generalText, opacity: 0.55 }}
+            >
+              Connection code
+            </p>
+            <p
+              className="text-xl font-bold mt-2"
+              style={{ color: COLORS.primary, letterSpacing: "0.12em" }}
+            >
+              {connectionCode}
+            </p>
+          </Box>
         </div>
       </Box>
 
       <Box
-        className="rounded-xl p-5 max-w-xl"
+        className="rounded-2xl p-6 lg:p-8"
         sx={{
           backgroundColor: COLORS.white,
           border: `1px solid ${COLORS.border}`,
+          boxShadow: `0 8px 24px ${COLORS.border}`,
         }}
       >
-        <h2 className="text-base font-semibold mb-4" style={{ color: COLORS.generalText }}>
-          Notifications
-        </h2>
-        <p className="text-sm" style={{ color: COLORS.generalText, opacity: 0.8 }}>
-          Configure how you receive alerts (email, push). Coming soon.
-        </p>
+        <div className="flex flex-col gap-6">
+          <div>
+            <h2
+              className="text-lg font-semibold"
+              style={{ color: COLORS.generalText }}
+            >
+              Edit profile
+            </h2>
+            <p
+              className="text-sm mt-1"
+              style={{ color: COLORS.generalText, opacity: 0.7 }}
+            >
+              Keep your displayed parent name up to date across the dashboard.
+            </p>
+          </div>
+
+          <div className="grid gap-5 md:grid-cols-2">
+            <ValidatedInput
+              label="Full name"
+              placeholder="Enter your full name"
+              required
+              value={fullName}
+              onChange={onFullNameChange}
+              error={!!fullNameError}
+              helperText={fullNameError ?? ""}
+            />
+
+            <ValidatedInput
+              label="Email"
+              value={email}
+              disabled
+            />
+          </div>
+
+          <div className="flex justify-end">
+            <button
+              type="button"
+              onClick={onSubmit}
+              disabled={isSaveDisabled}
+              className="min-w-[160px] py-3 px-5 rounded-xl text-sm font-medium transition-opacity disabled:opacity-60 disabled:cursor-not-allowed"
+              style={{
+                color: COLORS.white,
+                backgroundColor: COLORS.primary,
+              }}
+            >
+              {isSubmitting ? "Saving..." : "Save changes"}
+            </button>
+          </div>
+        </div>
       </Box>
     </Box>
   );

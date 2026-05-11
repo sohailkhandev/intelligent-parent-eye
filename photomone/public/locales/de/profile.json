@@ -1,0 +1,142 @@
+{
+  "title": "Profil",
+  "heading": "Konto",
+  "editProfile": "Profil bearbeiten",
+  "deleteProfile": "Profil löschen",
+  "editProfileDialogTitle": "Profil bearbeiten",
+  "a11y": {
+    "profileAvatarAlt": "Profilfoto",
+    "changeProfilePhoto": "Profilfoto ändern"
+  },
+  "tabs": {
+    "profile": "Profil",
+    "profileInformation": "Profilinformationen",
+    "password": "Passwort",
+    "changePassword": "Passwort ändern"
+  },
+  "screenTabs": {
+    "profile": "Profil",
+    "rewards": "Prämien",
+    "wallet": "Wallet"
+  },
+  "ageGroupOptions": {
+    "18-25": "18–25 Jahre",
+    "26-35": "26–35 Jahre",
+    "36-45": "36–45 Jahre",
+    "46-55": "46–55 Jahre",
+    "56-65": "56–65 Jahre",
+    "65+": "65+"
+  },
+  "comingSoon": {
+    "title": "Demnächst",
+    "description": "In Zukunft wird die Coin-Verwaltung hinzugefügt."
+  },
+  "screen": {
+    "user": "Benutzer",
+    "years": "Jahre"
+  },
+  "fields": {
+    "displayName": "Anzeigename",
+    "email": "E-Mail",
+    "gender": "Geschlecht",
+    "ageGroup": "Altersgruppe",
+    "country": "Land",
+    "introduction": "Über mich",
+    "currentPassword": "Aktuelles Passwort",
+    "newPassword": "Neues Passwort",
+    "confirmNewPassword": "Neues Passwort bestätigen"
+  },
+  "placeholders": {
+    "enterDisplayName": "Anzeigename eingeben",
+    "selectGender": "Geschlecht wählen",
+    "selectAgeGroup": "Altersgruppe wählen",
+    "selectCountry": "Land auswählen",
+    "tellAboutYourself": "Erzählen Sie etwas über sich...",
+    "enterCurrentPassword": "Aktuelles Passwort eingeben",
+    "enterNewPassword": "Neues Passwort (mind. 6 Zeichen)",
+    "confirmNewPassword": "Neues Passwort wiederholen"
+  },
+  "genderOptions": {
+    "male": "Männlich",
+    "female": "Weiblich",
+    "other": "Divers",
+    "preferNotToSay": "Keine Angabe"
+  },
+  "buttons": {
+    "saveChanges": "Änderungen speichern",
+    "cancel": "Abbrechen",
+    "update": "Aktualisieren",
+    "updatePassword": "Passwort aktualisieren",
+    "saving": "Speichern...",
+    "updating": "Aktualisieren..."
+  },
+  "messages": {
+    "profileUpdatedSuccess": "Profil erfolgreich aktualisiert",
+    "profileUpdateFailed": "Profil konnte nicht aktualisiert werden",
+    "passwordUpdatedSuccess": "Passwort erfolgreich geändert",
+    "passwordUpdateFailed": "Passwort konnte nicht geändert werden",
+    "profilePictureUpdatedSuccess": "Profilfoto erfolgreich aktualisiert",
+    "profilePictureUpdateFailed": "Profilfoto konnte nicht aktualisiert werden",
+    "pleaseSelectImageFile": "Bitte wählen Sie eine Bilddatei",
+    "imageSizeShouldBeLessThan1MB": "Bildgröße muss unter 1 MB liegen"
+  },
+  "validation": {
+    "displayNameRequired": "Anzeigename ist erforderlich",
+    "displayNameMin": "Anzeigename muss mindestens 2 Zeichen haben",
+    "displayNameMax": "Anzeigename muss unter 100 Zeichen sein",
+    "genderRequired": "Geschlecht ist erforderlich",
+    "ageGroupRequired": "Altersgruppe ist erforderlich",
+    "countryRequired": "Land ist erforderlich",
+    "introductionRequired": "Über mich ist erforderlich",
+    "introductionMin": "Über mich muss mindestens 10 Zeichen haben",
+    "introductionMax": "Über mich muss unter 500 Zeichen sein",
+    "currentPasswordRequired": "Aktuelles Passwort ist erforderlich",
+    "currentPasswordMin": "Passwort muss mindestens 6 Zeichen haben",
+    "newPasswordRequired": "Neues Passwort ist erforderlich",
+    "newPasswordMin": "Passwort muss mindestens 6 Zeichen haben",
+    "newPasswordMax": "Passwort muss unter 128 Zeichen sein",
+    "confirmPasswordRequired": "Bitte bestätigen Sie Ihr Passwort",
+    "passwordsDoNotMatch": "Passwörter stimmen nicht überein"
+  },
+  "completeProfile": {
+    "title": "Profil vervollständigen",
+    "subtitle": "Erhalten Sie 100 Gratis-Punkte nach Abschluss",
+    "steps": {
+      "basicInformation": "Grunddaten",
+      "profilePhoto": "Profilfoto"
+    },
+    "buttons": {
+      "skip": "Überspringen",
+      "back": "Zurück",
+      "next": "Weiter",
+      "completeProfile": "Profil abschließen",
+      "uploadingAndSaving": "Speichern..."
+    },
+    "messages": {
+      "profilePhotoRequired": "Profilfoto ist erforderlich",
+      "completeProfileFailed": "Profil konnte nicht abgeschlossen werden"
+    }
+  },
+  "deleteAccount": {
+    "title": "Konto löschen",
+    "remainingAssetsTitle": "Übersicht verbleibender Vermögenswerte",
+    "remainingAssetsPointsLabel": "Aktueller Punktestand",
+    "remainingAssetsImagesLabel": "Anzahl gespeicherter/generierter Bilder (Vorschaubilder)",
+    "irreversibleLossTitle": "Warnung: unwiderruflicher Verlust",
+    "irreversibleLoss1": "Alle digitalen Vermögenswerte einschließlich Punkten, Artikeln und gespeicherten Inhalten werden bei Kontolöschung dauerhaft entfernt.",
+    "irreversibleLoss2": "Diese Aktion ist unwiderruflich.",
+    "irreversibleLoss3": "Gelöschte Daten können nicht wiederhergestellt werden.",
+    "userContentNoticeTitle": "Hinweis zu nutzergenerierten Inhalten",
+    "userContentNotice1": "Laden Sie Bilder oder Inhalte herunter, die Sie behalten möchten, bevor Sie fortfahren.",
+    "userContentNotice2": "Alle mit Ihrem Konto verknüpften Bilder und Inhalte werden nach der Löschung dauerhaft entfernt.",
+    "finalConfirmationHeading": "Letzte Bestätigungsnachricht",
+    "finalConfirmationBullet": "Mit dem Fortfahren erkennen Sie an, dass alle verbleibenden Vermögenswerte dauerhaft verloren gehen.",
+    "finalConfirmationMessage": "Mit dem Fortfahren erkennen Sie an, dass alle verbleibenden Vermögenswerte dauerhaft verloren gehen.",
+    "cancelButton": "Abbrechen",
+    "deleteButton": "Konto löschen",
+    "deleting": "Wird gelöscht...",
+    "successMessage": "Ihr Konto wurde erfolgreich gelöscht",
+    "errorMessage": "Konto konnte nicht gelöscht werden",
+    "userNotFound": "Benutzer-ID nicht gefunden"
+  }
+}

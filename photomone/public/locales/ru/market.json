@@ -1,0 +1,47 @@
+{
+  "title": "Рынок",
+  "screen": {
+    "selectPhoto": "Выберите фото",
+    "pickAPhoto": "Выберите понравившееся фото.",
+    "purchasing": "Покупка...",
+    "waiting": "Ожидание",
+    "waitingEllipsis": "Ожидание...",
+    "purchasePhoto": "Купить фото",
+    "purchase": "Купить",
+    "instructionText": "Пожалуйста, выберите фото и нажмите кнопку подтверждения. После этого будут куплены портретные права на выбранное фото."
+  },
+  "container": {
+    "notInMarket": "Вы не участвуете ни в одном рынке",
+    "joinMarketFirst": "Сначала присоединитесь к рынку, чтобы участвовать в торговле фотографиями.",
+    "goToPhotomone": "Перейти в PhotoMone"
+  },
+  "purchaseDialog": {
+    "title": "Покупка лицензии на фото",
+    "licenseDuration": "Срок лицензии:",
+    "licenseDescription": "Перепродажа разрешена только в период действия лицензии.",
+    "licenseCost": "Стоимость лицензии:",
+    "point": "балл",
+    "points": "баллов",
+    "insufficientPoints": "Недостаточно баллов! Вам нужно {licenseCost} баллов.",
+    "processing": "Обработка...",
+    "confirm": "Подтвердить",
+    "cancel": "Отмена"
+  },
+  "successDialog": {
+    "title": "Покупка успешна",
+    "message": "Ваш фотопортрет теперь показывается 4 другим пользователям и выставлен на продажу. Скоро вы сможете посмотреть результат на странице результатов.",
+    "ok": "OK"
+  },
+  "messages": {
+    "purchaseSuccess": "Лицензия на фото успешно куплена!",
+    "purchaseFailed": "Не удалось купить лицензию на фото",
+    "slotIdMissing": "Отсутствует ID слота. Пожалуйста, выберите фото."
+  },
+  "purchaseCongrats": {
+    "title": "Поздравляем!",
+    "ok": "OK",
+    "messageTemplate": "Вы получили {{highlight}} в {{market}}",
+    "highlightOne": "1 показ",
+    "highlightMany": "{count} показов"
+  }
+}

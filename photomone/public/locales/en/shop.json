@@ -1,0 +1,83 @@
+{
+  "title": "Shop",
+  "tooltip": "Purchase gift cards or points using your earned points.",
+  "tabs": {
+    "giftsShop": "Gifts Shop",
+    "pointsShop": "Points Shop",
+    "history": "History"
+  },
+  "historySection": {
+    "pointsPackagesTitle": "Points package purchases",
+    "pointsPackagesDescription": "View your points pack purchase history and details.",
+    "giftCardsTitle": "Gift card purchases",
+    "giftCardsDescription": "View your gift card requests and their status (pending, given, or declined)."
+  },
+  "historyTable": {
+    "serialNumber": "S. No",
+    "packageName": "Package",
+    "price": "Price",
+    "points": "Points",
+    "bonus": "Bonus",
+    "total": "Total",
+    "purchasedAt": "Purchased at",
+    "noPurchasesYet": "No purchases yet"
+  },
+  "giftCardHistoryTable": {
+    "serialNumber": "S. No",
+    "giftName": "Gift",
+    "price": "Price",
+    "totalPoints": "Total Points",
+    "status": "Status",
+    "purchasedAt": "Purchased at",
+    "noPurchasesYet": "No gift card purchases yet"
+  },
+  "noGiftCards": "No gift cards available",
+  "purchaseSuccess": "Purchase completed successfully!",
+  "purchaseFailed": "Purchase failed. Please try again.",
+  "giftCard": {
+    "giftCard": "Gift Card",
+    "points": "Points",
+    "purchase": "Purchase",
+    "notEnoughPoints": "Not Enough Points",
+    "processing": "Processing...",
+    "confirmPurchase": "Confirm",
+    "cancel": "Cancel",
+    "receiveMessage": "You will receive your {name} gift card through email upon admin's approval.",
+    "important": "Important:",
+    "companyChargeMessage": "A 15% company charge will be deducted from your account in addition to the gift card cost.",
+    "giftCardCost": "Gift Card Cost:",
+    "companyCharge": "Company Charge (15%):",
+    "total": "Total:",
+    "insufficientPoints": "Insufficient points! You need {totalDeduction} points (including company charge).",
+    "purchaseSuccessMessage": "Successfully purchased {name} gift card!",
+    "purchaseFailedMessage": "Failed to purchase gift card. Please try again."
+  },
+  "pointsPackage": {
+    "points": "Points",
+    "purchaseNow": "Purchase Now",
+    "processing": "Processing...",
+    "purchaseFailed": "Purchase failed. Please try again.",
+    "purchaseSuccessTemplate": "You have successfully purchased {pack}!",
+    "mostPopular": "Most Popular"
+  },
+  "packNames": {
+    "Welcome Pack": "Welcome Pack",
+    "Starter Pack": "Starter Pack",
+    "Popular Pack": "Popular Pack",
+    "Premium Pack": "Premium Pack",
+    "Unlimited Pack": "Unlimited Pack",
+    "Ultimate Pack": "Ultimate Pack",
+    "Mega Pack": "Mega Pack"
+  },
+  "time": {
+    "na": "N/A",
+    "justNow": "Just now",
+    "minuteAgo": "{minutes} minute ago",
+    "minutesAgo": "{minutes} minutes ago",
+    "hourAgo": "{hours} hour ago",
+    "hoursAgo": "{hours} hours ago",
+    "dayAgo": "{days} day ago",
+    "daysAgo": "{days} days ago"
+  },
+  "ticketDescription": "Get a ticket worth {amount}"
+}

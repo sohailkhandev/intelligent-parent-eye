@@ -1,0 +1,30 @@
+{
+  "brandAlt": "PhotoMone",
+  "tagline": "让虚拟图像变成真实回报。",
+  "description": "用照片创建虚拟图像，通过融合增强效果，在市场交易赚取积分，并兑换礼品卡或实物奖励。",
+  "siteMapTitle": "网站地图",
+  "legalTitle": "法律信息",
+  "languageSectionTitle": "语言",
+  "nav": {
+    "home": "首页",
+    "howItWorks": "工作原理",
+    "faq": "常见问题",
+    "aboutUs": "关于我们",
+    "blog": "博客",
+    "support": "客户支持"
+  },
+  "legal": {
+    "privacyPolicy": "隐私政策",
+    "termsAndConditions": "条款和条件"
+  },
+  "copyright": "© 2026 PhotoMone. 保留所有权利。",
+  "social": {
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "youtube": "YouTube"
+  },
+  "images": {
+    "highlight": "PhotoMone"
+  }
+}

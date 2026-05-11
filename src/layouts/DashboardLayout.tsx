@@ -11,9 +11,10 @@ export const DashboardLayout = () => {
   const location = useLocation();
   const path = location.pathname;
   const isHome = path === "/" || path === ROUTES.home;
-  const isChildOverview = path === ROUTES.childOverview;
+  const isChildOverview =
+    path === ROUTES.childOverview ||
+    path.startsWith(`${ROUTES.childOverview}/`);
   const isAlerts = path === ROUTES.alerts;
-  const isControlsRestrictions = path === ROUTES.controlsRestrictions;
   const isSettings = path === ROUTES.settings;
 
   const navItem = (route: string, active: boolean, label: string) => ({
@@ -25,7 +26,6 @@ export const DashboardLayout = () => {
     navItem(ROUTES.home, isHome, "Home"),
     navItem(ROUTES.childOverview, isChildOverview, "Child Overview"),
     navItem(ROUTES.alerts, isAlerts, "Alerts"),
-    navItem(ROUTES.controlsRestrictions, isControlsRestrictions, "Controls / Restrictions"),
     navItem(ROUTES.settings, isSettings, "Settings"),
   ];
 

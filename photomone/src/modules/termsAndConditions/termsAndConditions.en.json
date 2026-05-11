@@ -1,0 +1,303 @@
+{
+  "hero": {
+    "badge": "Terms And Conditions",
+    "titleFirst": "Terms And",
+    "titleLast": "Conditions",
+    "lastUpdated": "Last Updated: 25 March 2026",
+    "introBefore": "These Terms and Conditions (\"Terms\") constitute a legally binding agreement between ",
+    "introCompany": "Photomone Pty Ltd (ACN 692 281 833)",
+    "introAfter": ", located at 134 Pinelands Rd, Sunnybank Hills, QLD, Australia (\"Company\", \"we\", \"us\", or \"our\"), and any individual who accesses or uses the PhotoMone platform (\"Service\").",
+    "agree": "By accessing, registering, uploading content, generating images, trading licenses, using points, or otherwise using the Service, you confirm that you have read, understood, and agree to be legally bound by these Terms.",
+    "disagree": "If you do not agree, you must immediately discontinue use of the Service."
+  },
+  "definitions": {
+    "heading": "1. Definitions",
+    "items": [
+      {
+        "term": "Service",
+        "text": "The PhotoMone platform and all related features, including AI-generated virtual face creation, image fusion, content generation, ranking systems, exposure systems, points, and rewards."
+      },
+      {
+        "term": "User / Member",
+        "text": "Any individual who accesses or uses the Service."
+      },
+      {
+        "term": "Input Content",
+        "text": "Any image, photograph, or data uploaded by a User."
+      },
+      {
+        "term": "Generated Content",
+        "text": "Any AI-generated image created by the Service, including transformed, fused, or newly generated faces that do not represent real individuals."
+      },
+      {
+        "term": "Platform License",
+        "text": "A limited, temporary, non-exclusive, non-transferable right to use Generated Content strictly within the Service."
+      },
+      {
+        "term": "Points",
+        "text": "Internal, non-monetary credits with no cash value. Points are non-transferable, non-refundable, and cannot be redeemed for cash."
+      },
+      {
+        "term": "Exposure Opportunity",
+        "text": "System-generated visibility or display allocation determined by the Service."
+      },
+      {
+        "term": "Gift Cards",
+        "text": "Non-cash promotional rewards issued in exchange for Points, subject to availability and conditions."
+      }
+    ]
+  },
+  "natureOfService": {
+    "heading": "2. Nature of the Service",
+    "lead": "The Service does not trade or distribute real user photos.",
+    "insteadLabel": "Instead:",
+    "insteadItems": [
+      "The Service uses Input Content to generate entirely new AI-based virtual faces",
+      "Generated Content is synthetic and does not represent real individuals",
+      "Multiple variations may be created through AI fusion, transformation, and synthesis"
+    ],
+    "acknowledgeLabel": "Users acknowledge:",
+    "acknowledgeItems": [
+      "The Service is an AI-generated content platform",
+      "It is not a marketplace for real identity, likeness, or personal image rights"
+    ]
+  },
+  "ownershipGenerated": {
+    "heading": "3. Ownership and License of Generated Content",
+    "lead": "All Generated Content is exclusively owned by the Company.",
+    "grantedLabel": "Users are granted:",
+    "grantedItems": [
+      "A limited, revocable, non-exclusive license to use Generated Content"
+    ],
+    "mayLabel": "Users may:",
+    "mayItems": ["Download and use Generated Content where permitted"],
+    "howeverLabel": "However:",
+    "howeverItems": [
+      "Ownership is never transferred",
+      "The Company retains full rights to use, distribute, modify, and commercialize Generated Content"
+    ],
+    "jointLabel": "All Generated Content is jointly usable, but:",
+    "jointItems": ["Ultimate ownership remains with the Company"]
+  },
+  "platformLicense": {
+    "heading": "4. Platform-Restricted License",
+    "allLicensesLabel": "All licenses within the Service:",
+    "allLicensesItems": [
+      "Are valid strictly within the Service",
+      "Cannot be transferred or used outside the platform",
+      "Cannot be commercially exploited externally"
+    ],
+    "mustNotLabel": "Users must not:",
+    "mustNotItems": [
+      "Sell or distribute Generated Content externally",
+      "Create external markets or transactions"
+    ],
+    "violation": "Any violation constitutes a material breach of these Terms."
+  },
+  "aiDisclaimer": {
+    "heading": "5. AI Generation Disclaimer",
+    "allGenLabel": "All Generated Content:",
+    "allGenItems": [
+      "Is created by artificial intelligence",
+      "Does not represent real individuals",
+      "Is generated from aggregated data"
+    ],
+    "resemblanceLabel": "Any resemblance to real persons:",
+    "resemblanceItems": ["Is purely coincidental"],
+    "companyLabel": "The Company:",
+    "companyItems": [
+      "Does not replicate or target individuals",
+      "Disclaims all liability related to likeness or identity claims"
+    ]
+  },
+  "userInputResponsibility": {
+    "heading": "6. User Input Content Responsibility",
+    "mustLabel": "Users must:",
+    "mustItems": [
+      "Upload only lawful content",
+      "Ensure they have rights to use uploaded images"
+    ],
+    "responsibleLabel": "Users are solely responsible for:",
+    "responsibleItems": [
+      "Any legal consequences arising from Input Content"
+    ]
+  },
+  "aiProcessingData": {
+    "heading": "7. AI Processing and Data Usage",
+    "grantLabel": "Users grant the Company rights to:",
+    "grantItems": [
+      "Process Input Content",
+      "Generate new content",
+      "Use data for AI training (including third parties)"
+    ]
+  },
+  "pointsGiftCards": {
+    "heading": "8. Points, Gift Cards, and Redemption Policy",
+    "pointsTitle": "8.1 Points",
+    "pointsItems": [
+      "Points have no cash value",
+      "Points cannot be transferred or withdrawn",
+      "Points are non-refundable once used"
+    ],
+    "giftCardsTitle": "8.2 Gift Cards",
+    "giftCardsItems": [
+      "Gift Cards are promotional rewards",
+      "Issuance is at the Company's discretion",
+      "Availability is not guaranteed"
+    ],
+    "companyMayLabel": "The Company may:",
+    "companyMayItems": [
+      "Limit, delay, substitute, or discontinue Gift Cards"
+    ],
+    "processingTitle": "8.3 Processing Time",
+    "processingItems": [
+      "The Company will make reasonable efforts to process requests promptly",
+      "Delivery depends on third-party suppliers"
+    ],
+    "usersAckLabel": "Users acknowledge:",
+    "usersAckItems": [
+      "Processing time is not guaranteed",
+      "Delays do not constitute breach",
+      "The Company is not liable for third-party delays"
+    ],
+    "noRefundsTitle": "8.4 No Refunds",
+    "noRefundsLead": "Once Points are used or converted:",
+    "noRefundsItems": [
+      "Transactions are final",
+      "No refunds or reversals are allowed"
+    ],
+    "noFinancialTitle": "8.5 No Financial Rights",
+    "noFinancialLead": "Points and Gift Cards:",
+    "noFinancialItems": [
+      "Are not currency",
+      "Are not financial instruments",
+      "Do not create monetary claims"
+    ],
+    "liabilityCapTitle": "8.6 Liability Limitation",
+    "liabilityCapLead": "The Company is not responsible for:",
+    "liabilityCapItems": [
+      "Gift Card loss or misuse",
+      "Third-party issues",
+      "Expiry or redemption restrictions"
+    ]
+  },
+  "exposureSystem": {
+    "heading": "9. Exposure System and License Usage",
+    "whenLabel": "When Users acquire licenses:",
+    "whenItems": [
+      "Exposure Opportunities are determined solely by the system",
+      "No guarantees are provided"
+    ],
+    "agreeLabel": "Users agree:",
+    "agreeItems": [
+      "Exposure is algorithm-based",
+      "No disputes or claims may be raised regarding outcomes"
+    ]
+  },
+  "externalTransactions": {
+    "heading": "10. Prohibition of External Transactions",
+    "mustNotLabel": "Users must not:",
+    "mustNotItems": ["Trade Points", "Trade Scores", "Trade Licenses"],
+    "outside": "outside the Service."
+  },
+  "sponsoredContent": {
+    "heading": "11. Sponsored Content Disclaimer",
+    "sponsorLead": "All sponsored content is the responsibility of the sponsor.",
+    "notLiableLabel": "The Company is not liable for:",
+    "notLiableItems": ["Accuracy", "Legality", "Claims"]
+  },
+  "serviceModifications": {
+    "heading": "12. Service Modifications and Balancing",
+    "companyMayLabel": "The Company may:",
+    "companyMayItems": [
+      "Modify algorithms",
+      "Adjust rankings, exposure, and systems",
+      "Change values or structures"
+    ],
+    "anyTime": "at any time without notice.",
+    "usersAgreeLabel": "Users agree:",
+    "usersAgreeItems": [
+      "No claims may be made regarding such changes",
+      "No compensation is provided"
+    ]
+  },
+  "futureFeatures": {
+    "heading": "13. Future Features and Issues",
+    "intro": "The Service may introduce new features.",
+    "companyLabel": "The Company:",
+    "companyItems": [
+      "Will make reasonable efforts to resolve issues",
+      "Does not guarantee error-free operation"
+    ],
+    "usersAgreeLabel": "Users agree:",
+    "usersAgreeItems": [
+      "The Company is not liable for unforeseen issues"
+    ]
+  },
+  "prohibitedConduct": {
+    "heading": "14. Prohibited Conduct",
+    "mustNotLabel": "Users must not:",
+    "mustNotItems": [
+      "Misuse the Service",
+      "Use automation or manipulation",
+      "Claim ownership of Generated Content",
+      "Misrepresent content"
+    ]
+  },
+  "serviceAvailability": {
+    "heading": "15. Service Availability",
+    "companyMayLabel": "The Company may:",
+    "companyMayItems": [
+      "Modify or terminate the Service at any time"
+    ],
+    "noGuaranteeLabel": "No guarantees are provided regarding:",
+    "noGuaranteeItems": ["Availability", "Performance"]
+  },
+  "disclaimerLiability": {
+    "heading": "16. Disclaimer and Limitation of Liability",
+    "asIs": "The Service is provided \"as is.\"",
+    "extentLabel": "To the maximum extent permitted by law:",
+    "extentItems": [
+      "The Company is not liable for indirect damages",
+      "Liability is limited to payments made in the past 12 months"
+    ]
+  },
+  "indemnification": {
+    "heading": "17. Indemnification",
+    "agreeLabel": "Users agree to indemnify the Company against:",
+    "agreeItems": [
+      "Claims arising from misuse",
+      "Violations of these Terms"
+    ]
+  },
+  "lawEnforcement": {
+    "heading": "18. Law Enforcement Cooperation",
+    "companyMayLabel": "The Company may:",
+    "companyMayItems": [
+      "Cooperate with authorities",
+      "Disclose user data when required"
+    ]
+  },
+  "governingLaw": {
+    "heading": "19. Governing Law",
+    "body": "These Terms are governed by the laws of Queensland, Australia."
+  },
+  "contactInfo": {
+    "heading": "20. Contact Information",
+    "companyName": "Photomone Pty Ltd",
+    "address": "134 Pinelands Rd, Sunnybank Hills, QLD, Australia",
+    "emailLabel": "Email:"
+  },
+  "finalAcknowledgment": {
+    "heading": "Final Acknowledgment",
+    "intro": "By using the Service, you acknowledge and agree that:",
+    "items": [
+      "All content is AI-generated",
+      "The Company owns all Generated Content",
+      "Licenses exist only within the Service",
+      "Exposure outcomes are not guaranteed",
+      "System changes may occur at any time",
+      "You waive claims related to system behavior and results"
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "title": "결과",
+  "tabs": {
+    "purchased": "구매함",
+    "trading": "거래",
+    "fusion": "합성",
+    "history": "기록"
+  },
+  "stats": {
+    "exposures": "노출",
+    "totalSales": "총 판매",
+    "sellingRate": "판매율",
+    "earnings": "수익"
+  },
+  "historyTable": {
+    "noSalesYet": "아직 판매 내역이 없습니다",
+    "serialNumber": "번호",
+    "photo": "사진",
+    "sales": "판매",
+    "sold": "판매됨",
+    "unsold": "미판매",
+    "market": "마켓",
+    "time": "시간",
+    "earned": "획득"
+  },
+  "fusionTable": {
+    "noFusionsYet": "합성 내역이 없습니다",
+    "score": "스코어",
+    "fusedAt": "합성 일시",
+    "luckyEarned": "로키 획득",
+    "points": "포인트"
+  },
+  "fusionDetail": {
+    "title": "합성 상세",
+    "fusedBadge": "합성됨"
+  },
+  "marketDetails": {
+    "title": "상세 거래 내역",
+    "mySales": "내 판매",
+    "earned": "획득",
+    "salePanelResult": "판매 패널 결과",
+    "you": "나",
+    "sold": "판매됨",
+    "saleSuccessful": "판매 성공",
+    "saleFailed": "판매 실패",
+    "photoOwner": "사진 소유자",
+    "id": "ID",
+    "backAriaLabel": "뒤로"
+  },
+  "sellingReport": {
+    "market": "마켓",
+    "pointsEarned": "획득 포인트",
+    "exposures": "노출",
+    "numberOfSales": "판매 건수",
+    "score": "스코어"
+  },
+  "socket": {
+    "photoUnsold": "판매되지 않았습니다! {market}에서 사진이 판매되지 않았습니다.",
+    "photoSoldCongratulations": "축하합니다",
+    "photoSoldInMarket": "{market}에서 사진이 판매되었습니다.",
+    "photoSoldBadge": "판매됨",
+    "earnedPoints": "획득 포인트: {points}",
+    "checkResult": "결과 보기",
+    "cancel": "취소",
+    "soldPhotoAlt": "판매된 사진"
+  },
+  "viewExposures": "노출 보기",
+  "exposuresTable": {
+    "title": "활성 노출",
+    "serialNumber": "번호",
+    "photo": "사진",
+    "market": "마켓",
+    "marketWithNumber": "마켓 {number}",
+    "remainingExposures": "남은 노출",
+    "noData": "데이터가 없습니다"
+  },
+  "slot": {
+    "addSlot": "슬롯 추가",
+    "slotLabel": "슬롯 {number}",
+    "slotEmpty": "빈 슬롯",
+    "expired": "만료됨",
+    "expires": "만료: {timeRemaining}",
+    "showMore": "더 보기",
+    "showLess": "접기",
+    "timeHoursMinutes": "{hours}시간 {minutes}분",
+    "timeMinutes": "{minutes}분",
+    "timeSeconds": "{seconds}초"
+  },
+  "purchaseDialog": {
+    "title": "구매",
+    "numberOfSlots": "슬롯 수",
+    "slot": "슬롯",
+    "slots": "슬롯",
+    "totalCost": "총 비용:",
+    "yourPoints": "내 포인트:",
+    "points": "포인트",
+    "insufficientPoints": "포인트가 부족합니다. {totalCost} 포인트가 필요합니다.",
+    "processing": "처리 중...",
+    "purchaseSlot": "슬롯 {count}개 구매",
+    "purchaseSlots": "슬롯 {count}개 구매",
+    "cancel": "취소"
+  },
+  "messages": {
+    "purchaseSuccess": "{slotsLabel} {count}개를 성공적으로 구매했습니다!",
+    "purchaseFailed": "슬롯 구매에 실패했습니다. 다시 시도해 주세요."
+  },
+  "a11y": {
+    "viewExposuresList": "노출 목록 보기",
+    "photoThumbnail": "사진",
+    "fusionThumbnail": "합성",
+    "photoGridItem": "사진 {index}",
+    "detailPhoto": "사진",
+    "purchasedSlotImage": "슬롯 {number}의 구매 사진",
+    "openPhotoDetails": "사진 상세 정보 정보 열기"
+  },
+  "time": {
+    "justNow": "방금",
+    "minutesAgo": "{minutes}분 전",
+    "minuteAgo": "{minutes}분 전",
+    "hoursAgo": "{hours}시간 전",
+    "hourAgo": "{hours}시간 전",
+    "daysAgo": "{days}일 전",
+    "dayAgo": "{days}일 전",
+    "weeksAgo": "{weeks}주 전",
+    "weekAgo": "{weeks}주 전",
+    "monthsAgo": "{months}개월 전",
+    "monthAgo": "{months}개월 전",
+    "yearsAgo": "{years}년 전",
+    "yearAgo": "{years}년 전",
+    "na": "해당 없음",
+    "abbrev": {
+      "seconds": "{n}초",
+      "minutes": "{n}분",
+      "hours": "{n}시간",
+      "days": "{n}일",
+      "weeks": "{n}주",
+      "years": "{n}년"
+    }
+  }
+}

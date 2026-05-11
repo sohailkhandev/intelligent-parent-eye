@@ -1,0 +1,30 @@
+{
+  "brandAlt": "PhotoMone",
+  "tagline": "バーチャル画像を、リアルな報酬に。",
+  "description": "写真からバーチャル画像を作成し、フュージョンで強化し、マーケットプレイスで取引し、ポイントを貯めてギフトカードや実物の特典と交換できます。",
+  "siteMapTitle": "サイトマップ",
+  "legalTitle": "法的情報",
+  "languageSectionTitle": "言語",
+  "nav": {
+    "home": "ホーム",
+    "howItWorks": "仕組み",
+    "faq": "よくある質問",
+    "aboutUs": "私たちについて",
+    "blog": "ブログ",
+    "support": "カスタマーサポート"
+  },
+  "legal": {
+    "privacyPolicy": "プライバシーポリシー",
+    "termsAndConditions": "利用規約"
+  },
+  "copyright": "© 2026 PhotoMone. All rights reserved.",
+  "social": {
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "youtube": "YouTube"
+  },
+  "images": {
+    "highlight": "PhotoMone"
+  }
+}

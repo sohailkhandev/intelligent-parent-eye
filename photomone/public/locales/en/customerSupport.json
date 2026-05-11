@@ -1,0 +1,39 @@
+{
+  "back": "Back",
+  "chatbotGreeting": "Hello!",
+  "chatbotPlaceholder": "Type your question...",
+  "title": "Customer Support",
+  "description": "For any queries, feel free to reach out to us.",
+  "responseTime": "We typically respond within 24-48 hours.",
+  "form": {
+    "name": "Name*",
+    "namePlaceholder": "Enter your full name",
+    "email": "Email*",
+    "emailPlaceholder": "Enter your email",
+    "subject": "Subject*",
+    "subjectPlaceholder": "Enter the subject",
+    "message": "Message*",
+    "messagePlaceholder": "Enter your message...",
+    "attachments": "Attachments",
+    "selectFiles": "Select Files",
+    "addAttachment": "Add an Attachment",
+    "removeFileAriaLabel": "Remove file",
+    "sendMessage": "Send Message",
+    "sending": "Sending...",
+    "messageSent": "Message sent successfully! We'll get back to you soon.",
+    "messageFailed": "Failed to send message. Please try again."
+  },
+  "validation": {
+    "nameRequired": "Name is required",
+    "nameMin": "Name must be at least 2 characters",
+    "nameMax": "Name must be less than 100 characters",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Please enter a valid email address",
+    "subjectRequired": "Subject is required",
+    "subjectMin": "Subject must be at least 3 characters",
+    "subjectMax": "Subject must be less than 200 characters",
+    "messageRequired": "Message is required",
+    "messageMin": "Message must be at least 10 characters",
+    "messageMax": "Message must be less than 5000 characters"
+  }
+}

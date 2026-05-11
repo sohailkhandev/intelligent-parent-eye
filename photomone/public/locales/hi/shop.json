@@ -1,0 +1,98 @@
+{
+  "title": "शॉप",
+  "tooltip": "अपने अर्जित पॉइंट्स से गिफ्ट कार्ड या पॉइंट्स खरीदें।",
+  "tabs": {
+    "giftsShop": "उपहार",
+    "pointsShop": "पॉइंट्स शॉप",
+    "history": "इतिहास"
+  },
+  "historySection": {
+    "pointsPackagesTitle": "पॉइंट पैकेज खरीद",
+    "pointsPackagesDescription": "अपने पॉइंट पैक खरीद इतिहास और विवरण देखें।",
+    "giftCardsTitle": "गिफ्ट कार्ड खरीद",
+    "giftCardsDescription": "अपने गिफ्ट कार्ड अनुरोध और उनका स्टेटस देखें।"
+  },
+  "historyTable": {
+    "serialNumber": "क्र.",
+    "packageName": "पैकेज",
+    "price": "कीमत",
+    "points": "पॉइंट्स",
+    "bonus": "बोनस",
+    "total": "कुल",
+    "purchasedAt": "खरीदा गया",
+    "noPurchasesYet": "अभी तक कोई खरीद नहीं"
+  },
+  "time": {
+    "na": "उपलब्ध नहीं",
+    "justNow": "अभी-अभी",
+    "minuteAgo": "{minutes} मिनट पहले",
+    "minutesAgo": "{minutes} मिनट पहले",
+    "hourAgo": "{hours} घंटा पहले",
+    "hoursAgo": "{hours} घंटे पहले",
+    "dayAgo": "{days} दिन पहले",
+    "daysAgo": "{days} दिन पहले"
+  },
+  "giftCardHistoryTable": {
+    "serialNumber": "क्र.",
+    "giftName": "गिफ्ट",
+    "price": "कीमत",
+    "totalPoints": "कुल पॉइंट्स",
+    "status": "स्थिति",
+    "purchasedAt": "खरीदा गया",
+    "noPurchasesYet": "अभी तक कोई गिफ्ट कार्ड खरीद नहीं",
+    "statusLabels": {
+      "pending": "लंबित",
+      "given": "दिया गया",
+      "declined": "अस्वीकृत"
+    }
+  },
+  "noGiftCards": "कोई गिफ्ट कार्ड उपलब्ध नहीं",
+  "purchaseSuccess": "खरीद सफलतापूर्वक पूरी हुई!",
+  "purchaseFailed": "खरीद विफल रही। कृपया पुनः प्रयास करें।",
+  "giftCard": {
+    "giftCard": "गिफ्ट कार्ड",
+    "points": "पॉइंट्स",
+    "purchase": "खरीदें",
+    "notEnoughPoints": "पर्याप्त पॉइंट्स नहीं",
+    "processing": "प्रोसेस हो रहा है...",
+    "confirmPurchase": "पुष्टि करें",
+    "cancel": "रद्द करें",
+    "receiveMessage": "एडमिन अनुमोदन के बाद आपको आपका {name} गिफ्ट कार्ड ईमेल से मिलेगा।",
+    "important": "महत्वपूर्ण:",
+    "companyChargeMessage": "गिफ्ट कार्ड लागत के अतिरिक्त 15% कंपनी चार्ज कटेगा।",
+    "giftCardCost": "गिफ्ट कार्ड लागत:",
+    "companyCharge": "कंपनी चार्ज (15%):",
+    "total": "कुल:",
+    "insufficientPoints": "पॉइंट्स अपर्याप्त हैं! आपको {totalDeduction} पॉइंट्स चाहिए (कंपनी चार्ज सहित)।",
+    "purchaseSuccessMessage": "{name} गिफ्ट कार्ड सफलतापूर्वक खरीदा गया!",
+    "purchaseFailedMessage": "गिफ्ट कार्ड खरीद विफल रही। कृपया पुनः प्रयास करें।"
+  },
+  "pointsPackage": {
+    "points": "पॉइंट्स",
+    "purchaseNow": "अभी खरीदें",
+    "processing": "प्रोसेस हो रहा है...",
+    "purchaseFailed": "खरीद विफल रही। कृपया पुनः प्रयास करें।",
+    "purchaseSuccessTemplate": "आपने {pack} सफलतापूर्वक खरीदा है!",
+    "mostPopular": "सबसे लोकप्रिय"
+  },
+  "packNames": {
+    "Welcome Pack": "वेलकम पैक",
+    "Starter Pack": "स्टार्टर पैक",
+    "Popular Pack": "पॉपुलर पैक",
+    "Premium Pack": "प्रीमियम पैक",
+    "Unlimited Pack": "अनलिमिटेड पैक",
+    "Ultimate Pack": "अल्टिमेट पैक",
+    "Mega Pack": "मेगा पैक"
+  },
+  "time": {
+    "na": "लागू नहीं",
+    "justNow": "अभी",
+    "minuteAgo": "{minutes} मिनट पहले",
+    "minutesAgo": "{minutes} मिनट पहले",
+    "hourAgo": "{hours} घंटा पहले",
+    "hoursAgo": "{hours} घंटे पहले",
+    "dayAgo": "{days} दिन पहले",
+    "daysAgo": "{days} दिन पहले"
+  },
+  "ticketDescription": "{amount} मूल्य का टिकट पाएं"
+}

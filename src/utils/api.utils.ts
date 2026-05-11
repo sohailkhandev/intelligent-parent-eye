@@ -1,5 +1,46 @@
 import { API_BASE_URL } from "@constants";
-import axios from "axios";
+import axios, { AxiosResponse } from "axios";
+import { toast } from "react-toastify";
+import { getErrorMessage } from "./error.utils";
+
+type ApiSuccessPayload = {
+  message?: string;
+  status?: string;
+  data?: {
+    message?: string;
+  };
+};
+
+const getSuccessToastMessage = (
+  response: AxiosResponse<ApiSuccessPayload>,
+): string | null => {
+  const method = response.config.method?.toUpperCase();
+  const payload = response.data;
+
+  if (typeof payload?.message === "string" && payload.message.trim()) {
+    return payload.message;
+  }
+
+  if (
+    payload?.data &&
+    typeof payload.data.message === "string" &&
+    payload.data.message.trim()
+  ) {
+    return payload.data.message;
+  }
+
+  switch (method) {
+    case "POST":
+      return "Request completed successfully.";
+    case "PUT":
+    case "PATCH":
+      return "Updated successfully.";
+    case "DELETE":
+      return "Deleted successfully.";
+    default:
+      return null;
+  }
+};
 
 export const api = axios.create({
     baseURL: API_BASE_URL,
@@ -27,8 +68,17 @@ export const api = axios.create({
   );
   
   api.interceptors.response.use(
-    (response) => response,
+    (response) => {
+      const successMessage = getSuccessToastMessage(response);
+
+      if (successMessage) {
+        toast.success(successMessage);
+      }
+
+      return response;
+    },
     (error) => {
+      toast.error(getErrorMessage(error));
       return Promise.reject(error);
     }
   );

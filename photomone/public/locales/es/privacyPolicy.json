@@ -1,0 +1,178 @@
+{
+  "hero": {
+    "badge": "Política de privacidad",
+    "titleFirst": "PRIVACIDAD",
+    "titleLast": "POLÍTICA",
+    "lastUpdated": "Última actualización: 25 de marzo de 2026",
+    "introBefore": "Esta Política de privacidad explica cómo ",
+    "introCompany": "Photomone Pty Ltd (ACN 692 281 833)",
+    "introAfter": ", con domicilio en 134 Pinelands Rd, Sunnybank Hills, QLD, Australia (\"Empresa\", \"nosotros\" o \"nuestro\"), recopila, utiliza, procesa y protege la información personal cuando usa la plataforma PhotoMone (\"Servicio\").",
+    "agree": "Al acceder o usar el Servicio, acepta la recopilación y el uso de la información conforme a esta Política de privacidad."
+  },
+  "overview": {
+    "heading": "1. Resumen del uso de datos",
+    "leadBefore": "El Servicio se basa en ",
+    "leadEmphasis": "contenido virtual generado por AI.",
+    "leadAfter": "",
+    "bullets": [
+      "El Servicio no comercia ni distribuye la identidad real de los usuarios ni derechos de retrato",
+      "Las imágenes cargadas se usan como datos de entrada para generar imágenes sintéticas totalmente nuevas",
+      "El Contenido generado no representa a personas reales"
+    ]
+  },
+  "informationCollect": {
+    "heading": "2. Información que recopilamos",
+    "personalTitle": "2.1 Información personal",
+    "weMayCollect": "Podemos recopilar:",
+    "personalItems": [
+      "Nombre o nombre para mostrar",
+      "Dirección de correo electrónico",
+      "Credenciales de acceso a la cuenta",
+      "País e información básica del perfil"
+    ],
+    "userContentTitle": "2.2 Contenido proporcionado por el usuario",
+    "userContentItems": [
+      "Fotos cargadas por los Usuarios (\"Contenido de entrada\")",
+      "Imágenes de perfil",
+      "Cualquier dato enviado dentro del Servicio"
+    ],
+    "autoTitle": "2.3 Datos recopilados automáticamente",
+    "autoItems": [
+      "Información del dispositivo",
+      "Dirección IP",
+      "Tipo de navegador",
+      "Datos de uso (interacciones, registros de actividad)"
+    ]
+  },
+  "howWeUse": {
+    "heading": "3. Cómo usamos la información",
+    "weUseTo": "Usamos la información recopilada para:",
+    "bullets": [
+      "Proporcionar y operar el Servicio",
+      "Generar imágenes basadas en AI a partir del Contenido de entrada",
+      "Mejorar el rendimiento del sistema y la experiencia del usuario",
+      "Desarrollar y entrenar modelos de AI",
+      "Prevenir fraude, abuso o uso indebido",
+      "Cumplir obligaciones legales"
+    ]
+  },
+  "aiProcessing": {
+    "heading": "4. Procesamiento de AI y contenido generado",
+    "explicitAgree": "Al usar el Servicio, acepta explícitamente que:",
+    "bulletProcessAi": "Sus imágenes cargadas puedan ser procesadas por sistemas de AI",
+    "bulletTransformSynthetic": "Sus datos puedan transformarse en nuevo Contenido generado sintético",
+    "generatedContentTitle": "Contenido generado:",
+    "generatedContentPoints": [
+      "No le identifica",
+      "No le representa",
+      "No puede usarse para determinar su identidad"
+    ],
+    "companyMayUse": "La Empresa puede usar:",
+    "contentLabels": ["Contenido de entrada", "Contenido generado"],
+    "forLabel": "para:",
+    "purposeItems": [
+      "Formación interna de AI",
+      "Mejora del sistema",
+      "Asociaciones de AI con terceros"
+    ]
+  },
+  "anonymization": {
+    "heading": "5. Anonimización y transformación de datos",
+    "appliesIncluding": "El Servicio aplica procesos de transformación que incluyen:",
+    "processItems": ["Fusión de imágenes", "Abstracción de características", "Síntesis por AI"],
+    "ensureLabel": "Estos procesos garantizan:",
+    "ensureItems": [
+      "El Contenido generado no es una copia directa",
+      "El Contenido generado no está vinculado a una persona concreta"
+    ]
+  },
+  "sharing": {
+    "heading": "6. Compartición y divulgación de datos",
+    "weMayShare": "Podemos compartir datos:",
+    "bullets": [
+      "Con proveedores de servicios (alojamiento, analítica, procesamiento de AI)",
+      "Con socios involucrados en el desarrollo de AI",
+      "Cuando lo exija la ley o procesos legales"
+    ],
+    "noSell": "No vendemos datos personales como información identificable del usuario."
+  },
+  "storage": {
+    "heading": "7. Almacenamiento y seguridad de datos",
+    "safeguards": "Aplicamos salvaguardas razonables para proteger los datos, incluidas:",
+    "safeguardItems": ["Servidores seguros", "Controles de acceso", "Cifrado cuando corresponde"],
+    "however": "Sin embargo:",
+    "howeverItems": [
+      "Ningún sistema es completamente seguro",
+      "Los usuarios reconocen los riesgos inherentes de los servicios en línea"
+    ]
+  },
+  "retention": {
+    "heading": "8. Conservación de datos",
+    "weRetain": "Conservamos datos:",
+    "retainBullets": [
+      "El tiempo necesario para prestar el Servicio",
+      "Para fines legales, regulatorios y operativos"
+    ],
+    "weMayRetain": "Podemos conservar:",
+    "retainTypes": ["Contenido de entrada", "Contenido generado", "Datos de uso"],
+    "inactiveNote": "incluso tras la inactividad de la cuenta, cuando sea necesario."
+  },
+  "userRights": {
+    "heading": "9. Derechos del usuario (Australia)",
+    "underLaws": "Según las leyes aplicables, los Usuarios pueden tener derecho a:",
+    "rightsItems": [
+      "Acceder a sus datos personales",
+      "Solicitar la corrección de datos inexactos"
+    ],
+    "howeverAck": "Sin embargo, los Usuarios reconocen:",
+    "ackItems": [
+      "El contenido generado por AI no puede revertirse a datos de identidad originales",
+      "Ciertos datos pueden conservarse por motivos legales o de integridad del sistema"
+    ]
+  },
+  "cookies": {
+    "heading": "10. Archivos de rastreo del navegador y seguimiento",
+    "weMayUse": "Podemos usar:",
+    "toolsItems": ["Archivos de rastreo guardados en su dispositivo", "Herramientas de analítica"],
+    "toLabel": "para:",
+    "toItems": ["Mejorar el rendimiento", "Analizar el uso"],
+    "browserNote": "Los usuarios pueden gestionar esos archivos de rastreo desde la configuración del navegador."
+  },
+  "thirdParty": {
+    "heading": "11. Servicios de terceros",
+    "mayRely": "El Servicio puede depender de:",
+    "bullets": [
+      "Proveedores en la nube",
+      "Socios de procesamiento de AI",
+      "Proveedores de analítica"
+    ],
+    "processNote": "Estos terceros pueden procesar datos en nuestro nombre."
+  },
+  "children": {
+    "heading": "12. Privacidad de menores",
+    "notUnder18": "El Servicio no está destinado a usuarios menores de 18 años.",
+    "noMinors": "No recopilamos datos de menores a sabiendas."
+  },
+  "changes": {
+    "heading": "13. Cambios a esta política",
+    "mayUpdate": "Podemos actualizar esta Política de privacidad en cualquier momento.",
+    "effectivePosting": "Los cambios surten efecto al publicarse.",
+    "reviewResponsibility": "Los usuarios son responsables de revisar las actualizaciones."
+  },
+  "contact": {
+    "heading": "14. Información de contacto",
+    "company": "Photomone Pty Ltd",
+    "address": "134 Pinelands Rd, Sunnybank Hills, QLD, Australia",
+    "emailLabel": "Correo: "
+  },
+  "finalAck": {
+    "heading": "15. Reconocimiento final",
+    "byUsing": "Al usar el Servicio, reconoce y acepta que:",
+    "bullets": [
+      "Sus imágenes cargadas pueden usarse para procesamiento de AI",
+      "El Contenido generado es sintético y no constituye datos personales",
+      "La Empresa puede usar datos para formación y desarrollo de AI",
+      "La eliminación absoluta de datos no siempre es posible por el diseño del sistema"
+    ]
+  }
+}

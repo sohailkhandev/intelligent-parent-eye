@@ -1,0 +1,155 @@
+{
+  "page": {
+    "hero": {
+      "badge": "了解",
+      "titleBefore": "如何",
+      "titleLast": "运作",
+      "subtitle": "如何使用 PhotoMone"
+    },
+    "signUp": {
+      "heading": "注册",
+      "body": "使用 Google 登录或电子邮件创建账户。只需几步即可加入。"
+    },
+    "createProfile": {
+      "heading": "创建个人资料",
+      "intro": "填写您的基本信息：",
+      "fields": [
+        "显示名称",
+        "电子邮件地址",
+        "性别",
+        "年龄段",
+        "国家/地区",
+        "简短简介"
+      ],
+      "uploadLine": "上传头像并完成注册。",
+      "pointsBefore": "完成资料后您将获得 ",
+      "pointsEm": "100 个免费积分",
+      "pointsAfter": "。"
+    },
+    "uploadPhoto": {
+      "heading": "上传照片",
+      "selectFace": "选择一张面部清晰的照片",
+      "adjustSquare": "调整以适合方形取景框",
+      "validatePrefix": "点击「",
+      "validateButton": "验证并生成",
+      "validateSuffix": "」",
+      "afterGenBefore": "大约 ",
+      "afterGenEm": "30 秒",
+      "afterGenAfter": "后，将显示两张生成的照片。",
+      "chooseGallery": "选择您喜欢的一张 → 将保存到图库。"
+    },
+    "purchasePhotos": {
+      "heading": "购买照片（获取曝光机会）",
+      "item1Before": "前往 ",
+      "item1Em1": "照片+",
+      "item1Mid": " → ",
+      "item1Em2": "变现",
+      "item2": "选择有空位（可参赛名额 > 0）的市场",
+      "item3Before": "点击 ",
+      "item3Em": "购买",
+      "browse": "浏览并购买您喜欢的照片。",
+      "afterPurchaseBefore": "购买后，您将立即获得 ",
+      "afterPurchaseEm": "曝光机会",
+      "afterPurchaseAfter": "（1–99），在弹窗中显示。",
+      "whyPurchaseTitle": "为什么要购买？",
+      "whyPurchaseBody": "购买其他用户的照片许可可获得曝光机会，帮助您更好地销售自己的照片。"
+    },
+    "sellPhotos": {
+      "heading": "出售照片",
+      "item1Before": "前往 ",
+      "item1Em": "照片+ → 变现",
+      "item2": "选择有空位的市场",
+      "item3Before": "点击 ",
+      "item3Em": "出售",
+      "thenLabel": "然后：",
+      "then1": "从图库中选择一张照片",
+      "then2": "设置您的曝光数量",
+      "then3Before": "点击 ",
+      "then3Em": "出售",
+      "then3After": " 开始",
+      "notifIntro": "您将通过通知实时收到更新：",
+      "notifFail": "失败 → 失败通知",
+      "notifSuccess": "成功 → 庆祝页面 🎉",
+      "finalBefore": "当所有曝光用尽后，弹窗中将出现 ",
+      "finalEm": "最终结果摘要",
+      "finalAfter": "。"
+    },
+    "photoFusion": {
+      "heading": "照片融合",
+      "item1Before": "前往 ",
+      "item1Em1": "照片+",
+      "item1Mid": " → ",
+      "item1Em2": "照片融合",
+      "item2Before": "您的照片 ",
+      "item2Em": "评分需达到 5 分或更高",
+      "stepsLabel": "步骤：",
+      "step1Before": "将照片添加到 ",
+      "step1Em": "主槽位",
+      "step2Before": "再将另一张添加到 ",
+      "step2Em": "副槽位",
+      "step3Before": "点击 ",
+      "step3Em": "融合",
+      "step3After": " 并等待",
+      "afterComplete": "完成后即可查看结果。",
+      "goGalleryPrefix": "点击「",
+      "goGalleryEm": "前往图库",
+      "goGallerySuffix": "」查看。"
+    },
+    "checkResults": {
+      "heading": "查看结果",
+      "introBefore": "在 ",
+      "introEm": "结果页",
+      "introAfter": "，您可以查看：",
+      "result1": "已购照片（槽位）",
+      "result2": "出售结果（交易）",
+      "result3": "融合结果",
+      "revealQ": "想显示隐藏积分？",
+      "lockyBefore": "使用 ",
+      "lockyEm": "1 把锁",
+      "lockyAfter": " 解锁并查看分数。"
+    },
+    "redeemGiftCards": {
+      "heading": "兑换礼品卡",
+      "body1Before": "当积分达到一定水平后，您可以申请 ",
+      "body1Em": "礼品卡",
+      "body1After": "。",
+      "body2": "详情将发送至您注册的电子邮件。"
+    },
+    "purchasePackages": {
+      "heading": "购买套餐",
+      "introBefore": "共有 ",
+      "introEm": "4 种套餐",
+      "introAfter": "。",
+      "payItem": "付款方式为信用卡",
+      "ticketsBefore": "套餐包含 ",
+      "ticketsEm": "市场入场券",
+      "ticketRulesTitle": "门票规则：",
+      "ticket1Before": "每张门票允许进入 ",
+      "ticket1Em": "一个市场",
+      "ticket2": "参赛名额数量取决于市场的基础价格"
+    },
+    "editProfile": {
+      "heading": "编辑资料",
+      "bodyBefore": "您可以随时在 ",
+      "bodyEm": "账户",
+      "bodyAfter": " 菜单中更新个人资料。"
+    },
+    "deleteAccount": {
+      "heading": "删除账户",
+      "intro": "删除账户：",
+      "agree": "同意删除条款",
+      "removedBefore": "删除后，",
+      "removedEm": "所有数据将被永久清除",
+      "removedAfter": "，包括：",
+      "dataItems": [
+        "个人资料信息",
+        "照片",
+        "积分",
+        "评分"
+      ],
+      "cannotBefore": "此操作 ",
+      "cannotEm": "无法撤销",
+      "cannotAfter": "。"
+    }
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "page": {
+    "hero": {
+      "badge": "Aprender",
+      "titleBefore": "CÓMO",
+      "titleLast": "FUNCIONA",
+      "subtitle": "Cómo usar PhotoMone"
+    },
+    "signUp": {
+      "heading": "Registrarse",
+      "body": "Crea tu cuenta con inicio de sesión de Google o correo electrónico. Cualquiera puede unirse en unos pocos pasos."
+    },
+    "createProfile": {
+      "heading": "Crea tu perfil",
+      "intro": "Completa tu información básica:",
+      "fields": [
+        "Nombre para mostrar",
+        "Correo electrónico",
+        "Género",
+        "Grupo de edad",
+        "País",
+        "Breve biografía"
+      ],
+      "uploadLine": "Sube tu foto de perfil y completa el registro.",
+      "pointsBefore": "Recibirás ",
+      "pointsEm": "100 puntos gratis",
+      "pointsAfter": " al completar tu perfil."
+    },
+    "uploadPhoto": {
+      "heading": "Sube tu foto",
+      "selectFace": "Selecciona una foto de tu rostro",
+      "adjustSquare": "Ajústala para que encaje en el marco cuadrado",
+      "validatePrefix": "Haz clic en \"",
+      "validateButton": "Validar y generar",
+      "validateSuffix": "\"",
+      "afterGenBefore": "Tras unos ",
+      "afterGenEm": "30 segundos",
+      "afterGenAfter": ", aparecerán dos fotos generadas.",
+      "chooseGallery": "Elige la que te guste → se guardará en tu galería."
+    },
+    "purchasePhotos": {
+      "heading": "Comprar fotos (obtener oportunidades de exposición)",
+      "item1Before": "Ve a ",
+      "item1Em1": "Foto+",
+      "item1Mid": " → ",
+      "item1Em2": "Monetización",
+      "item2": "Elige un mercado con cupos disponibles (entradas > 0)",
+      "item3Before": "Haz clic en ",
+      "item3Em": "Comprar",
+      "browse": "Explora y compra una foto que te guste.",
+      "afterPurchaseBefore": "Tras la compra, recibirás al instante ",
+      "afterPurchaseEm": "oportunidades de exposición",
+      "afterPurchaseAfter": " (entre 1 y 99), mostradas en un mensaje emergente.",
+      "whyPurchaseTitle": "¿Por qué comprar?",
+      "whyPurchaseBody": "Al comprar licencias de fotos de otros usuarios obtienes oportunidades de exposición para ayudar a vender tus propias fotos."
+    },
+    "sellPhotos": {
+      "heading": "Vende tus fotos",
+      "item1Before": "Ve a ",
+      "item1Em": "Foto+ → Monetización",
+      "item2": "Selecciona un mercado con cupos disponibles",
+      "item3Before": "Haz clic en ",
+      "item3Em": "Vender",
+      "thenLabel": "Luego:",
+      "then1": "Elige una foto de tu galería",
+      "then2": "Define tu cantidad de exposición",
+      "then3Before": "Haz clic en ",
+      "then3Em": "Vender",
+      "then3After": " para empezar",
+      "notifIntro": "Recibirás actualizaciones en tiempo real por notificaciones:",
+      "notifFail": "Si falla → notificación de fallo",
+      "notifSuccess": "Si tiene éxito → pantalla de celebración 🎉",
+      "finalBefore": "Cuando se usen todas las exposiciones, aparecerá un ",
+      "finalEm": "resumen del resultado final",
+      "finalAfter": " en un mensaje emergente."
+    },
+    "photoFusion": {
+      "heading": "Fusión de fotos",
+      "item1Before": "Ve a ",
+      "item1Em1": "Foto+",
+      "item1Mid": " → ",
+      "item1Em2": "Fusión de fotos",
+      "item2Before": "Tu foto debe tener una ",
+      "item2Em": "puntuación de 5 o superior",
+      "stepsLabel": "Pasos:",
+      "step1Before": "Añade una foto en la ",
+      "step1Em": "ranura principal",
+      "step2Before": "Añade otra en la ",
+      "step2Em": "ranura secundaria",
+      "step3Before": "Haz clic en ",
+      "step3Em": "Fusionar",
+      "step3After": " y espera",
+      "afterComplete": "Al terminar, verás el resultado.",
+      "goGalleryPrefix": "Haz clic en \"",
+      "goGalleryEm": "Ir a la galería",
+      "goGallerySuffix": "\" para verlo."
+    },
+    "checkResults": {
+      "heading": "Consultar resultados",
+      "introBefore": "En la ",
+      "introEm": "página de resultados",
+      "introAfter": " puedes ver:",
+      "result1": "Fotos compradas (ranuras)",
+      "result2": "Resultados de venta (trading)",
+      "result3": "Resultados de fusión",
+      "revealQ": "¿Quieres revelar puntos ocultos?",
+      "lockyBefore": "Usa ",
+      "lockyEm": "1 Candado",
+      "lockyAfter": " para desbloquear y ver la puntuación."
+    },
+    "redeemGiftCards": {
+      "heading": "Canjear tarjetas regalo",
+      "body1Before": "Cuando tus puntos alcancen cierto nivel, puedes solicitar una ",
+      "body1Em": "tarjeta regalo",
+      "body1After": ".",
+      "body2": "Los detalles se enviarán a tu correo registrado."
+    },
+    "purchasePackages": {
+      "heading": "Comprar paquetes",
+      "introBefore": "Hay ",
+      "introEm": "4 tipos de paquetes",
+      "introAfter": " disponibles.",
+      "payItem": "El pago se realiza con tarjeta de crédito",
+      "ticketsBefore": "Los paquetes incluyen ",
+      "ticketsEm": "tickets de entrada al mercado",
+      "ticketRulesTitle": "Reglas de los tickets:",
+      "ticket1Before": "Cada ticket permite entrar a ",
+      "ticket1Em": "un mercado",
+      "ticket2": "El número de entradas depende del precio base del mercado"
+    },
+    "editProfile": {
+      "heading": "Editar perfil",
+      "bodyBefore": "Puedes actualizar tu perfil en cualquier momento en el menú ",
+      "bodyEm": "Cuenta",
+      "bodyAfter": "."
+    },
+    "deleteAccount": {
+      "heading": "Eliminar cuenta",
+      "intro": "Para eliminar tu cuenta:",
+      "agree": "Acepta las condiciones de eliminación",
+      "removedBefore": "Una vez eliminada, ",
+      "removedEm": "todos los datos se eliminan de forma permanente",
+      "removedAfter": ", incluidos:",
+      "dataItems": [
+        "Información del perfil",
+        "Fotos",
+        "Puntos",
+        "Puntuaciones"
+      ],
+      "cannotBefore": "Esta acción ",
+      "cannotEm": "no se puede deshacer",
+      "cannotAfter": "."
+    }
+  }
+}

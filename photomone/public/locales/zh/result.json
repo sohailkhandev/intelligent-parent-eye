@@ -1,0 +1,140 @@
+{
+  "title": "结果",
+  "tabs": {
+    "purchased": "已购买",
+    "trading": "交易",
+    "fusion": "融合",
+    "history": "历史"
+  },
+  "stats": {
+    "exposures": "曝光",
+    "totalSales": "总销量",
+    "sellingRate": "销售率",
+    "earnings": "收益"
+  },
+  "historyTable": {
+    "noSalesYet": "暂无销售",
+    "serialNumber": "序号",
+    "photo": "照片",
+    "sales": "销售",
+    "sold": "已售",
+    "unsold": "未售",
+    "market": "市场",
+    "time": "时间",
+    "earned": "获得"
+  },
+  "fusionTable": {
+    "noFusionsYet": "暂无融合记录",
+    "score": "分数",
+    "fusedAt": "融合时间",
+    "luckyEarned": "获得 Locky",
+    "points": "积分"
+  },
+  "fusionDetail": {
+    "title": "融合详情",
+    "fusedBadge": "已融合"
+  },
+  "marketDetails": {
+    "title": "交易详情",
+    "mySales": "我的销售",
+    "earned": "获得",
+    "salePanelResult": "销售面板结果",
+    "you": "你",
+    "sold": "已售",
+    "saleSuccessful": "销售成功",
+    "saleFailed": "销售失败",
+    "photoOwner": "照片所有者",
+    "id": "ID",
+    "backAriaLabel": "返回"
+  },
+  "sellingReport": {
+    "market": "市场",
+    "pointsEarned": "获得积分",
+    "exposures": "曝光",
+    "numberOfSales": "销售数量",
+    "score": "分数"
+  },
+  "socket": {
+    "photoUnsold": "销售未成功！您的照片在{market}未售出。",
+    "photoSoldCongratulations": "恭喜",
+    "photoSoldInMarket": "您的照片已在{market}售出。",
+    "photoSoldBadge": "已售出",
+    "earnedPoints": "获得积分：{points}",
+    "checkResult": "查看结果",
+    "cancel": "取消",
+    "soldPhotoAlt": "已售照片"
+  },
+  "viewExposures": "查看曝光",
+  "exposuresTable": {
+    "title": "活跃曝光",
+    "serialNumber": "序号",
+    "photo": "照片",
+    "market": "市场",
+    "marketWithNumber": "市场 {number}",
+    "remainingExposures": "剩余",
+    "noData": "暂无数据"
+  },
+  "slot": {
+    "addSlot": "添加槽位",
+    "slotLabel": "槽位 {number}",
+    "slotEmpty": "空槽位",
+    "expired": "已过期",
+    "expires": "过期：{timeRemaining}",
+    "showMore": "显示更多",
+    "showLess": "收起",
+    "timeHoursMinutes": "{hours}小时{minutes}分",
+    "timeMinutes": "{minutes}分钟",
+    "timeSeconds": "{seconds}秒"
+  },
+  "purchaseDialog": {
+    "title": "购买",
+    "numberOfSlots": "槽位数量",
+    "slot": "个槽位",
+    "slots": "个槽位",
+    "totalCost": "总计：",
+    "yourPoints": "您的积分：",
+    "points": "积分",
+    "insufficientPoints": "积分不足！需要 {totalCost} 积分。",
+    "processing": "处理中...",
+    "purchaseSlot": "购买 {count} 个槽位",
+    "purchaseSlots": "购买 {count} 个槽位",
+    "cancel": "取消"
+  },
+  "messages": {
+    "purchaseSuccess": "成功购买 {count} {slotsLabel}！",
+    "purchaseFailed": "购买槽位失败，请重试。"
+  },
+  "a11y": {
+    "viewExposuresList": "查看曝光列表",
+    "photoThumbnail": "照片",
+    "fusionThumbnail": "融合",
+    "photoGridItem": "照片 {index}",
+    "detailPhoto": "照片",
+    "purchasedSlotImage": "槽位 {number} 的已购照片",
+    "openPhotoDetails": "打开照片详情"
+  },
+  "time": {
+    "justNow": "刚刚",
+    "minutesAgo": "{minutes} 分钟前",
+    "minuteAgo": "{minutes} 分钟前",
+    "hoursAgo": "{hours} 小时前",
+    "hourAgo": "{hours} 小时前",
+    "daysAgo": "{days} 天前",
+    "dayAgo": "{days} 天前",
+    "weeksAgo": "{weeks} 周前",
+    "weekAgo": "{weeks} 周前",
+    "monthsAgo": "{months} 个月前",
+    "monthAgo": "{months} 个月前",
+    "yearsAgo": "{years} 年前",
+    "yearAgo": "{years} 年前",
+    "na": "无",
+    "abbrev": {
+      "seconds": "{n}秒",
+      "minutes": "{n}分",
+      "hours": "{n}时",
+      "days": "{n}天",
+      "weeks": "{n}周",
+      "years": "{n}年"
+    }
+  }
+}

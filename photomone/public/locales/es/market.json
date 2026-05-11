@@ -1,0 +1,47 @@
+{
+  "title": "Mercado",
+  "screen": {
+    "selectPhoto": "Seleccionar foto",
+    "pickAPhoto": "Elige una foto que te guste.",
+    "purchasing": "Comprando...",
+    "waiting": "Esperando",
+    "waitingEllipsis": "Esperando...",
+    "purchasePhoto": "Comprar foto",
+    "purchase": "Comprar",
+    "instructionText": "Selecciona una foto y pulsa confirmar. Al hacerlo, se compraran los derechos de retrato de la foto seleccionada."
+  },
+  "container": {
+    "notInMarket": "No estas en ningun mercado",
+    "joinMarketFirst": "Unete primero a un mercado para participar en la compraventa de fotos.",
+    "goToPhotomone": "Ir a PhotoMone"
+  },
+  "purchaseDialog": {
+    "title": "Comprar licencia de foto",
+    "licenseDuration": "Duracion de la licencia:",
+    "licenseDescription": "La reventa solo esta permitida durante el periodo activo.",
+    "licenseCost": "Costo de licencia:",
+    "point": "punto",
+    "points": "puntos",
+    "insufficientPoints": "¡Puntos insuficientes! Necesitas {licenseCost} puntos.",
+    "processing": "Procesando...",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar"
+  },
+  "successDialog": {
+    "title": "Compra exitosa",
+    "message": "El retrato de tu foto ahora se esta mostrando a otros 4 usuarios y esta en venta. Puedes revisar el resultado pronto en la pagina de resultados.",
+    "ok": "OK"
+  },
+  "messages": {
+    "purchaseSuccess": "¡Licencia de foto comprada con exito!",
+    "purchaseFailed": "No se pudo comprar la licencia de foto",
+    "slotIdMissing": "Falta el ID del slot. Selecciona una foto."
+  },
+  "purchaseCongrats": {
+    "title": "Felicidades!",
+    "ok": "OK",
+    "messageTemplate": "Has recibido {{highlight}} en {{market}}",
+    "highlightOne": "1 exposicion",
+    "highlightMany": "{count} exposiciones"
+  }
+}

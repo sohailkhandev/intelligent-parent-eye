@@ -1,0 +1,191 @@
+{
+  "back": "Back",
+  "title": "PhotoMone User FAQ",
+  "hero": {
+    "badge": "FAQs",
+    "titleBefore": "PhotoMone User",
+    "titleLast": "FAQs"
+  },
+  "support": {
+    "sectionBadge": "Support",
+    "question": "How can I get customer support?",
+    "text": "Please contact our support team:",
+    "email": "support@photomone.com",
+    "button": "Contact Support"
+  },
+  "categories": [
+    {
+      "title": "General",
+      "faqs": [
+        {
+          "question": "What is this platform?",
+          "answer": "This platform allows users to create AI-generated photos, trade photo licenses, and earn rewards through exposure and engagement."
+        },
+        {
+          "question": "Is it free to join?",
+          "answer": "Yes, signing up is completely free."
+        },
+        {
+          "question": "Do I get any rewards for signing up?",
+          "answer": "Yes, you will receive **100 free points** after completing your profile."
+        }
+      ]
+    },
+    {
+      "title": "Account & Profile",
+      "faqs": [
+        {
+          "question": "Can I sign up using Google?",
+          "answer": "Yes, you can sign up using either Google login or email."
+        },
+        {
+          "question": "Can I change my profile information later?",
+          "answer": "Yes, you can update your profile anytime in the Account menu."
+        },
+        {
+          "question": "What happens if I delete my account?",
+          "answer": "All your data (photos, points, scores, etc.) will be permanently deleted and **cannot be recovered.**"
+        }
+      ]
+    },
+    {
+      "title": "Photo Upload & Gallery",
+      "faqs": [
+        {
+          "question": "What kind of photos can I upload?",
+          "answer": "Only **real human face photos** are allowed."
+        },
+        {
+          "question": "Can I upload animal, cartoon, or background images?",
+          "answer": "No. Non-human images (animals, cartoons, backgrounds, etc.) will not be registered in the gallery."
+        },
+        {
+          "question": "How long does photo generation take?",
+          "answer": "It takes about **30 seconds** after clicking \u201cValidate & Generate.\u201d"
+        },
+        {
+          "question": "Why do I only get two generated images?",
+          "answer": "The system provides two optimized results for you to choose the best one."
+        },
+        {
+          "question": "Can I upload multiple photos?",
+          "answer": "Yes, you can upload multiple photos to your gallery."
+        }
+      ]
+    },
+    {
+      "title": "Purchase & Exposure",
+      "faqs": [
+        {
+          "question": "Why do I need to purchase other users' photos?",
+          "answer": "Purchasing photo licenses gives you **exposure opportunities**, which help you sell your own photos."
+        },
+        {
+          "question": "What are exposure opportunities?",
+          "answer": "They represent how many times your photo can be shown to others."
+        },
+        {
+          "question": "How many exposure opportunities can I get?",
+          "answer": "You can receive between **1 and 99 exposures** per purchase."
+        },
+        {
+          "question": "Can I choose how many exposures I get?",
+          "answer": "No, exposure amounts are assigned randomly within the given range."
+        }
+      ]
+    },
+    {
+      "title": "Selling Photos",
+      "faqs": [
+        {
+          "question": "How do I sell my photos?",
+          "answer": "Select a market, choose a photo, set exposure, and click **Sell**."
+        },
+        {
+          "question": "What happens if my photo doesn't sell?",
+          "answer": "You will receive a **failure notification**, and the selling attempt ends."
+        },
+        {
+          "question": "How do I know if my photo is selling?",
+          "answer": "You will receive **real-time notifications** about your sales progress."
+        },
+        {
+          "question": "What happens after all exposures are used?",
+          "answer": "A **final summary popup** will show your results."
+        }
+      ]
+    },
+    {
+      "title": "Photo Fusion",
+      "faqs": [
+        {
+          "question": "What is Photo Fusion?",
+          "answer": "It is a feature that combines two photos to create a new one."
+        },
+        {
+          "question": "What are the requirements for fusion?",
+          "answer": "Your photo must have a **score of 5 or higher**."
+        },
+        {
+          "question": "How long does fusion take?",
+          "answer": "Fusion takes a short processing time after clicking the **Fuse** button."
+        }
+      ]
+    },
+    {
+      "title": "Points & Rewards",
+      "faqs": [
+        {
+          "question": "What are points used for?",
+          "answer": "Points can be used within the platform and redeemed for rewards like gift cards."
+        },
+        {
+          "question": "How do I check hidden scores?",
+          "answer": "You can use **1 Locky** to unlock and view hidden point scores."
+        },
+        {
+          "question": "How do I redeem a gift card?",
+          "answer": "Once you reach the required point level, you can request a gift card, and details will be sent via email."
+        }
+      ]
+    },
+    {
+      "title": "Packages & Payments",
+      "faqs": [
+        {
+          "question": "What are packages?",
+          "answer": "Packages include **market entry tickets** that allow participation in different markets."
+        },
+        {
+          "question": "How do tickets work?",
+          "answer": "Each ticket allows entry into **one market**, and usage depends on the market's base price."
+        },
+        {
+          "question": "Can I cancel a purchased package?",
+          "answer": "No. **All package purchases are non-refundable.**"
+        },
+        {
+          "question": "What payment methods are supported?",
+          "answer": "Payments are made via **credit card.**"
+        }
+      ]
+    },
+    {
+      "title": "Policies & Restrictions",
+      "faqs": [
+        {
+          "question": "Can I get a refund after using a package?",
+          "answer": "No, once a package is purchased and used, it **cannot be refunded.**"
+        },
+        {
+          "question": "What happens if I upload an invalid photo?",
+          "answer": "If the photo is not a valid human face, it will **not be added to the gallery.**"
+        },
+        {
+          "question": "Is there any limit to deleting and recreating accounts?",
+          "answer": "Account deletion is permanent, and previously deleted data cannot be restored."
+        }
+      ]
+    }
+  ]
+}

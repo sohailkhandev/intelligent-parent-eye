@@ -33,4 +33,54 @@ interface IChild {
   __v?: number;
 }
 
-export type { IAdmin, IParent, IChild };
+interface IChildApp {
+  _id: string;
+  appName: string;
+  packageName: string;
+  icon?: string;
+  blocked: boolean;
+  appUsage?: {
+    hours: number;
+    minutes: number;
+    seconds: number;
+  };
+  allAppUsage?: {
+    hours: number;
+    minutes: number;
+    seconds: number;
+  };
+  createdAt?: string;
+  updatedAt?: string;
+  __v?: number;
+}
+
+type IChildAppFilter = "today" | "week" | "month";
+
+interface IAlertApp {
+  _id: string;
+  appName: string;
+  usage: string;
+  icon: string | null;
+}
+
+interface IAlert {
+  _id: string;
+  hours: number;
+  reportingDayStart: string;
+  apps: IAlertApp[];
+  createdAt: string;
+  updatedAt: string;
+  child: string;
+  childName: string;
+  __v?: number;
+}
+
+export type {
+  IAdmin,
+  IParent,
+  IChild,
+  IChildApp,
+  IChildAppFilter,
+  IAlertApp,
+  IAlert,
+};

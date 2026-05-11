@@ -1,0 +1,60 @@
+{
+  "title": "Detalles de la foto",
+  "errors": {
+    "revealPointsFailed": "No se pudieron revelar los puntos",
+    "claimPointsFailed": "No se pudieron reclamar los puntos",
+    "exposuresMinForReveal": "Las exposiciones del slot deben ser al menos 20 para revelar puntos",
+    "insufficientLockyForReveal": "Necesitas al menos 1 Locky para revelar puntos"
+  },
+  "previewPhoto": {
+    "title": "Vista previa",
+    "photoAlt": "Foto",
+    "downloadAndShare": "Descargar y compartir",
+    "downloadPhotoSuccess": "Foto descargada",
+    "downloadFailed": "Error al descargar. No se pudo guardar la foto.",
+    "ariaDownload": "Descargar foto",
+    "ariaFacebook": "Compartir en Facebook",
+    "ariaTikTok": "Compartir en TikTok",
+    "ariaInstagram": "Compartir en Instagram"
+  },
+  "score": "Puntuacion:",
+  "unreliable": "Poco fiable",
+  "trustworthy": "Fiable",
+  "earnings": "Ganancias",
+  "tier": "Nivel interno",
+  "progressWithinTier": "Progreso en el nivel",
+  "exposures": "Exposiciones",
+  "collecting": "Recolectando...",
+  "unknown": "Desconocido",
+  "sellMoreToRank": "Sin clasificar. Vende mas para aparecer en el ranking",
+  "revealPointsTitle": "Revelar puntos",
+  "revealPointsMessage": "Estas seguro?",
+  "revealPointsLockySubtext": "Usar 1 Locky",
+  "revealButton": "Revelar",
+  "cancelButton": "Cancelar",
+  "claim": "Reclamar",
+  "claimed": "Reclamado",
+  "claimWarningTitle": "Reclamar puntos",
+  "claimWarningMessage": "Reclamar desactiva este slot de forma permanente. Continuar?",
+  "claimWarningPointsLabel": "Puntos a reclamar",
+  "rankLabels": {
+    "Below Standard": "Por debajo del estandar",
+    "Standard": "Estandar",
+    "Above Standard": "Por encima del estandar",
+    "Distinguished": "Distinguido",
+    "Prestige": "Prestigio",
+    "Elite Class": "Clase elite",
+    "Icon Class": "Clase icono",
+    "Divine Class": "Clase divina"
+  },
+  "tiers": {
+    "belowAverage": "Por debajo del promedio",
+    "average": "Promedio",
+    "aboveAverage": "Por encima del promedio",
+    "maybeAttractive": "Tal vez atractivo",
+    "attractive": "Atractivo",
+    "celebrityLevel": "Nivel celebridad",
+    "topClass": "Clase maxima",
+    "godTier": "Nivel divino"
+  }
+}

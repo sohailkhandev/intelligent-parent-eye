@@ -1,0 +1,47 @@
+{
+  "title": "مارکیٹ",
+  "screen": {
+    "selectPhoto": "تصویر منتخب کریں",
+    "pickAPhoto": "اپنی پسند کی تصویر منتخب کریں۔",
+    "purchasing": "خریداری جاری ہے...",
+    "waiting": "انتظار",
+    "waitingEllipsis": "انتظار...",
+    "purchasePhoto": "تصویر خریدیں",
+    "purchase": "خریدیں",
+    "instructionText": "براہ کرم ایک تصویر منتخب کریں اور تصدیق کا بٹن دبائیں۔ اس سے منتخب تصویر کے پورٹریٹ حقوق خرید لیے جائیں گے۔"
+  },
+  "container": {
+    "notInMarket": "آپ کسی بھی مارکیٹ میں شامل نہیں ہیں",
+    "joinMarketFirst": "فوٹو ٹریڈنگ میں حصہ لینے کے لیے پہلے مارکیٹ میں شامل ہوں۔",
+    "goToPhotomone": "PhotoMone پر جائیں"
+  },
+  "purchaseDialog": {
+    "title": "تصویر کا لائسنس خریدیں",
+    "licenseDuration": "لائسنس کی مدت:",
+    "licenseDescription": "دوبارہ فروخت صرف فعال مدت کے دوران ممکن ہے۔",
+    "licenseCost": "لائسنس لاگت:",
+    "point": "پوائنٹ",
+    "points": "پوائنٹس",
+    "insufficientPoints": "پوائنٹس ناکافی ہیں! آپ کو {licenseCost} پوائنٹس درکار ہیں۔",
+    "processing": "کارروائی جاری...",
+    "confirm": "تصدیق",
+    "cancel": "منسوخ"
+  },
+  "successDialog": {
+    "title": "خریداری کامیاب",
+    "message": "آپ کی تصویر کا پورٹریٹ اب 4 دوسرے صارفین کو دکھایا جا رہا ہے اور فروخت کے لیے موجود ہے۔ آپ جلد ہی نتیجہ رزلٹ صفحہ پر دیکھ سکتے ہیں۔",
+    "ok": "OK"
+  },
+  "messages": {
+    "purchaseSuccess": "تصویر کا لائسنس کامیابی سے خرید لیا گیا!",
+    "purchaseFailed": "تصویر کا لائسنس خریدنے میں ناکامی",
+    "slotIdMissing": "سلاٹ ID موجود نہیں۔ براہ کرم تصویر منتخب کریں۔"
+  },
+  "purchaseCongrats": {
+    "title": "مبارک ہو!",
+    "ok": "ٹھیک",
+    "messageTemplate": "آپ کو {{market}} میں {{highlight}} ملے",
+    "highlightOne": "1 ایکسپوژر",
+    "highlightMany": "{count} ایکسپوژر"
+  }
+}

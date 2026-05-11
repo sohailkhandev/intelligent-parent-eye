@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "badge": "Über uns",
+    "titleFirst": "ÜBER",
+    "titleLast": "UNS",
+    "lead": "PhotoMone ist eine Handelsplattform für Porträt-Nutzungsrechte und soll messbaren wirtschaftlichen Nutzen für Nutzer schaffen.",
+    "mission": "Unsere Mission ist klar: Einzelpersonen zu befähigen, durch strukturierte Nutzung, Bewertung und Verwertung von Porträt-Nutzungsrechten finanziellen Wert zu erzeugen.",
+    "marketplace": "Im Kern bietet PhotoMone einen regulierten Marktplatz, auf dem Nutzer Porträt-Nutzungsrechte—eigene und erworbene—innerhalb eines transparenten, regelbasierten Systems handeln können. Durch Teilnahme können sie Engagement in konkrete wirtschaftliche Ergebnisse umwandeln."
+  },
+  "corePrinciples": {
+    "heading": "Grundprinzipien",
+    "intro": "PhotoMone basiert auf drei Grundprinzipien:",
+    "items": [
+      {
+        "title": "1. Porträt-Nutzungsrechte als wirtschaftliche Vermögenswerte",
+        "body": "Porträts gelten als handelbare digitale Vermögenswerte, deren Wert durch Plattformaktivität statt durch subjektive Meinung bestimmt wird."
+      },
+      {
+        "title": "2. Objektive Gesichtsbewertung anhand von Marktdaten",
+        "body": "Gesichter werden anhand echter Transaktionsdaten, Häufigkeit der Sichtbarkeit und Marktbedingungen bewertet, sodass Nutzer den relativen Wert ihrer Porträts über objektive Kennzahlen nachvollziehen können."
+      },
+      {
+        "title": "3. Wertschöpfung durch Transformation",
+        "body": "Neben dem Handel ermöglicht PhotoMone, den Wert von Porträts durch Foto-Fusion zu steigen: qualifizierte Bilder können verschmolzen und zu Vermögenswerten mit höherem Marktpotenzial werden."
+      }
+    ]
+  },
+  "valueCreation": {
+    "heading": "Wie auf PhotoMone Wert entsteht",
+    "intro": "Nutzer nehmen an einem strukturierten Prozess teil, der wirtschaftlichen Wert erzeugt:",
+    "bullets": [
+      "Durch den Kauf von Porträt-Nutzungsrechten anderer erhalten Teilnehmende die Möglichkeit, eigene Porträt-Nutzungsrechte unter vergleichbaren Bedingungen anzubieten.",
+      "Transaktionen generieren Punkte, die angesammelten wirtschaftlichen Wert auf der Plattform abbilden.",
+      "Porträts werden fortlaufend anhand der Transaktionsaktivität bewertet; Nutzer erhalten klare Gesichtsrankings und Auswertungsdaten.",
+      "Mit Foto-Fusion können Nutzer den Wert bestehender Porträts steigern und neue Vermögenswerte mit höherem Marktpotenzial schaffen."
+    ],
+    "closing": "Die Schaffung und Auslieferung fotobasierten Werts für Nutzer hat für uns als Unternehmen oberste Priorität."
+  },
+  "positioning": {
+    "heading": "Was PhotoMone ist — und was nicht",
+    "notLabel": "PhotoMone ist nicht:",
+    "notItems": [
+      "ein soziales Netzwerk,",
+      "ein Popularitätswettbewerb,",
+      "ein Angebot, das von Followern, Ruhm oder Reichweite lebt."
+    ],
+    "isLabel": "PhotoMone ist:",
+    "isItems": [
+      "ein System mit Fokus auf wirtschaftliche Teilnahme,",
+      "ein Marktplatz mit transparenten Regeln,",
+      "eine Plattform, auf der Wert durch Handeln statt durch Wahrnehmung entsteht."
+    ],
+    "closing": "Teilnahme hängt nicht von Aussehen, Popularität oder Herkunft ab, sondern allein davon, wie Nutzer mit dem System interagieren."
+  },
+  "capabilities": {
+    "heading": "Was Nutzer auf PhotoMone tun können",
+    "intro": "Mit PhotoMone können Nutzer:",
+    "bullets": [
+      "Porträt-Nutzungsrechte auf einem regulierten Marktplatz handeln",
+      "Objektive Gesichtsbewertungen aufgrund echter Transaktionsdaten erhalten",
+      "Den Fotowert durch Foto-Fusion-Mechanismen steigern",
+      "Gekaufte Porträt-Nutzungsrechte weiterveräußern und Renditen erzielen",
+      "Durch Handel und Plattformaktivitäten Punkte sammeln",
+      "Gesammelte Punkte gegen Geschenkkarten und andere wirtschaftliche Vorteile einlösen"
+    ]
+  },
+  "commitment": {
+    "heading": "Unser Engagement",
+    "intro": "PhotoMone verpflichtet sich:",
+    "highlights": [
+      {
+        "before": "Wir liefern Nutzern ",
+        "emphasis": "echte wirtschaftliche Vorteile",
+        "after": ""
+      },
+      {
+        "before": "Wir betreiben ",
+        "emphasis": "ein transparentes und strukturiertes Handelssystem",
+        "after": ""
+      }
+    ],
+    "items": [
+      "Funktionen kontinuierlich zu erweitern, die nutzergetriebene Wertschöpfung unterstützen",
+      "Zugängliche Werkzeuge bereitzustellen, die Teilnahme unabhängig von Aussehen oder Hintergrund ermöglichen"
+    ],
+    "closing": "Mit dem Wachstum der Plattform kommen weitere Systeme und Dienste hinzu, um die Fähigkeit der Nutzer zu stärken, aus ihrer Teilnahme Wert zu generieren."
+  },
+  "purpose": {
+    "heading": "Unser Auftrag",
+    "intro": "PhotoMone soll Nutzern helfen, Teilnahme in Chancen und Chancen in Belohnungen zu verwandeln.",
+    "outroBefore": "Wenn Sie wirtschaftlich vom Handel mit Porträt-Nutzungsrechten, der Gesichtsbewertung und der Fotowert-Schöpfung profitieren wollen, dann ",
+    "outroEmphasis": "beginnen Sie mit PhotoMone."
+  }
+}

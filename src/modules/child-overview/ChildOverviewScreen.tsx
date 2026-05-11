@@ -5,11 +5,13 @@ import { COLORS } from "@constants";
 interface ChildOverviewScreenProps {
   children: IChild[];
   isLoading: boolean;
+  onChildSelect: (childId: string) => void;
 }
 
 export const ChildOverviewScreen = ({
   children,
   isLoading,
+  onChildSelect,
 }: ChildOverviewScreenProps) => {
   if (isLoading) {
     return (
@@ -51,11 +53,19 @@ export const ChildOverviewScreen = ({
           {children.map((child) => (
             <Box
               key={child._id}
-              className="rounded-xl p-5"
+              component="button"
+              type="button"
+              onClick={() => onChildSelect(child._id)}
+              className="rounded-xl p-5 text-left transition-all hover:-translate-y-0.5 hover:opacity-95"
               sx={{
+                cursor: "pointer",
                 backgroundColor: COLORS.white,
                 border: `1px solid ${COLORS.border}`,
                 boxShadow: `0 2px 8px ${COLORS.border}`,
+                "&:hover": {
+                  boxShadow: `0 10px 24px ${COLORS.primary}22`,
+                  borderColor: `${COLORS.primary}55`,
+                },
               }}
             >
               <p

@@ -1,0 +1,39 @@
+{
+  "back": "返回",
+  "chatbotGreeting": "您好！",
+  "chatbotPlaceholder": "输入您的问题…",
+  "title": "客户支持",
+  "description": "如有任何疑问，欢迎随时联系我们。",
+  "responseTime": "我们通常在 24–48 小时内回复。",
+  "form": {
+    "name": "姓名*",
+    "namePlaceholder": "请输入您的全名",
+    "email": "电子邮箱*",
+    "emailPlaceholder": "请输入电子邮箱",
+    "subject": "主题*",
+    "subjectPlaceholder": "请输入主题",
+    "message": "留言*",
+    "messagePlaceholder": "请输入留言内容…",
+    "attachments": "附件",
+    "selectFiles": "选择文件",
+    "addAttachment": "添加附件",
+    "removeFileAriaLabel": "移除文件",
+    "sendMessage": "发送留言",
+    "sending": "发送中…",
+    "messageSent": "发送成功！我们会尽快与您联系。",
+    "messageFailed": "发送失败，请重试。"
+  },
+  "validation": {
+    "nameRequired": "请填写姓名",
+    "nameMin": "姓名至少 2 个字符",
+    "nameMax": "姓名不得超过 100 个字符",
+    "emailRequired": "请填写电子邮箱",
+    "emailInvalid": "请输入有效的电子邮箱地址",
+    "subjectRequired": "请填写主题",
+    "subjectMin": "主题至少 3 个字符",
+    "subjectMax": "主题不得超过 200 个字符",
+    "messageRequired": "请填写留言",
+    "messageMin": "留言至少 10 个字符",
+    "messageMax": "留言不得超过 5000 个字符"
+  }
+}

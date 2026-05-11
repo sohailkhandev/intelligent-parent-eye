@@ -1,0 +1,39 @@
+{
+  "back": "戻る",
+  "chatbotGreeting": "こんにちは！",
+  "chatbotPlaceholder": "質問を入力...",
+  "title": "カスタマーサポート",
+  "description": "ご不明点がございましたら、お気軽にお問い合わせください。",
+  "responseTime": "通常、24～48時間以内に返信いたします。",
+  "form": {
+    "name": "お名前*",
+    "namePlaceholder": "フルネームを入力",
+    "email": "メールアドレス*",
+    "emailPlaceholder": "メールアドレスを入力",
+    "subject": "件名*",
+    "subjectPlaceholder": "件名を入力",
+    "message": "メッセージ*",
+    "messagePlaceholder": "メッセージを入力...",
+    "attachments": "添付ファイル",
+    "selectFiles": "ファイルを選択",
+    "addAttachment": "ファイルを添付",
+    "removeFileAriaLabel": "ファイルを削除",
+    "sendMessage": "送信",
+    "sending": "送信中...",
+    "messageSent": "送信しました。追ってご連絡いたします。",
+    "messageFailed": "送信に失敗しました。もう一度お試しください。"
+  },
+  "validation": {
+    "nameRequired": "お名前は必須です",
+    "nameMin": "お名前は2文字以上で入力してください",
+    "nameMax": "お名前は100文字未満で入力してください",
+    "emailRequired": "メールアドレスは必須です",
+    "emailInvalid": "有効なメールアドレスを入力してください",
+    "subjectRequired": "件名は必須です",
+    "subjectMin": "件名は3文字以上で入力してください",
+    "subjectMax": "件名は200文字未満で入力してください",
+    "messageRequired": "メッセージは必須です",
+    "messageMin": "メッセージは10文字以上で入力してください",
+    "messageMax": "メッセージは5000文字未満で入力してください"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "brandAlt": "PhotoMone",
+  "tagline": "생성한 AI 이미지를 현실의 가치로 바꾸세요.",
+  "description": "본인 사진으로 AI를 통해 이미지를 만들어 마켓에서 거래하고, 사진 합성으로 더 높은 가치로 업그레이드하고, 마지막에는 적립한 포인트로 기프트 카드로 교환하거나 또는 스폰서 리워드로 보상 받으세요.",
+  "siteMapTitle": "사이트 맵",
+  "legalTitle": "법적 고지",
+  "languageSectionTitle": "언어 선택",
+  "nav": {
+    "home": "홈",
+    "howItWorks": "서비스 이용법",
+    "faq": "자주 묻는 질문",
+    "aboutUs": "회사 소개",
+    "blog": "블로그",
+    "support": "고객 지원"
+  },
+  "legal": {
+    "privacyPolicy": "개인정보 보호정책",
+    "termsAndConditions": "이용 약관"
+  },
+  "copyright": "© 2026 PhotoMone. All rights reserved.",
+  "social": {
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "youtube": "YouTube"
+  },
+  "images": {
+    "highlight": "PhotoMone"
+  }
+}

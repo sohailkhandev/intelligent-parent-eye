@@ -1,0 +1,133 @@
+{
+  "title": "ACCUEIL",
+  "points": "Points",
+  "earnings": "Gains",
+  "locky": "Cle",
+  "tabs": {
+    "gallery": "Galerie",
+    "notice": "Avis",
+    "missions": "Missions"
+  },
+  "slot": {
+    "label": "Emplacement",
+    "uploadPhoto": "Téléverser une photo",
+    "addSlot": "Ajouter un emplacement",
+    "showMore": "Voir plus",
+    "showLess": "Voir moins",
+    "new": "NOUVEAU",
+    "expired": "Expiré"
+  },
+  "profile": {
+    "completeYourProfile": "Complétez votre profil",
+    "completeYourProfileColon": "Complétez votre profil :",
+    "completeProfileMessage": "Veuillez compléter votre profil avant de téléverser des photos.",
+    "completeProfileButton": "Compléter le profil"
+  },
+  "uploadDialog": {
+    "generateForSlot": "Générer pour l'emplacement",
+    "loading": "Chargement...",
+    "generate": "Générer",
+    "stepper": {
+      "step1Label": "ÉTAPE 1",
+      "step1Title": "Choisir",
+      "step2Label": "ÉTAPE 2",
+      "step2Title": "Rogner",
+      "step3Label": "ÉTAPE 3",
+      "step3Title": "Valider",
+      "step4Label": "ÉTAPE 4",
+      "step4Title": "Terminer"
+    },
+    "clickToChoose": "Choisissez une photo",
+    "fileFormats": "PNG, JPG, JPEG, WebP, HEIC, jusqu'à",
+    "choose": "Choisir",
+    "validatingAndGenerating": "Validation et génération",
+    "cancel": "Annuler",
+    "selectPhotoToUpload": "Sélectionnez une photo à téléverser",
+    "upload": "Téléverser",
+    "chooseAnother": "Choisir une autre photo",
+    "photoUploadedSuccess": "Photo téléversée avec succès",
+    "failedToUpload": "Échec du téléversement de la photo",
+    "failedToCrop": "Impossible de rogner la photo. Veuillez réessayer.",
+    "failedToUploadImage": "Impossible de téléverser la photo. Veuillez réessayer.",
+    "uploadingButton": "Téléversement...",
+    "unsupportedFileFormat": "Ce type de fichier n'est pas pris en charge. Veuillez utiliser PNG, JPG, JPEG, WebP ou HEIC.",
+    "validationFailed": "La validation de la photo a échoué. La photo doit contenir un seul visage clair et visible face à la caméra.",
+    "fileSizeError": "La taille du fichier ({fileSizeMB}MB) dépasse la taille maximale autorisée de {maxSizeMB}MB. Veuillez choisir une photo plus petite.",
+    "aiAnalysis": {
+      "male": "Homme",
+      "female": "Femme",
+      "human": "Humain"
+    },
+    "genderMismatch": {
+      "message": "Incompatibilité de genre. La personne sur la photo doit être {gender}.",
+      "generic": "Incompatibilité de genre. La personne sur la photo ne correspond pas au genre requis."
+    }
+  },
+  "purchaseDialog": {
+    "title": "Achat",
+    "numberOfSlots": "Nombre d’emplacements",
+    "slot": "emplacement",
+    "slots": "emplacements",
+    "totalCost": "Coût total :",
+    "points": "points",
+    "pointsAbbrev": "pts",
+    "purchaseSlotButton": "Acheter un emplacement",
+    "purchaseSlotsButton": "Acheter des emplacements",
+    "yourPoints": "Vos points :",
+    "insufficientPoints": "Points insuffisants ! Il vous faut {totalCost} points.",
+    "processing": "Traitement...",
+    "purchase": "Acheter",
+    "cancel": "Annuler",
+    "purchaseSuccess": "{slotsToAdd} emplacement acheté avec succès !",
+    "purchaseSuccessPlural": "{slotsToAdd} emplacements achetés avec succès !",
+    "purchaseFailed": "Échec de l’achat d’un emplacement"
+  },
+  "noticeTab": {
+    "noNotices": "Aucun avis pour le moment",
+    "noNoticesDescription": "Les avis apparaitront ici lorsqu'ils seront disponibles."
+  },
+  "missionsTab": {
+    "labels": {
+      "points": "Points",
+      "collect": "Recuperer",
+      "collecting": "Recuperation",
+      "collected": "Recupere",
+      "incomplete": "Incomplet",
+      "failedToLoad": "Echec du chargement des missions.",
+      "collectSuccess": "Recompense de mission recuperee avec succes."
+    },
+    "nameMap": {
+      "Register a photo in one gallery slot": "Enregistrez une photo dans un emplacement de galerie",
+      "Purchase a photo once": "Achetez une photo une fois",
+      "Gain at least 5 exposure opportunities from purchasing a photo": "Obtenez au moins 5 opportunites d'exposition en achetant une photo",
+      "Sell one photo": "Vendez une photo",
+      "Sell three photos": "Vendez trois photos",
+      "Reach a score of 5 with a single photo": "Atteignez un score de 5 avec une seule photo",
+      "Complete your first photo fusion": "Terminez votre premiere fusion de photos",
+      "Perform 3 photo fusions": "Effectuez 3 fusions de photos",
+      "Add one additional gallery slot": "Ajoutez un emplacement de galerie supplementaire",
+      "Add one additional purchased slot": "Ajoutez un emplacement achete supplementaire"
+    },
+    "descriptionMap": {
+      "Receive 10 points (one-time only)": "Recevez 10 points (une seule fois)",
+      "Receive 20 points (one-time only)": "Recevez 20 points (une seule fois)",
+      "Receive 30 points": "Recevez 30 points",
+      "Receive 30 points (one-time only)": "Recevez 30 points (une seule fois)",
+      "Receive 50 points (one-time only)": "Recevez 50 points (une seule fois)",
+      "Receive 50 points + 5 Value Market entries (one-time only)": "Recevez 50 points + 5 entrees du marche Value (une seule fois)",
+      "Receive 50 points + 5 Momentum Market entries (one-time only)": "Recevez 50 points + 5 entrees du marche Momentum (une seule fois)",
+      "Receive 50 points + 5 Premium Market entries (one-time only)": "Recevez 50 points + 5 entrees du marche Premium (une seule fois)",
+      "Receive 200 points + 5 Capital Market entries (one-time only)": "Recevez 200 points + 5 entrees du marche Capital (une seule fois)",
+      "Receive 500 points + 5 Authority Market entries (one-time only)": "Recevez 500 points + 5 entrees du marche Authority (une seule fois)"
+    },
+    "completedDialog": {
+      "title": "Mission terminée",
+      "congratulations": "Félicitations !",
+      "bodyTemplate": "Vous avez terminé [[MISSION]] et gagné [[POINTS]].",
+      "pointsLabel": "points",
+      "collectButton": "Récupérer la récompense",
+      "collectInfoToast": "Rendez-vous dans l'onglet Missions pour récupérer votre récompense.",
+      "closeAriaLabel": "Fermer"
+    }
+  }
+}

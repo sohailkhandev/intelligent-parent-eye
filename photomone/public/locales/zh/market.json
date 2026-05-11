@@ -1,0 +1,47 @@
+{
+  "title": "市场",
+  "screen": {
+    "selectPhoto": "选择照片",
+    "pickAPhoto": "选择一张你喜欢的照片。",
+    "purchasing": "购买中...",
+    "waiting": "等待中",
+    "waitingEllipsis": "等待中...",
+    "purchasePhoto": "购买照片",
+    "purchase": "购买",
+    "instructionText": "请选择一张照片并点击确认按钮。这样将购买所选照片的肖像权。"
+  },
+  "container": {
+    "notInMarket": "你当前不在任何市场中",
+    "joinMarketFirst": "请先加入一个市场，再参与照片交易。",
+    "goToPhotomone": "前往 PhotoMone"
+  },
+  "purchaseDialog": {
+    "title": "购买照片授权",
+    "licenseDuration": "授权时长：",
+    "licenseDescription": "仅在有效期内允许转售。",
+    "licenseCost": "授权费用：",
+    "point": "积分",
+    "points": "积分",
+    "insufficientPoints": "积分不足！你需要 {licenseCost} 积分。",
+    "processing": "处理中...",
+    "confirm": "确认",
+    "cancel": "取消"
+  },
+  "successDialog": {
+    "title": "购买成功",
+    "message": "你的照片肖像正在向另外 4 位用户展示，并已上架出售。你可以稍后在结果页面查看结果。",
+    "ok": "确定"
+  },
+  "messages": {
+    "purchaseSuccess": "照片授权购买成功！",
+    "purchaseFailed": "照片授权购买失败",
+    "slotIdMissing": "缺少槽位 ID。请选择一张照片。"
+  },
+  "purchaseCongrats": {
+    "title": "恭喜！",
+    "ok": "确定",
+    "messageTemplate": "您在 {{market}} 获得了 {{highlight}}",
+    "highlightOne": "1 次曝光",
+    "highlightMany": "{count} 次曝光"
+  }
+}

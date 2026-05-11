@@ -1,0 +1,178 @@
+{
+  "hero": {
+    "badge": "Privacy Policy",
+    "titleFirst": "Privacy",
+    "titleLast": "Policy",
+    "lastUpdated": "Last updated: 25 March 2026",
+    "introBefore": "This Privacy Policy explains how ",
+    "introCompany": "Photomone Pty Ltd (ACN 692 281 833)",
+    "introAfter": ", located at 134 Pinelands Rd, Sunnybank Hills, QLD, Australia (\"Company\", \"we\", \"us\", or \"our\"), collects, uses, processes, and protects personal information when you use the PhotoMone platform (\"Service\").",
+    "agree": "By accessing or using the Service, you agree to the collection and use of information in accordance with this Privacy Policy."
+  },
+  "overview": {
+    "heading": "1. Overview of Data Use",
+    "leadBefore": "The Service is based on ",
+    "leadEmphasis": "AI-generated virtual content.",
+    "leadAfter": "",
+    "bullets": [
+      "The Service does not trade or distribute real user identity or portrait rights",
+      "Uploaded images are used as input data to generate entirely new, synthetic images",
+      "Generated Content does not represent real individuals"
+    ]
+  },
+  "informationCollect": {
+    "heading": "2. Information We Collect",
+    "personalTitle": "2.1 Personal Information",
+    "weMayCollect": "We may collect:",
+    "personalItems": [
+      "Name or display name",
+      "Email address",
+      "Account login credentials",
+      "Country and basic profile information"
+    ],
+    "userContentTitle": "2.2 User-Provided Content",
+    "userContentItems": [
+      "Photos uploaded by Users (\"Input Content\")",
+      "Profile images",
+      "Any data submitted within the Service"
+    ],
+    "autoTitle": "2.3 Automatically Collected Data",
+    "autoItems": [
+      "Device information",
+      "IP address",
+      "Browser type",
+      "Usage data (interactions, activity logs)"
+    ]
+  },
+  "howWeUse": {
+    "heading": "3. How We Use Information",
+    "weUseTo": "We use collected information to:",
+    "bullets": [
+      "Provide and operate the Service",
+      "Generate AI-based images from Input Content",
+      "Improve system performance and user experience",
+      "Develop and train AI models",
+      "Prevent fraud, abuse, or misuse",
+      "Comply with legal obligations"
+    ]
+  },
+  "aiProcessing": {
+    "heading": "4. AI Processing and Generated Content",
+    "explicitAgree": "By using the Service, you explicitly agree that:",
+    "bulletProcessAi": "Your uploaded images may be processed by AI systems",
+    "bulletTransformSynthetic": "Your data may be transformed into new, synthetic Generated Content",
+    "generatedContentTitle": "Generated Content:",
+    "generatedContentPoints": [
+      "Does not identify you",
+      "Does not represent you",
+      "Cannot be used to determine your identity"
+    ],
+    "companyMayUse": "The Company may use:",
+    "contentLabels": ["Input Content", "Generated Content"],
+    "forLabel": "for:",
+    "purposeItems": [
+      "Internal AI training",
+      "System improvement",
+      "Third-party AI partnerships"
+    ]
+  },
+  "anonymization": {
+    "heading": "5. Data Anonymization and Transformation",
+    "appliesIncluding": "The Service applies transformation processes including:",
+    "processItems": ["Image blending", "Feature abstraction", "AI synthesis"],
+    "ensureLabel": "These processes ensure:",
+    "ensureItems": [
+      "Generated Content is not a direct copy",
+      "Generated Content is not linked to a specific individual"
+    ]
+  },
+  "sharing": {
+    "heading": "6. Data Sharing and Disclosure",
+    "weMayShare": "We may share data:",
+    "bullets": [
+      "With service providers (hosting, analytics, AI processing)",
+      "With partners involved in AI development",
+      "When required by law or legal processes"
+    ],
+    "noSell": "We do not sell personal data as identifiable user information."
+  },
+  "storage": {
+    "heading": "7. Data Storage and Security",
+    "safeguards": "We implement reasonable safeguards to protect data, including:",
+    "safeguardItems": ["Secure servers", "Access controls", "Encryption where appropriate"],
+    "however": "However:",
+    "howeverItems": [
+      "No system is completely secure",
+      "Users acknowledge inherent risks of online services"
+    ]
+  },
+  "retention": {
+    "heading": "8. Data Retention",
+    "weRetain": "We retain data:",
+    "retainBullets": [
+      "As long as necessary to provide the Service",
+      "For legal, regulatory, and operational purposes"
+    ],
+    "weMayRetain": "We may retain:",
+    "retainTypes": ["Input Content", "Generated Content", "Usage data"],
+    "inactiveNote": "even after account inactivity, where necessary."
+  },
+  "userRights": {
+    "heading": "9. User Rights (Australia)",
+    "underLaws": "Under applicable laws, Users may have the right to:",
+    "rightsItems": [
+      "Access their personal data",
+      "Request correction of inaccurate data"
+    ],
+    "howeverAck": "However, Users acknowledge:",
+    "ackItems": [
+      "AI-generated content cannot be reversed into original identity data",
+      "Certain data may be retained for legal or system integrity purposes"
+    ]
+  },
+  "cookies": {
+    "heading": "10. Cookies and Tracking",
+    "weMayUse": "We may use:",
+    "toolsItems": ["Cookies", "Analytics tools"],
+    "toLabel": "to:",
+    "toItems": ["Improve performance", "Analyze usage"],
+    "browserNote": "Users may control cookies through browser settings."
+  },
+  "thirdParty": {
+    "heading": "11. Third-Party Services",
+    "mayRely": "The Service may rely on:",
+    "bullets": [
+      "Cloud providers",
+      "AI processing partners",
+      "Analytics providers"
+    ],
+    "processNote": "These third parties may process data on our behalf."
+  },
+  "children": {
+    "heading": "12. Children's Privacy",
+    "notUnder18": "The Service is not intended for users under 18.",
+    "noMinors": "We do not knowingly collect data from minors."
+  },
+  "changes": {
+    "heading": "13. Changes to This Policy",
+    "mayUpdate": "We may update this Privacy Policy at any time.",
+    "effectivePosting": "Changes take effect upon posting.",
+    "reviewResponsibility": "Users are responsible for reviewing updates."
+  },
+  "contact": {
+    "heading": "14. Contact Information",
+    "company": "Photomone Pty Ltd",
+    "address": "134 Pinelands Rd, Sunnybank Hills, QLD, Australia",
+    "emailLabel": "Email: "
+  },
+  "finalAck": {
+    "heading": "15. Final Acknowledgment",
+    "byUsing": "By using the Service, you acknowledge and agree that:",
+    "bullets": [
+      "Your uploaded images may be used for AI processing",
+      "Generated Content is synthetic and not personal data",
+      "The Company may use data for AI training and development",
+      "Absolute data deletion may not always be possible due to system design"
+    ]
+  }
+}

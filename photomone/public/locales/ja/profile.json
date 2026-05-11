@@ -1,0 +1,142 @@
+{
+  "title": "プロフィール",
+  "heading": "アカウント",
+  "editProfile": "プロフィールを編集",
+  "deleteProfile": "プロフィールを削除",
+  "editProfileDialogTitle": "プロフィールを編集",
+  "a11y": {
+    "profileAvatarAlt": "プロフィール写真",
+    "changeProfilePhoto": "プロフィール写真を変更"
+  },
+  "tabs": {
+    "profile": "プロフィール",
+    "profileInformation": "プロフィール情報",
+    "password": "パスワード",
+    "changePassword": "パスワードを変更"
+  },
+  "screenTabs": {
+    "profile": "プロフィール",
+    "rewards": "リワード",
+    "wallet": "ウォレット"
+  },
+  "ageGroupOptions": {
+    "18-25": "18〜25歳",
+    "26-35": "26〜35歳",
+    "36-45": "36〜45歳",
+    "46-55": "46〜55歳",
+    "56-65": "56〜65歳",
+    "65+": "65歳以上"
+  },
+  "comingSoon": {
+    "title": "近日公開",
+    "description": "将来的にコイン管理機能が追加される予定です。"
+  },
+  "screen": {
+    "user": "ユーザー",
+    "years": "歳"
+  },
+  "fields": {
+    "displayName": "表示名",
+    "email": "メールアドレス",
+    "gender": "性別",
+    "ageGroup": "年齢層",
+    "country": "国",
+    "introduction": "自己紹介",
+    "currentPassword": "現在のパスワード",
+    "newPassword": "新しいパスワード",
+    "confirmNewPassword": "新しいパスワード（確認）"
+  },
+  "placeholders": {
+    "enterDisplayName": "表示名を入力",
+    "selectGender": "性別を選択",
+    "selectAgeGroup": "年齢層を選択",
+    "selectCountry": "国を選択",
+    "tellAboutYourself": "自己紹介を入力してください...",
+    "enterCurrentPassword": "現在のパスワードを入力",
+    "enterNewPassword": "新しいパスワード（6文字以上）",
+    "confirmNewPassword": "新しいパスワードを再入力"
+  },
+  "genderOptions": {
+    "male": "男性",
+    "female": "女性",
+    "other": "その他",
+    "preferNotToSay": "回答しない"
+  },
+  "buttons": {
+    "saveChanges": "変更を保存",
+    "cancel": "キャンセル",
+    "update": "更新",
+    "updatePassword": "パスワードを更新",
+    "saving": "保存中...",
+    "updating": "更新中..."
+  },
+  "messages": {
+    "profileUpdatedSuccess": "プロフィールを更新しました",
+    "profileUpdateFailed": "プロフィールを更新できませんでした",
+    "passwordUpdatedSuccess": "パスワードを変更しました",
+    "passwordUpdateFailed": "パスワードを変更できませんでした",
+    "profilePictureUpdatedSuccess": "プロフィール写真を更新しました",
+    "profilePictureUpdateFailed": "プロフィール写真を更新できませんでした",
+    "pleaseSelectImageFile": "画像ファイルを選択してください",
+    "imageSizeShouldBeLessThan1MB": "画像サイズは1MB未満にしてください"
+  },
+  "validation": {
+    "displayNameRequired": "表示名は必須です",
+    "displayNameMin": "表示名は2文字以上にしてください",
+    "displayNameMax": "表示名は100文字未満にしてください",
+    "genderRequired": "性別は必須です",
+    "ageGroupRequired": "年齢層は必須です",
+    "countryRequired": "国は必須です",
+    "introductionRequired": "自己紹介は必須です",
+    "introductionMin": "自己紹介は10文字以上にしてください",
+    "introductionMax": "自己紹介は500文字未満にしてください",
+    "currentPasswordRequired": "現在のパスワードは必須です",
+    "currentPasswordMin": "パスワードは6文字以上にしてください",
+    "newPasswordRequired": "新しいパスワードは必須です",
+    "newPasswordMin": "パスワードは6文字以上にしてください",
+    "newPasswordMax": "パスワードは128文字未満にしてください",
+    "confirmPasswordRequired": "パスワードを確認してください",
+    "passwordsDoNotMatch": "パスワードが一致しません"
+  },
+  "completeProfile": {
+    "title": "プロフィールを完成させましょう",
+    "subtitle": "完了で100ポイントプレゼント",
+    "steps": {
+      "basicInformation": "基本情報",
+      "profilePhoto": "プロフィール写真"
+    },
+    "buttons": {
+      "skip": "スキップ",
+      "back": "戻る",
+      "next": "次へ",
+      "completeProfile": "プロフィールを完了",
+      "uploadingAndSaving": "保存中..."
+    },
+    "messages": {
+      "profilePhotoRequired": "プロフィール写真が必要です",
+      "completeProfileFailed": "プロフィールを完了できませんでした"
+    }
+  },
+  "deleteAccount": {
+    "title": "アカウントを削除",
+    "remainingAssetsTitle": "残り資産の概要",
+    "remainingAssetsPointsLabel": "現在のポイント残高",
+    "remainingAssetsImagesLabel": "保存・生成された画像（サムネイル）の数",
+    "irreversibleLossTitle": "取り消し不可の注意",
+    "irreversibleLoss1": "ポイント、アイテム、保存コンテンツを含むすべてのデジタル資産は、アカウント削除とともに完全に削除されます。",
+    "irreversibleLoss2": "この操作は取り消せません。",
+    "irreversibleLoss3": "削除されたデータは復元できません。",
+    "userContentNoticeTitle": "ユーザー生成コンテンツについて",
+    "userContentNotice1": "続行前に保存したい画像やコンテンツをダウンロードしてください。",
+    "userContentNotice2": "アカウントに関連するすべての画像とコンテンツは、削除後に完全に削除されます。",
+    "finalConfirmationHeading": "最終確認メッセージ",
+    "finalConfirmationBullet": "続行すると、残りの資産がすべて永久に失われることを理解し同意します。",
+    "finalConfirmationMessage": "続行すると、残りの資産がすべて永久に失われることを理解し同意します。",
+    "cancelButton": "キャンセル",
+    "deleteButton": "アカウントを削除",
+    "deleting": "削除中...",
+    "successMessage": "アカウントを削除しました",
+    "errorMessage": "アカウントを削除できませんでした",
+    "userNotFound": "ユーザーIDが見つかりません"
+  }
+}

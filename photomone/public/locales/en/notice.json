@@ -1,0 +1,23 @@
+{
+  "title": "Notices",
+  "description": "In the future, Notices will be added here to display announcements such as:",
+  "announcements": {
+    "termsAndPolicy": "Terms and policy updates",
+    "newServices": "New services and features"
+  },
+  "noNotices": "No notices available at this time.",
+  "checkBack": "Check back later for updates and important announcements.",
+  "newLabel": "New",
+  "time": {
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "lastWeek": "Last week",
+    "allTime": "All Time",
+    "dayAgo": "1 day ago",
+    "daysAgo": "{days} days ago"
+  },
+  "empty": {
+    "noNotices": "No notices yet",
+    "noNoticesDescription": "Notices will appear here when available."
+  }
+}

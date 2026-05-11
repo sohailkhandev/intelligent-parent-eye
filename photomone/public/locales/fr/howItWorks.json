@@ -1,0 +1,155 @@
+{
+  "page": {
+    "hero": {
+      "badge": "Découvrir",
+      "titleBefore": "COMMENT",
+      "titleLast": "ÇA MARCHE",
+      "subtitle": "Comment utiliser PhotoMone"
+    },
+    "signUp": {
+      "heading": "Inscription",
+      "body": "Créez votre compte avec la connexion Google ou l'e-mail. Tout le monde peut rejoindre en quelques étapes."
+    },
+    "createProfile": {
+      "heading": "Créer votre profil",
+      "intro": "Renseignez vos informations de base :",
+      "fields": [
+        "Nom d'affichage",
+        "Adresse e-mail",
+        "Genre",
+        "Tranche d'âge",
+        "Pays",
+        "Courte biographie"
+      ],
+      "uploadLine": "Téléchargez votre photo de profil et terminez l'inscription.",
+      "pointsBefore": "Vous recevrez ",
+      "pointsEm": "100 points gratuits",
+      "pointsAfter": " une fois le profil complété."
+    },
+    "uploadPhoto": {
+      "heading": "Téléverser votre photo",
+      "selectFace": "Sélectionnez une photo de votre visage",
+      "adjustSquare": "Ajustez-la pour qu'elle s'insère dans le cadre carré",
+      "validatePrefix": "Cliquez sur « ",
+      "validateButton": "Valider et générer",
+      "validateSuffix": " »",
+      "afterGenBefore": "Après environ ",
+      "afterGenEm": "30 secondes",
+      "afterGenAfter": ", deux photos générées apparaîtront.",
+      "chooseGallery": "Choisissez celle que vous préférez → elle sera enregistrée dans votre galerie."
+    },
+    "purchasePhotos": {
+      "heading": "Acheter des photos (obtenir des opportunités d'exposition)",
+      "item1Before": "Allez dans ",
+      "item1Em1": "Photo +",
+      "item1Mid": " → ",
+      "item1Em2": "Monétisation",
+      "item2": "Choisissez un marché avec des places disponibles (entrées > 0)",
+      "item3Before": "Cliquez sur ",
+      "item3Em": "Acheter",
+      "browse": "Parcourez et achetez une photo qui vous plaît.",
+      "afterPurchaseBefore": "Après l'achat, vous recevrez immédiatement ",
+      "afterPurchaseEm": "des opportunités d'exposition",
+      "afterPurchaseAfter": " (entre 1 et 99), affichées dans une fenêtre contextuelle.",
+      "whyPurchaseTitle": "Pourquoi acheter ?",
+      "whyPurchaseBody": "Acheter des licences de photos d'autres utilisateurs vous donne des opportunités d'exposition pour aider à vendre vos propres photos."
+    },
+    "sellPhotos": {
+      "heading": "Vendre vos photos",
+      "item1Before": "Allez dans ",
+      "item1Em": "Photo + → Monétisation",
+      "item2": "Sélectionnez un marché avec des places disponibles",
+      "item3Before": "Cliquez sur ",
+      "item3Em": "Vendre",
+      "thenLabel": "Ensuite :",
+      "then1": "Choisissez une photo dans votre galerie",
+      "then2": "Définissez votre montant d'exposition",
+      "then3Before": "Cliquez sur ",
+      "then3Em": "Vendre",
+      "then3After": " pour lancer",
+      "notifIntro": "Vous recevrez des mises à jour en temps réel par notification :",
+      "notifFail": "En cas d'échec → notification d'échec",
+      "notifSuccess": "En cas de réussite → écran de célébration 🎉",
+      "finalBefore": "Une fois toutes les expositions utilisées, un ",
+      "finalEm": "récapitulatif du résultat final",
+      "finalAfter": " s'affichera dans une fenêtre contextuelle."
+    },
+    "photoFusion": {
+      "heading": "Fusion de photos",
+      "item1Before": "Allez dans ",
+      "item1Em1": "Photo +",
+      "item1Mid": " → ",
+      "item1Em2": "Fusion de photos",
+      "item2Before": "Votre photo doit avoir un ",
+      "item2Em": "score de 5 ou plus",
+      "stepsLabel": "Étapes :",
+      "step1Before": "Ajoutez une photo dans l'",
+      "step1Em": "emplacement principal",
+      "step2Before": "Ajoutez-en une autre dans l'",
+      "step2Em": "emplacement secondaire",
+      "step3Before": "Cliquez sur ",
+      "step3Em": "Fusionner",
+      "step3After": " et attendez",
+      "afterComplete": "Une fois terminé, vous verrez le résultat.",
+      "goGalleryPrefix": "Cliquez sur « ",
+      "goGalleryEm": "Aller à la galerie",
+      "goGallerySuffix": " » pour le voir."
+    },
+    "checkResults": {
+      "heading": "Consulter les résultats",
+      "introBefore": "Sur la ",
+      "introEm": "page des résultats",
+      "introAfter": ", vous pouvez voir :",
+      "result1": "Photos achetées (emplacements)",
+      "result2": "Résultats des ventes (trading)",
+      "result3": "Résultats de fusion",
+      "revealQ": "Vous voulez révéler les points masqués ?",
+      "lockyBefore": "Utilisez ",
+      "lockyEm": "1 Verrou",
+      "lockyAfter": " pour déverrouiller et voir le score."
+    },
+    "redeemGiftCards": {
+      "heading": "Utiliser les cartes-cadeaux",
+      "body1Before": "Lorsque vos points atteignent un certain niveau, vous pouvez demander une ",
+      "body1Em": "carte-cadeau",
+      "body1After": ".",
+      "body2": "Les détails seront envoyés à votre e-mail enregistré."
+    },
+    "purchasePackages": {
+      "heading": "Acheter des forfaits",
+      "introBefore": "Il existe ",
+      "introEm": "4 types de forfaits",
+      "introAfter": ".",
+      "payItem": "Le paiement se fait par carte bancaire",
+      "ticketsBefore": "Les forfaits incluent des ",
+      "ticketsEm": "tickets d'entrée au marché",
+      "ticketRulesTitle": "Règles des tickets :",
+      "ticket1Before": "Chaque ticket permet d'entrer sur ",
+      "ticket1Em": "un marché",
+      "ticket2": "Le nombre d'entrées dépend du prix de base du marché"
+    },
+    "editProfile": {
+      "heading": "Modifier le profil",
+      "bodyBefore": "Vous pouvez mettre à jour votre profil à tout moment dans le menu ",
+      "bodyEm": "Compte",
+      "bodyAfter": "."
+    },
+    "deleteAccount": {
+      "heading": "Supprimer le compte",
+      "intro": "Pour supprimer votre compte :",
+      "agree": "Accepter les conditions de suppression",
+      "removedBefore": "Une fois supprimé, ",
+      "removedEm": "toutes les données sont définitivement effacées",
+      "removedAfter": ", notamment :",
+      "dataItems": [
+        "Informations du profil",
+        "Photos",
+        "Points",
+        "Scores"
+      ],
+      "cannotBefore": "Cette action ",
+      "cannotEm": "est irréversible",
+      "cannotAfter": "."
+    }
+  }
+}

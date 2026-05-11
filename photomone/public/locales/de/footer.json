@@ -1,0 +1,30 @@
+{
+  "brandAlt": "PhotoMone",
+  "tagline": "Verwandeln Sie virtuelle Bilder in echte Belohnungen.",
+  "description": "Erstellen Sie virtuelle Bilder aus Ihren Fotos, verbessern Sie sie per Fusion, handeln Sie auf dem Marktplatz, sammeln Sie Punkte und lösen Sie sie in Gutscheine oder echte Prämien ein.",
+  "siteMapTitle": "Übersicht",
+  "legalTitle": "Rechtliches",
+  "languageSectionTitle": "Sprache",
+  "nav": {
+    "home": "Startseite",
+    "howItWorks": "Wie es funktioniert",
+    "faq": "FAQ",
+    "aboutUs": "Über uns",
+    "blog": "Blog",
+    "support": "Support"
+  },
+  "legal": {
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsAndConditions": "Allgemeine Geschäftsbedingungen"
+  },
+  "copyright": "© 2026 PhotoMone. Alle Rechte vorbehalten.",
+  "social": {
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "youtube": "YouTube"
+  },
+  "images": {
+    "highlight": "PhotoMone"
+  }
+}

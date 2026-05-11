@@ -1,0 +1,191 @@
+{
+  "back": "Atrás",
+  "title": "FAQ de usuario de PhotoMone",
+  "hero": {
+    "badge": "Preguntas frecuentes",
+    "titleBefore": "Usuario de PhotoMone",
+    "titleLast": "FAQ"
+  },
+  "support": {
+    "sectionBadge": "Soporte",
+    "question": "¿Cómo puedo obtener soporte al cliente?",
+    "text": "Por favor contacte a nuestro equipo de soporte:",
+    "email": "support@photomone.com",
+    "button": "Contactar soporte"
+  },
+  "categories": [
+    {
+      "title": "General",
+      "faqs": [
+        {
+          "question": "¿Qué es esta plataforma?",
+          "answer": "Esta plataforma permite crear fotos generadas por AI, comerciar licencias de fotos y ganar recompensas mediante exposición y participación."
+        },
+        {
+          "question": "¿Es gratis unirse?",
+          "answer": "Sí, registrarse es completamente gratis."
+        },
+        {
+          "question": "¿Recibo alguna recompensa al registrarme?",
+          "answer": "Sí, recibirá **100 puntos gratis** al completar su perfil."
+        }
+      ]
+    },
+    {
+      "title": "Cuenta y perfil",
+      "faqs": [
+        {
+          "question": "¿Puedo registrarme con Google?",
+          "answer": "Sí, puede registrarse con inicio de sesión de Google o con correo electrónico."
+        },
+        {
+          "question": "¿Puedo cambiar mi información de perfil después?",
+          "answer": "Sí, puede actualizar su perfil en cualquier momento en el menú **Cuenta**."
+        },
+        {
+          "question": "¿Qué pasa si elimino mi cuenta?",
+          "answer": "Todos sus datos (fotos, puntos, puntuaciones, etc.) se eliminarán de forma permanente y **no se podrán recuperar.**"
+        }
+      ]
+    },
+    {
+      "title": "Subida de fotos y galería",
+      "faqs": [
+        {
+          "question": "¿Qué tipo de fotos puedo subir?",
+          "answer": "Solo se permiten **fotos reales de rostro humano**."
+        },
+        {
+          "question": "¿Puedo subir animales, dibujos o fondos?",
+          "answer": "No. Las imágenes no humanas (animales, dibujos, fondos, etc.) no se registrarán en la galería."
+        },
+        {
+          "question": "¿Cuánto tarda la generación de la foto?",
+          "answer": "Tras hacer clic en «Validar y generar», tarda unos **30 segundos**."
+        },
+        {
+          "question": "¿Por qué solo obtengo dos imágenes generadas?",
+          "answer": "El sistema ofrece dos resultados optimizados para que elija el mejor."
+        },
+        {
+          "question": "¿Puedo subir varias fotos?",
+          "answer": "Sí, puede subir varias fotos a su galería."
+        }
+      ]
+    },
+    {
+      "title": "Compra y exposición",
+      "faqs": [
+        {
+          "question": "¿Por qué debo comprar fotos de otros usuarios?",
+          "answer": "Comprar licencias de fotos le da **oportunidades de exposición**, que le ayudan a vender sus propias fotos."
+        },
+        {
+          "question": "¿Qué son las oportunidades de exposición?",
+          "answer": "Indican cuántas veces puede mostrarse su foto a otras personas."
+        },
+        {
+          "question": "¿Cuántas oportunidades de exposición puedo obtener?",
+          "answer": "Por compra puede recibir entre **1 y 99 exposiciones**."
+        },
+        {
+          "question": "¿Puedo elegir cuántas exposiciones recibo?",
+          "answer": "No, la cantidad se asigna al azar dentro del rango indicado."
+        }
+      ]
+    },
+    {
+      "title": "Vender fotos",
+      "faqs": [
+        {
+          "question": "¿Cómo vendo mis fotos?",
+          "answer": "Seleccione un mercado, una foto, defina la exposición y haga clic en **Vender**."
+        },
+        {
+          "question": "¿Qué pasa si mi foto no se vende?",
+          "answer": "Recibirá una **notificación de fallo** y el intento de venta termina."
+        },
+        {
+          "question": "¿Cómo sé si mi foto se está vendiendo?",
+          "answer": "Recibirá **notificaciones en tiempo real** sobre el progreso de las ventas."
+        },
+        {
+          "question": "¿Qué ocurre cuando se usan todas las exposiciones?",
+          "answer": "Un **mensaje emergente de resumen final** mostrará sus resultados."
+        }
+      ]
+    },
+    {
+      "title": "Fusión de fotos",
+      "faqs": [
+        {
+          "question": "¿Qué es la fusión de fotos?",
+          "answer": "Es una función que combina dos fotos para crear una nueva."
+        },
+        {
+          "question": "¿Cuáles son los requisitos de la fusión?",
+          "answer": "Su foto debe tener una **puntuación de 5 o superior**."
+        },
+        {
+          "question": "¿Cuánto dura la fusión?",
+          "answer": "Tras hacer clic en **Fusionar**, el procesamiento es breve."
+        }
+      ]
+    },
+    {
+      "title": "Puntos y recompensas",
+      "faqs": [
+        {
+          "question": "¿Para qué sirven los puntos?",
+          "answer": "Los puntos se usan en la plataforma y se pueden canjear por recompensas como tarjetas regalo."
+        },
+        {
+          "question": "¿Cómo veo las puntuaciones ocultas?",
+          "answer": "Puede usar **1 candado** para desbloquear y ver las puntuaciones ocultas."
+        },
+        {
+          "question": "¿Cómo canjeo una tarjeta regalo?",
+          "answer": "Al alcanzar el nivel de puntos requerido, puede solicitar una tarjeta regalo; los detalles se enviarán por correo."
+        }
+      ]
+    },
+    {
+      "title": "Paquetes y pagos",
+      "faqs": [
+        {
+          "question": "¿Qué son los paquetes?",
+          "answer": "Los paquetes incluyen **tickets de entrada al mercado** que permiten participar en distintos mercados."
+        },
+        {
+          "question": "¿Cómo funcionan los tickets?",
+          "answer": "Cada ticket permite entrar a **un mercado**; el uso depende del precio base del mercado."
+        },
+        {
+          "question": "¿Puedo cancelar un paquete comprado?",
+          "answer": "No. **Todas las compras de paquetes no son reembolsables.**"
+        },
+        {
+          "question": "¿Qué métodos de pago hay?",
+          "answer": "Los pagos se realizan con **tarjeta de crédito.**"
+        }
+      ]
+    },
+    {
+      "title": "Políticas y restricciones",
+      "faqs": [
+        {
+          "question": "¿Puedo obtener un reembolso tras usar un paquete?",
+          "answer": "No; una vez comprado y usado, **no se puede reembolsar.**"
+        },
+        {
+          "question": "¿Qué pasa si subo una foto no válida?",
+          "answer": "Si la foto no es un rostro humano válido, **no se añadirá a la galería.**"
+        },
+        {
+          "question": "¿Hay límite para borrar y volver a crear cuentas?",
+          "answer": "La eliminación de cuenta es permanente; los datos eliminados no se restauran."
+        }
+      ]
+    }
+  ]
+}
