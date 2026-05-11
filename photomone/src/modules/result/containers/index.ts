@@ -1,2 +1,0 @@
-export { ResultContainer } from "./ResultContainer";
-

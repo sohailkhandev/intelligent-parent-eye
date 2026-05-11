@@ -1,2 +1,0 @@
-export { ResultScreen } from "./ResultScreen";
-
