@@ -3,3 +3,5 @@ import { useMutation } from "@tanstack/react-query";
 
 export const useLogin = () => useMutation({ mutationFn: AuthService.login });
 export const useRegister = () => useMutation({ mutationFn: AuthService.register });
+export const useVerifyEmail = () =>
+  useMutation({ mutationFn: AuthService.verifyEmail });

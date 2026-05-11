@@ -1,16 +1,11 @@
 import { ApiUtils, getErrorMessage } from "@utils";
-import {
-  API_URLS,
-  PARENT_LOGIN_URL,
-  PARENT_ME_URL,
-  PARENT_SIGNUP_URL,
-} from "@constants";
+import { API_URLS } from "@constants";
 import { IAdmin, IChild, IParent } from "@types";
 
 const AUTH_TOKEN_KEY = "token";
 const AUTH_USER_KEY = "authUser";
 
-/** Parent login: POST to the-parent-eye.onrender.com with email, password */
+/** Parent login: POST /parents/login with email, password */
 export const login = async ({
   email,
   password,
@@ -22,7 +17,7 @@ export const login = async ({
     const response = await ApiUtils.api.post<{
       status?: string;
       data?: { token: string; user: Record<string, unknown> };
-    }>(PARENT_LOGIN_URL, { email, password });
+    }>(API_URLS.login, { email, password });
 
     const payload = response.data;
     const data = payload?.data;
@@ -44,7 +39,7 @@ export const login = async ({
   }
 };
 
-/** Parent signup: POST to the-parent-eye.onrender.com with fullName, email, password */
+/** Parent signup: POST /parents/signup with fullName, email, password */
 export const register = async ({
   fullName,
   email,
@@ -59,7 +54,7 @@ export const register = async ({
       data?: { token?: string; user?: Record<string, unknown>; message?: string };
       message?: string;
       status?: string;
-    }>(PARENT_SIGNUP_URL, { fullName, email, password });
+    }>(API_URLS.register, { fullName, email, password });
 
     const payload = response.data;
     const data = payload?.data;
@@ -107,7 +102,7 @@ export const getMe = async (): Promise<{
     const response = await ApiUtils.api.get<{
       status: string;
       data: { parent: IParent; children: IChild[] };
-    }>(PARENT_ME_URL);
+    }>(API_URLS.me);
     const data = response.data?.data;
     const parent = data?.parent;
     const children = data?.children ?? [];
@@ -120,6 +115,53 @@ export const getMe = async (): Promise<{
     const message = getErrorMessage(
       err,
       "Failed to load user. Please log in again."
+    );
+    throw new Error(message);
+  }
+};
+
+export const verifyEmail = async (
+  verificationToken: string,
+): Promise<{
+  message: string;
+  token?: string;
+  parent?: IParent;
+}> => {
+  try {
+    const response = await ApiUtils.api.get<{
+      message?: string;
+      data?: {
+        message?: string;
+        token?: string;
+        parent?: IParent;
+        user?: IParent;
+      };
+    }>(`${API_URLS.verifyEmail}/${verificationToken}`);
+
+    const payload = response.data;
+    const data = payload?.data;
+    const token = data?.token;
+    const parent = data?.parent ?? data?.user;
+    const message =
+      typeof payload?.message === "string"
+        ? payload.message
+        : typeof data?.message === "string"
+          ? data.message
+          : "Email verified successfully.";
+
+    if (token) {
+      localStorage.setItem(AUTH_TOKEN_KEY, token);
+    }
+
+    if (parent) {
+      localStorage.setItem(AUTH_USER_KEY, JSON.stringify(parent));
+    }
+
+    return { message, token, parent };
+  } catch (err) {
+    const message = getErrorMessage(
+      err,
+      "We could not verify your email. Please try the link again."
     );
     throw new Error(message);
   }

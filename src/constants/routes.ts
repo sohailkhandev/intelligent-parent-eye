@@ -1,10 +1,10 @@
 export const ROUTES = {
   login: "/auth/login",
   register: "/auth/register",
+  verifyEmail: "/auth/verify-email",
   forgotPassword: "/auth/forgot-password",
   resetPassword: "reset-password",
   resetPasswordSuccess: "reset-password-success",
-  verification: "verification",
   home: "/",
   childOverview: "/child-overview",
   alerts: "/alerts",

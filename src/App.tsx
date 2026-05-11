@@ -18,6 +18,21 @@ function App() {
       <Route path="/auth" element={<AuthLayout />}>
         <Route path="login" element={<AuthModule.LoginContainer />} />
         <Route path="register" element={<AuthModule.RegisterContainer />} />
+        <Route path="verify-email" element={<AuthModule.VerifyEmailContainer />} />
+        <Route
+          path="verify-email/:token"
+          element={<AuthModule.VerifyEmailContainer />}
+        />
+      </Route>
+      <Route path="/parents" element={<AuthLayout />}>
+        <Route
+          path="verify-email"
+          element={<AuthModule.VerifyEmailContainer />}
+        />
+        <Route
+          path="verify-email/:token"
+          element={<AuthModule.VerifyEmailContainer />}
+        />
       </Route>
       <Route
         path={ROUTES.home}

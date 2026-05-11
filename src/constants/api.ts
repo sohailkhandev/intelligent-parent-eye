@@ -1,18 +1,14 @@
 // base url API Configuration
-export const API_BASE_URL = "https://backend.photomone.com/api/v1";
-
-/** Parent auth (different base) */
-export const PARENT_LOGIN_URL = "https://the-parent-eye.onrender.com/parents/login";
-export const PARENT_SIGNUP_URL = "https://the-parent-eye.onrender.com/parents/signup";
-export const PARENT_ME_URL = "https://the-parent-eye.onrender.com/parents/me";
+export const API_BASE_URL = "https://intelligent-parent-eye-d319f90326af.herokuapp.com/";
 
 export const API_URLS = {
-  login: "/admin/login",
-  register: "/admin/register",
-  forgotPassword: "/admin/forgot-password",
-  resetPassword: "/admin/reset-password",
-  me: "/admin/me",
-  logout: "/admin/logout",
-  changePassword: "/admin/change-password",
-  profile: "/admin/profile",
+  login: "/parents/login",
+  register: "/parents/signup",
+  forgotPassword: "/parents/forgot-password",
+  resetPassword: "/parents/reset-password",
+  me: "/parents/me",
+  verifyEmail: "/parents/verify-email",
+  logout: "/parents/logout",
+  changePassword: "/parents/change-password",
+  profile: "/parents/profile",
 };

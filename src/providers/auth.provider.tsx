@@ -1,4 +1,11 @@
-import React, { createContext, useContext, useState, useEffect } from "react";
+import React, {
+  createContext,
+  useContext,
+  useState,
+  useEffect,
+  useCallback,
+  useMemo,
+} from "react";
 import { IParent } from "@types";
 import { AuthService } from "@services";
 
@@ -32,10 +39,15 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   const [isLoggedIn, setIsLoggedInState] = useState(false);
   const [authError, setAuthError] = useState("");
 
-  const setAuthUser = (user: IParent | null) => setAuthUserState(user);
-  const setIsLoggedIn = (value: boolean) => setIsLoggedInState(value);
+  const setAuthUser = useCallback((user: IParent | null) => {
+    setAuthUserState(user);
+  }, []);
 
-  const refreshAuthUser = async () => {
+  const setIsLoggedIn = useCallback((value: boolean) => {
+    setIsLoggedInState(value);
+  }, []);
+
+  const refreshAuthUser = useCallback(async () => {
     const token = localStorage.getItem("token");
     if (!token) {
       setAuthUserState(null);
@@ -52,7 +64,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
       setAuthUserState(null);
       setIsLoggedInState(false);
     }
-  };
+  }, []);
 
   useEffect(() => {
     const token = localStorage.getItem("token");
@@ -73,27 +85,37 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
       .finally(() => setIsLoading(false));
   }, []);
 
-  const logout = () => {
+  const logout = useCallback(() => {
     setAuthUserState(null);
     setIsLoggedInState(false);
     setAuthError("");
-    AuthService.logout(); // POST /admin/logout then clear storage (fire-and-forget)
-  };
+    AuthService.logout(); // POST /parents/logout then clear storage (fire-and-forget)
+  }, []);
+
+  const contextValue = useMemo(
+    () => ({
+      authUser,
+      isLoading,
+      isLoggedIn,
+      authError,
+      logout,
+      refreshAuthUser,
+      setAuthUser,
+      setIsLoggedIn,
+    }),
+    [
+      authUser,
+      isLoading,
+      isLoggedIn,
+      authError,
+      logout,
+      refreshAuthUser,
+      setAuthUser,
+      setIsLoggedIn,
+    ],
+  );
 
   return (
-    <AuthContext.Provider
-      value={{
-        authUser,
-        isLoading,
-        isLoggedIn,
-        authError,
-        logout,
-        refreshAuthUser,
-        setAuthUser,
-        setIsLoggedIn,
-      }}
-    >
-      {children}
-    </AuthContext.Provider>
+    <AuthContext.Provider value={contextValue}>{children}</AuthContext.Provider>
   );
 };

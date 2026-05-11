@@ -48,29 +48,8 @@ export const HomeScreen = ({
         >
           Overview
         </h1>
-        <p
-          className="text-sm mt-1"
-          style={{ color: COLORS.generalText, opacity: 0.7 }}
-        >
-          Your connection code and children are listed below.
-        </p>
       </div>
 
-      {/* Prototype note */}
-      <Box
-        className="rounded-xl px-4 py-3"
-        sx={{
-          backgroundColor: `${COLORS.primary}12`,
-          border: `1px solid ${COLORS.primary}40`,
-        }}
-      >
-        <p
-          className="text-sm"
-          style={{ color: COLORS.generalText }}
-        >
-          This is just the prototype. The complete app contains upcoming features, way better and faster.
-        </p>
-      </Box>
 
       {/* Parent code card - for child mobile connecting */}
       {parent?.code && (
@@ -86,7 +65,7 @@ export const HomeScreen = ({
             className="text-sm font-medium mb-3 opacity-90"
             style={{ color: COLORS.generalText }}
           >
-            Your connection code — enter this in the child&apos;s app
+            Your connection code - enter this in the child&apos;s app
           </p>
           <p
             className="font-bold"
